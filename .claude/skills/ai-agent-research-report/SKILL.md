@@ -199,14 +199,62 @@ Cross-company patterns (e.g., reasoning model convergence, computer-use race, MC
 
 ---
 
+## GitHub Issues Management
+
+### Issue Workflow
+
+```
+Issue Created (status: open)
+    ↓
+Work on solution (add status: in-progress label)
+    ↓
+Commit with "Closes #N" (status: resolved)
+    ↓
+Issue auto-closed on GitHub
+```
+
+### Available Labels
+
+**Status:**
+- `status/open` — Investigating
+- `status/in-progress` — Being worked on  
+- `status/resolved` — Completed
+
+**Priority:**
+- `priority/high` — Do immediately
+- `priority/medium` — Next cycle
+- `priority/low` — Long-term improvement
+
+**Category:**
+- `category/skill` — Skill implementation
+- `category/report` — Report content
+- `category/automation` — Automation workflow
+
+### Auto-Close Issues
+
+When committing a fix, include in message:
+
+```bash
+git commit -m "Update automation strategy
+
+- Change frequency from daily to weekly
+- Reduce token budget to 50-100K
+
+Closes #14"
+```
+
 ## Implementation Notes
 
 This skill:
-1. Uses **WebSearch or deep-research** to gather data
+1. Uses **WebSearch (default)** or **deep-research (quarterly)** to gather data
 2. **Deduplicates and ranks** findings (papers by impact, influencers by activity, updates by date)
 3. **Generates markdown** with structured sections
 4. **Converts markdown to HTML** with CSS styling (gradient header, responsive tables)
 5. **Optionally commits + pushes** to GitHub with date-stamped message
-6. **Optionally creates Issues** for identified gaps (e.g., "update influencers", "verify broken links")
+6. **Optionally creates Issues** for identified gaps with proper GitHub labels
+7. **Manages issue workflow** with status labels and auto-close on commit
 
-See bundled scripts in `scripts/` for implementation details.
+**Files:**
+- `README.md` — Quick start guide, examples, troubleshooting
+- `scripts/generate_report.py` — Main implementation
+- `evals/evals.json` — Test cases (3 scenarios: full, quick, GitHub-integrated)

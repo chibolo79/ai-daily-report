@@ -1,43 +1,47 @@
 ---
 name: github-issue-resolver
-description: Resolve open GitHub issues by posting structured solution comments and closing them via the GitHub API. Use this skill whenever the user wants to: triage or close GitHub issues, add solution/fix comments to issues, bulk-resolve multiple open issues, continue work from a GitHub issue list, work through a backlog of open issues, or says things like "이슈 해결해줘", "이슈에 댓글 달고 닫아줘", "GitHub 이슈 처리해줘", "resolve issues", "close issues with comments", "이슈 작업 이어서 하고 싶어". Trigger even when the user just pastes a GitHub issues URL and says they want to continue working.
+description: GitHub 오픈 이슈에 구조화된 해결 방안 댓글을 달고 이슈를 닫는 스킬. 사용자가 GitHub 이슈를 처리하고 싶을 때, 이슈에 해결 댓글을 달고 싶을 때, 여러 이슈를 한꺼번에 정리할 때 반드시 사용. "이슈 해결해줘", "이슈에 댓글 달고 닫아줘", "GitHub 이슈 처리해줘", "이슈 작업 이어서 하고 싶어", "resolve issues", "close issues with comments" 등의 표현에 트리거. 사용자가 GitHub issues URL을 붙여넣고 작업을 이어가겠다고 할 때도 즉시 트리거.
 ---
 
-## What This Skill Does
+## 이 스킬이 하는 일
 
-Reads open GitHub issues from a repository, generates structured solution comments for each one, posts the comments via the GitHub API, and closes the issues — all in one automated workflow.
+저장소의 오픈 이슈를 조회하고, 각 이슈에 맞는 해결 방안 댓글을 생성해 GitHub API로 게시한 뒤 이슈를 닫습니다. 전 과정을 자동화된 워크플로우로 처리합니다.
 
-**Typical use case:** The user has a backlog of open issues (bugs, improvements, feature requests) and wants Claude to analyze each one, propose a resolution, post it as a comment, and mark it resolved.
+**전형적인 사용 상황:** 버그, 개선 제안, 기능 요청 등의 미처리 이슈가 쌓여 있을 때, Claude가 각 이슈를 분석해 해결안을 댓글로 달고 완료 처리합니다.
 
-## Setup: GitHub Token
+---
 
-A Personal Access Token (PAT) with `repo` scope is required to post comments and close issues.
+## 사전 준비: GitHub 토큰
 
-**Priority order for finding the token:**
-1. `$env:GITHUB_TOKEN` or `$env:GH_TOKEN` environment variable
-2. User provides it directly in the conversation
-3. Ask the user — direct them to: GitHub.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token (classic) → check `repo` scope
+댓글 게시 및 이슈 닫기에는 `repo` 권한이 있는 Personal Access Token(PAT)이 필요합니다.
 
-**Important:** Never log the token. Store it only in a local variable for the duration of the session.
+**토큰 확인 순서:**
+1. 환경변수 `$env:GITHUB_TOKEN` 또는 `$env:GH_TOKEN` 확인
+2. 사용자가 대화에서 직접 입력
+3. 없으면 발급 안내: GitHub.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token → `repo` 체크
 
-## Workflow
+**주의:** 토큰은 로그에 출력하지 않는다. 세션 내 지역 변수로만 사용한다.
 
-### Step 1: Identify the repository
+---
 
-Extract `owner/repo` from:
-- A GitHub URL the user provided (e.g., `https://github.com/owner/repo/issues`)
-- The current git remote: run `git remote get-url origin` and parse it
-- Explicit user input
+## 워크플로우
 
-### Step 2: Fetch open issues
+### 1단계: 저장소 식별
 
-Call the GitHub API to list open issues. Use the script at `scripts/resolve_issues.py` or call the API directly via PowerShell/curl.
+`owner/repo` 형식을 다음 순서로 파악한다:
+- 사용자가 제공한 GitHub URL (예: `https://github.com/owner/repo/issues`)
+- 현재 git 리모트: `git remote get-url origin` 실행 후 파싱
+- 사용자 직접 입력
+
+### 2단계: 오픈 이슈 조회
+
+GitHub API로 오픈 이슈 목록을 가져온다. `scripts/resolve_issues.py` 스크립트를 사용하거나 PowerShell로 직접 호출한다.
 
 ```
 GET https://api.github.com/repos/{owner}/{repo}/issues?state=open&per_page=100
 ```
 
-Display the list to the user before proceeding:
+처리 전에 반드시 목록을 사용자에게 보여준다:
 ```
 오픈 이슈 N개를 발견했습니다:
 - #14: 자동화 계획 미성숙 [high-priority]
@@ -46,9 +50,9 @@ Display the list to the user before proceeding:
 모두 처리할까요, 아니면 특정 이슈만 처리할까요?
 ```
 
-### Step 3: Generate solution comments
+### 3단계: 해결 방안 댓글 작성
 
-For each issue, read its `title`, `body`, and `labels`, then write a solution comment that includes:
+각 이슈의 `title`, `body`, `labels`를 읽고 아래 형식으로 댓글을 작성한다:
 
 ```markdown
 ## 해결 방안
@@ -62,41 +66,51 @@ For each issue, read its `title`, `body`, and `labels`, then write a solution co
 [구체적인 조치 항목 — 코드 변경, 설정 수정, 워크플로우 개선 등]
 
 ### 적용 방법
-[실제로 어떻게 구현하는지 — 명령어, 파일명, 함수명 포함]
+[실제 구현 방법 — 명령어, 파일명, 함수명 포함]
 
 ### 우선순위 / 일정
 [언제, 어떤 순서로 처리할지]
 ```
 
-Tailor the depth to the issue's priority label:
-- `high-priority`: thorough analysis with code examples or config snippets
-- `medium-priority`: clear steps, moderate detail
-- `low-priority`: concise bullet points
+우선순위 레이블에 따라 댓글 깊이를 조절한다:
+- `high-priority`: 코드 예시·설정 스니펫 포함한 상세 분석
+- `medium-priority`: 명확한 단계별 설명, 중간 수준 상세도
+- `low-priority`: 간결한 불릿 포인트
 
-### Step 4: Post comment + close issue
+### 4단계: 댓글 게시 + 이슈 닫기
 
-For each issue, use UTF-8 encoded API calls (critical for Korean text):
+한국어 텍스트가 포함되므로 **UTF-8 인코딩이 필수**다. 기본 인코딩으로 전송하면 GitHub API가 `400 Problems parsing JSON`을 반환한다.
 
 ```python
-# See scripts/resolve_issues.py for the reference implementation
-headers = {"Authorization": f"token {token}", "User-Agent": "claude-agent"}
-body = json.dumps({"body": comment_text}, ensure_ascii=False).encode("utf-8")
+# scripts/resolve_issues.py 참고
+import json, urllib.request
 
-# Post comment
-requests.post(f"https://api.github.com/repos/{repo}/issues/{num}/comments",
-              headers=headers, data=body,
-              headers={**headers, "Content-Type": "application/json; charset=utf-8"})
+headers = {
+    "Authorization": f"token {token}",
+    "User-Agent": "claude-agent",
+    "Content-Type": "application/json; charset=utf-8",
+}
 
-# Close issue
-requests.patch(f"https://api.github.com/repos/{repo}/issues/{num}",
-               data=json.dumps({"state": "closed"}, ensure_ascii=False).encode("utf-8"), ...)
+# 댓글 게시
+payload = json.dumps({"body": comment_text}, ensure_ascii=False).encode("utf-8")
+req = urllib.request.Request(
+    f"https://api.github.com/repos/{repo}/issues/{num}/comments",
+    data=payload, method="POST", headers=headers
+)
+urllib.request.urlopen(req)
+
+# 이슈 닫기
+close_payload = json.dumps({"state": "closed"}, ensure_ascii=False).encode("utf-8")
+req = urllib.request.Request(
+    f"https://api.github.com/repos/{repo}/issues/{num}",
+    data=close_payload, method="PATCH", headers=headers
+)
+urllib.request.urlopen(req)
 ```
 
-**UTF-8 encoding is mandatory** — GitHub API will return `400 Problems parsing JSON` if Korean characters are passed as default-encoded strings in PowerShell.
+### 5단계: 결과 보고
 
-### Step 5: Report results
-
-After processing all issues, summarize:
+모든 이슈 처리 후 요약한다:
 
 ```
 완료 결과:
@@ -105,59 +119,66 @@ After processing all issues, summarize:
 ❌ #11 실패: [에러 메시지]
 
 총 N개 중 M개 처리 완료.
-링크: https://github.com/{owner}/{repo}/issues
+확인: https://github.com/{owner}/{repo}/issues
 ```
 
-## Using the Script
+---
 
-`scripts/resolve_issues.py` handles the full workflow. Run it from the project root:
+## 스크립트 사용법
+
+`scripts/resolve_issues.py`로 전체 워크플로우를 실행한다. 프로젝트 루트에서 실행:
 
 ```bash
-# Process all open issues
+# 전체 오픈 이슈 처리
 python .claude/skills/github-issue-resolver/scripts/resolve_issues.py \
   --repo owner/repo \
   --token ghp_xxx
 
-# Dry run — show what comments would be posted, but don't actually post
+# 미리보기 (실제 게시 안 함)
 python .claude/skills/github-issue-resolver/scripts/resolve_issues.py \
   --repo owner/repo \
   --token ghp_xxx \
   --dry-run
 
-# Process specific issues only
+# 특정 이슈만 처리
 python .claude/skills/github-issue-resolver/scripts/resolve_issues.py \
   --repo owner/repo \
   --token ghp_xxx \
   --issues 14 12 11
 ```
 
-## Edge Cases
+---
 
-**Issue is a question, not a bug/task:**
-Close with a comment that answers the question directly. Label it `answered` if that label exists.
+## 예외 처리
 
-**Issue has no body:**
-Base the solution comment entirely on the title. Note "이슈 본문이 없어 제목만으로 판단했습니다."
+**이슈가 질문 형식인 경우:**
+질문에 직접 답변하는 댓글을 달고 닫는다. `answered` 레이블이 있으면 추가한다.
 
-**API rate limit (403):**
-Wait 60 seconds, then retry. The GitHub API allows 5000 requests/hour for authenticated users.
+**이슈 본문이 없는 경우:**
+제목만으로 해결안을 작성하고 "이슈 본문이 없어 제목만으로 판단했습니다."를 명시한다.
 
-**Issue is already closed:**
-Skip it. Log: `#N already closed, skipping.`
+**API 요청 한도 초과 (403):**
+60초 대기 후 재시도한다. 인증된 사용자는 시간당 5000회 요청 가능.
 
-**Issue has linked PRs:**
-Mention the PR in the comment: "관련 PR #X 가 이미 생성되어 있습니다."
+**이미 닫힌 이슈:**
+건너뛰고 로그에 기록: `#N 이미 닫혀 있어 건너뜁니다.`
 
-## Options Summary
+**연결된 PR이 있는 경우:**
+댓글에 명시: "관련 PR #X 가 이미 생성되어 있습니다."
 
-| Flag | Effect |
-|------|--------|
-| `--dry-run` | Generate comments without posting them |
-| `--issues N [N...]` | Process only specified issue numbers |
-| `--state open\|closed\|all` | Which issues to fetch (default: open) |
-| `--lang ko\|en` | Comment language (default: matches issue body language) |
-| `--no-close` | Post comments but don't close issues |
+---
 
-## Security Note
+## 옵션 요약
 
-The GitHub token grants write access to the repository. Confirm the `owner/repo` with the user before making any API calls, especially before closing issues. Never commit the token to version control.
+| 플래그 | 동작 |
+|--------|------|
+| `--dry-run` | 댓글 내용만 출력, 실제 게시 안 함 |
+| `--issues N [N...]` | 지정한 이슈 번호만 처리 |
+| `--state open\|closed\|all` | 가져올 이슈 상태 (기본값: open) |
+| `--no-close` | 댓글만 달고 이슈는 닫지 않음 |
+
+---
+
+## 보안 주의사항
+
+GitHub 토큰은 저장소 쓰기 권한을 가진다. API 호출 전에 반드시 `owner/repo`를 사용자에게 확인한다. 특히 이슈를 닫기 전에 한 번 더 확인한다. 토큰을 버전 관리에 커밋하지 않는다.

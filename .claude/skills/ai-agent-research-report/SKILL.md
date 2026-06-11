@@ -1,7 +1,7 @@
 ---
 name: ai-agent-research-report
 description: Generate comprehensive 2026 AI Agent trend reports with latest research papers, influencer recommendations, and company updates. Use this skill whenever the user wants to create, update, or analyze AI Agent research reports; track latest LLM/Agent publications; find influential voices in AI engineering; maintain current Anthropic/OpenAI/Google developments; or document AI field progress. Triggers include "AI report", "research paper trends", "influencer map", "agent updates", "2026 AI", or requests for comprehensive AI field documentation.
-compatibility: Core implementation complete. Requires: Python 3.8+, git, GitHub API access (optional). Uses WebSearch (default) or deep-research for data collection.
+compatibility: "Core implementation complete. Requires: Python 3.8+, git, GitHub API access (optional). Uses WebSearch (default) or deep-research for data collection."
 status: "v1.0 - Beta (80% production ready)"
 ---
 

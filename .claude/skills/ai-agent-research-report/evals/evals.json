@@ -1,0 +1,26 @@
+{
+  "skill_name": "ai-agent-research-report",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "full-report-generation",
+      "prompt": "우리 팀이 AI Agent 기술 도입을 검토 중입니다. 2026년 6월 기준으로 가장 주목할만한 AI Agent 논문 5개, 팔로우할 만한 인플루언서(Reddit/X) 6명, 그리고 Anthropic/OpenAI/Google의 최신 에이전트 업데이트를 정리한 리포트를 마크다운과 HTML로 생성해주세요. 토큰 효율을 고려해서 진행해주세요.",
+      "expected_output": "마크다운 파일 (2026-06-11_AI_Agent_Research_Report.md)과 HTML 파일 (2026-06-11_AI_Agent_Research_Report.html)이 생성되며, 각각 5개 논문 + 6명 인플루언서 + 3사 업데이트를 포함. 마크다운은 테이블과 링크 포함, HTML은 스타일링 적용.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "papers-only-quick-mode",
+      "prompt": "아침 회의가 30분 뒤에 있는데, 2026년 AI Agent 분야 최신 논문 5개만 빠르게 추천해줄 수 있을까? 토큰 절감 모드로 부탁합니다.",
+      "expected_output": "마크다운 형식으로 5개 논문 (제목, 저자, 발표처, 선정 이유, 핵심 아이디어, 실무 활용법). 빠른 생성 (5-10분), 낮은 토큰 사용 (20-30K).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "github-integrated-workflow",
+      "prompt": "지난주 AI Agent 리포트를 GitHub에 올렸는데, 이번주 업데이트 버전을 생성해서 GitHub에 자동으로 커밋해주고, 발견된 개선사항(토큰 낭비, 정보 노후화 등)을 Issues로 등록해줄 수 있을까? chibolo79/ai-daily-report 저장소입니다.",
+      "expected_output": "마크다운 + HTML 리포트 생성 후 git commit, git push 자동 실행. GitHub Issues 8개 등록 (우선순위 표시 포함). 커밋 메시지에 날짜 포함.",
+      "files": []
+    }
+  ]
+}

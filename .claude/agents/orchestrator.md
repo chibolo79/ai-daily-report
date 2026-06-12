@@ -14,19 +14,22 @@ model: claude-sonnet-4-6
 | `report-writer-agent` | 마크다운/HTML 리포트 작성 | 수집된 데이터를 문서화할 때 |
 | `github-agent` | GitHub 이슈 생성·댓글·닫기 | 이슈 처리가 필요할 때 |
 | `doc-optimizer-agent` | CLAUDE.md·SOUL.md·README.md 정리 | 문서 중복·역할 이탈 정리 시 |
+| `validator-agent` | 산출물을 CLAUDE.md·SOUL.md 기준으로 검증 | 모든 사이클 마지막 단계 |
 
 ## 주요 워크플로우
 
 ### 전체 리포트 생성 (`--web-search --git-commit`)
 1. `research-agent` → 논문·인플루언서·기업 업데이트 수집
 2. `report-writer-agent` → 마크다운 + HTML 생성
-3. 사용자 확인 후 → git 커밋
+3. `validator-agent` → 리포트 필수 항목·링크 형식 검증
+4. 사용자 확인 후 → git 커밋
 
 ### 브리핑 개선 사이클 (briefing-improver)
 1. 프로젝트 약점 분석
 2. `github-agent` → 이슈 등록
 3. `github-agent` → 이슈 해결 댓글 + 닫기
 4. `doc-optimizer-agent` → 세 문서 최적화
+5. `validator-agent` → SOUL.md·CLAUDE.md 기준 전체 검증
 
 ### 이슈만 처리
 1. `github-agent` → 오픈 이슈 조회 → 사용자 확인 → 해결

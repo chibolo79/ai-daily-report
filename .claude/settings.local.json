@@ -5,5 +5,28 @@
       "WebSearch",
       "WebFetch(domain:github.com)"
     ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -Command \"$f = $env:CLAUDE_TOOL_INPUT_PATH; if ($f -match 'Report\\.md$|CLAUDE\\.md$|SOUL\\.md$|README\\.md$') { Write-Host \"[harness] 산출물 감지: $f → validator-agent 검증 필요\" }\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -Command \"[console]::beep(880,300)\""
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 AI Agent 트렌드 리서치 리포트</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d2e;
+    --surface2: #252840;
+    --accent: #6c63ff;
+    --accent2: #ff6584;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #2d3154;
+    --tag-bg: #2a2d4a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.7;
+    padding: 2rem 1rem;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #1a1d2e 0%, #252850 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  .header h1 { font-size: 2rem; background: linear-gradient(90deg, #6c63ff, #ff6584); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.75rem; }
+  .meta { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+  .meta span { background: var(--tag-bg); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.82rem; color: var(--muted); }
+  .notice { background: #1e2240; border-left: 3px solid var(--accent); padding: 0.8rem 1rem; border-radius: 0 8px 8px 0; margin-top: 1.2rem; font-size: 0.9rem; color: var(--muted); text-align: left; }
+
+  /* Section */
+  .section { margin-bottom: 3rem; }
+  .section-header {
+    display: flex; align-items: center; gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--border);
+  }
+  .section-icon { font-size: 1.6rem; }
+  .section-title { font-size: 1.4rem; font-weight: 700; color: var(--text); }
+  .section-sub { font-size: 0.85rem; color: var(--muted); }
+
+  /* Influencer Card */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .card-rank { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; flex-shrink: 0; }
+  .card-name { font-size: 1.1rem; font-weight: 700; }
+  .card-handle a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .card-handle a:hover { text-decoration: underline; }
+  .card-stats { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+  .stat-badge { background: var(--tag-bg); padding: 0.2rem 0.7rem; border-radius: 12px; font-size: 0.78rem; color: var(--muted); }
+  .card-desc { font-size: 0.92rem; margin-bottom: 0.75rem; }
+  .card-reason { background: var(--surface2); border-radius: 8px; padding: 0.75rem 1rem; font-size: 0.88rem; color: var(--muted); }
+  .card-reason strong { color: var(--text); }
+  .recent-link { font-size: 0.82rem; margin-top: 0.5rem; }
+  .recent-link a { color: var(--accent2); text-decoration: none; }
+  .recent-link a:hover { text-decoration: underline; }
+  .recommend-tag { display: inline-block; background: #1e2240; border: 1px solid var(--border); padding: 0.15rem 0.6rem; border-radius: 10px; font-size: 0.75rem; color: var(--accent); margin-top: 0.5rem; }
+
+  /* Community Card */
+  .community-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .community-card:hover { border-color: #ff6584; }
+  .community-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .community-name a { color: var(--accent2); text-decoration: none; }
+  .community-name a:hover { text-decoration: underline; }
+
+  /* Newsletter Card */
+  .newsletter-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .newsletter-card:hover { border-color: #63e6be; }
+  .newsletter-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .newsletter-title a { color: #63e6be; text-decoration: none; }
+  .newsletter-title a:hover { text-decoration: underline; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; margin-top: 0.75rem; font-size: 0.88rem; }
+  th { background: var(--surface2); color: var(--muted); padding: 0.6rem 0.8rem; text-align: left; font-weight: 600; }
+  td { padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td a { color: var(--accent); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+
+  /* Paper Card */
+  .paper-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .paper-card:hover { border-color: #ffd43b; }
+  .paper-title { font-weight: 700; margin-bottom: 0.5rem; }
+  .paper-title a { color: #ffd43b; text-decoration: none; }
+  .paper-title a:hover { text-decoration: underline; }
+  .paper-summary { font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .paper-why { background: var(--surface2); border-radius: 6px; padding: 0.5rem 0.8rem; font-size: 0.85rem; color: var(--muted); }
+
+  /* Trend */
+  .trend-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; }
+  .trend-title { font-weight: 700; margin-bottom: 0.5rem; color: var(--accent); }
+  .trend-links { margin-top: 0.5rem; font-size: 0.82rem; color: var(--muted); }
+  .trend-links a { color: var(--accent2); text-decoration: none; margin-right: 0.75rem; }
+
+  /* Footer */
+  .footer { text-align: center; color: var(--muted); font-size: 0.82rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+
+  /* Grid */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } .header h1 { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>2026 AI Agent 트렌드 리서치 리포트</h1>
+    <div class="meta">
+      <span>📅 2026-06-11</span>
+      <span>🔍 WebSearch 기반</span>
+      <span>🎯 인플루언서·커뮤니티 중심</span>
+    </div>
+    <div class="notice">
+      이 리포트는 AI Agent 생태계를 팔로우하기 위한 <strong>실용 가이드</strong>입니다.
+      논문보다 <strong>어디서·누구를 팔로우할지</strong>에 초점을 맞췄습니다.
+    </div>
+  </div>
+
+  <!-- 파트 B: 인플루언서 (메인) -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">👥</span>
+      <div>
+        <div class="section-title">파트 B: 인플루언서 맵</div>
+        <div class="section-sub">X 계정 · Reddit 커뮤니티 · 뉴스레터 — 메인 섹션</div>
+      </div>
+    </div>
+
+    <h3 style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;">X / 트위터 계정</h3>
+
+    <!-- karpathy -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">1</div>
+        <div>
+          <div class="card-name">Andrej Karpathy</div>
+          <div class="card-handle"><a href="https://x.com/karpathy" target="_blank">@karpathy</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">👥 1.4M+ 팔로워</span>
+        <span class="stat-badge">전 OpenAI 공동창업자 / 현 Anthropic (2026.05 합류)</span>
+        <span class="stat-badge">주 1~3회 업데이트</span>
+      </div>
+      <div class="card-desc">LLM의 작동 원리와 학습 방법. 딥러닝 기초부터 최신 에이전트 패턴까지. 기술적이지만 설명이 명확해서 전문가와 비전문가 모두 읽을 수 있다.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> 2026년 5월 공개한 autoresearch 패턴은 출시 2주 만에 GitHub 스타 8만 개. 그가 올리는 글은 직접 만들어보고 쓴 실험 결과인 경우가 많다.
+        <div class="recent-link">📌 최근 활동: <a href="https://x.com/karpathy/status/1934651657444528277" target="_blank">Prompt Injection을 "초기 컴퓨터 바이러스"로 프레이밍한 트윗</a></div>
+      </div>
+      <div><span class="recommend-tag">추천 대상: LLM/에이전트를 깊이 이해하고 싶은 개발자·연구자</span></div>
+    </div>
+
+    <!-- simonw -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">2</div>
+        <div>
+          <div class="card-name">Simon Willison</div>
+          <div class="card-handle"><a href="https://simonwillison.net" target="_blank">@simonw · simonwillison.net</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">Datasette 창시자</span>
+        <span class="stat-badge">23년 블로그 운영</span>
+        <span class="stat-badge">거의 매일 포스팅</span>
+      </div>
+      <div class="card-desc">LLM을 직접 써보고 바로 글로 쓴다. 새 모델이 나오면 당일 실험 결과가 블로그에 올라온다. 보안(prompt injection), 실용 도구, 데이터 분석이 주요 주제.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> Karpathy가 "최고의 LLM 블로그, 구독 중"이라고 직접 추천. <a href="https://x.com/karpathy/status/1933582359347278246" target="_blank" style="color:var(--accent)">추천 트윗</a> 이론보다 <strong>실제 코드와 실험</strong>을 보여주는 드문 계정.
+        <div class="recent-link">📌 블로그: <a href="https://simonwillison.net" target="_blank">simonwillison.net</a> — RSS 구독 추천</div>
+      </div>
+      <div><span class="recommend-tag">추천 대상: LLM을 실무에 적용하려는 엔지니어·PM</span></div>
+    </div>
+
+    <!-- swyx -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">3</div>
+        <div>
+          <div class="card-name">Swyx</div>
+          <div class="card-handle"><a href="https://x.com/swyx" target="_blank">@swyx</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">Latent Space 공동창업자</span>
+        <span class="stat-badge">AI 엔지니어링 맵퍼</span>
+        <span class="stat-badge">주 3~5회 업데이트</span>
+      </div>
+      <div class="card-desc">AI 엔지니어링 생태계 전반. 어떤 프레임워크·도구가 실제 현업에서 쓰이는지를 추적한다. "AI Engineer"라는 직군 개념을 대중화한 인물.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> <a href="https://www.latent.space/" target="_blank" style="color:var(--accent)">Latent Space 뉴스레터</a>(200K+ 구독)와 팟캐스트 운영. Karpathy가 "지금 즐겨보는 AI 뉴스레터"로 추천. 연구자보다 <strong>현업 엔지니어의 시각</strong> 제공.
+      </div>
+      <div><span class="recommend-tag">추천 대상: AI 엔지니어링 커리어를 키우려는 개발자·CTO</span></div>
+    </div>
+
+    <!-- rasbt -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">4</div>
+        <div>
+          <div class="card-name">Sebastian Raschka</div>
+          <div class="card-handle"><a href="https://x.com/rasbt" target="_blank">@rasbt</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">Ahead of AI 발행인</span>
+        <span class="stat-badge">189K+ 뉴스레터 구독자</span>
+        <span class="stat-badge">주 2~4회 업데이트</span>
+      </div>
+      <div class="card-desc">LLM 아키텍처 상세 해설, PyTorch 구현 예시, 논문 요약. 이론과 코드를 함께 보여주는 교육 콘텐츠.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> <a href="https://magazine.sebastianraschka.com/" target="_blank" style="color:var(--accent)">Ahead of AI 뉴스레터</a>는 월 2회 발행, 한 호에 30~90분 분량. LLM 논문을 이해하고 싶지만 원문이 어려운 독자에게 최적.
+      </div>
+      <div><span class="recommend-tag">추천 대상: LLM 내부 구조를 이해하고 싶은 ML 엔지니어·대학원생</span></div>
+    </div>
+
+    <!-- emollick -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">5</div>
+        <div>
+          <div class="card-name">Ethan Mollick</div>
+          <div class="card-handle"><a href="https://x.com/emollick" target="_blank">@emollick</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">Wharton 경영대학원 교수</span>
+        <span class="stat-badge">주 3~5회 업데이트</span>
+      </div>
+      <div class="card-desc">LLM이 실제 업무·교육·조직에 미치는 영향. 연구 기반이지만 실용적인 프레임을 제공한다.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> 개발자가 아닌 <strong>지식 노동자·경영자 관점</strong>에서 AI를 설명하는 거의 유일한 주요 계정. "AI를 어떻게 쓸 것인가"를 조직 차원에서 고민하는 사람에게 필수.
+      </div>
+      <div><span class="recommend-tag">추천 대상: 비개발자 실무자·CXO·AI 정책 관심자</span></div>
+    </div>
+
+    <!-- noam brown -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-rank">6</div>
+        <div>
+          <div class="card-name">Noam Brown</div>
+          <div class="card-handle"><a href="https://x.com/polynoamial" target="_blank">@polynoamial</a></div>
+        </div>
+      </div>
+      <div class="card-stats">
+        <span class="stat-badge">OpenAI 연구과학자</span>
+        <span class="stat-badge">o1 추론 모델 개발 주도</span>
+        <span class="stat-badge">가끔 (올릴 때마다 고밀도)</span>
+      </div>
+      <div class="card-desc">강화학습, 자기 대결(self-play), 추론 모델 전문. 2025년 IMO(국제수학올림피아드) 금메달 수준 AI를 개발한 핵심 인물.</div>
+      <div class="card-reason">
+        <strong>팔로우 이유:</strong> 업데이트 빈도는 낮지만 올릴 때는 반드시 읽어야 할 수준. 추론 모델이 어떻게 작동하는지 내부자 시각으로 설명한다.
+      </div>
+      <div><span class="recommend-tag">추천 대상: 추론 모델·RL 기반 AI 관심 연구자·엔지니어</span></div>
+    </div>
+
+    <!-- Reddit -->
+    <h3 style="color:var(--muted);font-size:0.9rem;margin:1.5rem 0 1rem;text-transform:uppercase;letter-spacing:0.05em;">Reddit 커뮤니티</h3>
+
+    <div class="community-card">
+      <div class="community-name"><a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank">r/LocalLLaMA</a> &nbsp;<span style="font-size:0.8rem;color:var(--muted)">— 744K+ 구독자, 매우 활발</span></div>
+      <div style="font-size:0.9rem;margin-bottom:0.5rem;">자기 하드웨어에서 LLM을 직접 돌리는 사람들의 커뮤니티. 프라이버시, 비용 절감, 오픈소스 모델 관심자가 주를 이룬다.</div>
+      <div style="font-size:0.85rem;color:var(--muted);">새 오픈소스 모델 출시 → 당일 실제 사용 후기 집중. 로컬 에이전트 셋업 가이드, GPU 최적화 팁이 자주 올라옴.</div>
+      <div><span class="recommend-tag">추천 대상: 개발자·오픈소스 LLM 사용자·보안/프라이버시 중시자</span></div>
+    </div>
+
+    <div class="community-card">
+      <div class="community-name"><a href="https://www.reddit.com/r/MachineLearning/" target="_blank">r/MachineLearning</a> &nbsp;<span style="font-size:0.8rem;color:var(--muted)">— 3M+ 구독자, 학술 중심</span></div>
+      <div style="font-size:0.9rem;margin-bottom:0.5rem;">ML/AI 분야 최대 Reddit 커뮤니티. 논문 토론, 컨퍼런스 소식, 업계 이슈가 주를 이루며 다른 AI 커뮤니티보다 학문적 깊이가 높다.</div>
+      <div style="font-size:0.85rem;color:var(--muted);">ICLR·NeurIPS·ICML 논문 + 커뮤니티 반응 읽기에 최적. 논문이 실제로 중요한지 아닌지를 가늠하는 바로미터.</div>
+      <div><span class="recommend-tag">추천 대상: 연구자·ML 엔지니어·논문 동향 파악이 필요한 실무자</span></div>
+    </div>
+
+    <div class="community-card">
+      <div class="community-name"><a href="https://www.reddit.com/r/AI_Agents/" target="_blank">r/AI_Agents</a> &nbsp;<span style="font-size:0.8rem;color:var(--muted)">— 빠르게 성장 중</span></div>
+      <div style="font-size:0.9rem;margin-bottom:0.5rem;">AI 에이전트 구현·활용에 특화된 신생 커뮤니티. 2026년 에이전트 관심 급증과 함께 규모가 빠르게 커지고 있다.</div>
+      <div style="font-size:0.85rem;color:var(--muted);">에이전트 프레임워크 비교(LangChain·AutoGen·CrewAI), 실제 구축 사례, 업무 자동화 활용기가 주요 콘텐츠.</div>
+      <div><span class="recommend-tag">추천 대상: AI 에이전트 개발자·업무 자동화 관심자</span></div>
+    </div>
+
+    <!-- Newsletters -->
+    <h3 style="color:var(--muted);font-size:0.9rem;margin:1.5rem 0 1rem;text-transform:uppercase;letter-spacing:0.05em;">뉴스레터 / 블로그</h3>
+
+    <div class="two-col">
+      <div class="newsletter-card">
+        <div class="newsletter-title"><a href="https://www.latent.space/" target="_blank">Latent Space</a></div>
+        <div class="card-stats"><span class="stat-badge">200K+ 구독자</span><span class="stat-badge">주 1~2회</span></div>
+        <div style="font-size:0.88rem;">AI 엔지니어링 심층 분석. 프로덕션 트레이드오프, evals, 인프라 결정까지. Karpathy 추천.</div>
+        <div><span class="recommend-tag">프로덕션 에이전트 빌더</span></div>
+      </div>
+      <div class="newsletter-card">
+        <div class="newsletter-title"><a href="https://tldr.tech/ai" target="_blank">TLDR AI</a></div>
+        <div class="card-stats"><span class="stat-badge">1.25M+ 구독자</span><span class="stat-badge">매일·무료</span></div>
+        <div style="font-size:0.88rem;">기술적이지만 접근 쉬운 일간 뉴스레터. AI 트렌드를 빠르게 파악하기 위한 가장 안전한 기본 선택.</div>
+        <div><span class="recommend-tag">바쁜 실무자·전체 커버리지 원할 때</span></div>
+      </div>
+      <div class="newsletter-card">
+        <div class="newsletter-title"><a href="https://www.therundown.ai/" target="_blank">The Rundown AI</a></div>
+        <div class="card-stats"><span class="stat-badge">2M+ 구독자 (최대 규모)</span><span class="stat-badge">매일</span></div>
+        <div style="font-size:0.88rem;">모델 출시 → 즉일 활용 워크플로우로 변환하는 "데일리 튜토리얼" 포맷. 비개발자도 쉽게 읽을 수 있다.</div>
+        <div><span class="recommend-tag">AI 도구 활용 관심 실무자</span></div>
+      </div>
+      <div class="newsletter-card">
+        <div class="newsletter-title"><a href="https://magazine.sebastianraschka.com/" target="_blank">Ahead of AI</a></div>
+        <div class="card-stats"><span class="stat-badge">189K+ 구독자</span><span class="stat-badge">월 2회</span></div>
+        <div style="font-size:0.88rem;">LLM 아키텍처 심층 해설. 한 호에 30~90분 분량, 다이어그램·코드·논문 인용 포함.</div>
+        <div><span class="recommend-tag">ML 엔지니어·LLM 구조 학습자</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 파트 C: 기업 업데이트 -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🏢</span>
+      <div>
+        <div class="section-title">파트 C: 기업 업데이트 (2025~2026)</div>
+        <div class="section-sub">Anthropic · OpenAI · Google</div>
+      </div>
+    </div>
+
+    <h3 style="color:#a78bfa;margin-bottom:0.75rem;font-size:1rem;">Anthropic</h3>
+    <table>
+      <tr><th>날짜</th><th>업데이트</th><th>핵심 기능</th><th>링크</th></tr>
+      <tr><td>2026-06</td><td><strong>Claude Fable 5 / Mythos</strong></td><td>Mythos 클래스 첫 모델. 장기 에이전트 작업, 복잡 연구 워크플로우</td><td><a href="https://www.anthropic.com/news" target="_blank">뉴스룸</a></td></tr>
+      <tr><td>2026-02</td><td><strong>Claude Opus 4.6</strong></td><td>100만 토큰 컨텍스트(베타), 적응형 사고, Agent Teams 도입</td><td><a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank">릴리스 노트</a></td></tr>
+      <tr><td>2026-01~</td><td><strong>Managed Agents (베타)</strong></td><td>스케줄 실행, CLI 툴, 인증 서비스 연동 — 크론 자동화 지원</td><td><a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills" target="_blank">블로그</a></td></tr>
+      <tr><td>2025~</td><td><strong>MCP</strong></td><td>2026년 3월 설치 수 9,700만 건, 서드파티 커넥터 300개+</td><td><a href="https://www.anthropic.com/news" target="_blank">공식</a></td></tr>
+    </table>
+
+    <h3 style="color:#74c0fc;margin:1.5rem 0 0.75rem;font-size:1rem;">OpenAI</h3>
+    <table>
+      <tr><th>날짜</th><th>업데이트</th><th>핵심 기능</th><th>링크</th></tr>
+      <tr><td>2026-03-05</td><td><strong>GPT-5.4</strong></td><td>OSWorld·WebArena 컴퓨터 조작 벤치마크 역대 최고. GDPval 83%</td><td><a href="https://llm-stats.com/llm-updates" target="_blank">트래커</a></td></tr>
+      <tr><td>2025</td><td><strong>o3 / o4 추론</strong></td><td>수학·코딩·과학 추론 대폭 향상. IMO 금메달 수준</td><td>—</td></tr>
+      <tr><td>2025</td><td><strong>Operator</strong></td><td>웹 브라우저 자율 조작 에이전트</td><td>—</td></tr>
+      <tr><td>2025</td><td><strong>Deep Research</strong></td><td>수십 분 심층 인터넷 조사 자동화</td><td>—</td></tr>
+    </table>
+
+    <h3 style="color:#69db7c;margin:1.5rem 0 0.75rem;font-size:1rem;">Google</h3>
+    <table>
+      <tr><th>날짜</th><th>업데이트</th><th>핵심 기능</th><th>링크</th></tr>
+      <tr><td>2026-04</td><td><strong>에이전트 툴킷</strong></td><td>기업 내 에이전트 생성·추적, Workspace 통합, 에이전트 전용 받은 편지함</td><td><a href="https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic" target="_blank">Bloomberg</a></td></tr>
+      <tr><td>2026-03</td><td><strong>Gemini 3.1 Pro</strong></td><td>멀티모달 강화, Flash-Lite 비용 효율 모델 추가</td><td><a href="https://llm-stats.com/llm-updates" target="_blank">트래커</a></td></tr>
+      <tr><td>2025</td><td><strong>Project Astra</strong></td><td>멀티모달 실시간 AI 어시스턴트</td><td>—</td></tr>
+    </table>
+  </div>
+
+  <!-- 파트 A: 논문 -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📄</span>
+      <div>
+        <div class="section-title">파트 A: 주목할 논문 (TOP 3)</div>
+        <div class="section-sub">비전문가도 읽을 수 있게 간결하게 정리 — 더 알고 싶으면 링크 클릭</div>
+      </div>
+    </div>
+
+    <div class="paper-card">
+      <div class="paper-title"><a href="https://arxiv.org/pdf/2604.08224" target="_blank">1. Externalization in LLM Agents — 에이전트 메모리·스킬·프로토콜 총정리</a></div>
+      <div class="paper-summary">📝 한 줄 요약: 에이전트가 "외부 세계"와 어떻게 상호작용하는지를 하나의 통일된 프레임워크로 정리한 서베이. (2026년 4월)</div>
+      <div class="paper-why">왜 중요한가: 에이전트 설계 시 기억 저장·툴 호출 구조에 대한 이론적 기반. Claude Code의 Agent Skills, MCP 등 실제 구현과 직결된다.</div>
+    </div>
+
+    <div class="paper-card">
+      <div class="paper-title"><a href="https://github.com/Shichun-Liu/Agent-Memory-Paper-List" target="_blank">2. MAGMA — 다중 그래프 기반 에이전트 메모리 아키텍처</a></div>
+      <div class="paper-summary">📝 한 줄 요약: 에이전트가 장기 기억을 구조화된 그래프로 관리해 장기 작업에서 맥락을 잃지 않게 하는 방법. (2026년)</div>
+      <div class="paper-why">왜 중요한가: "에이전트가 긴 작업 중에 앞에 한 것을 까먹는다"는 가장 흔한 실패 원인을 직접 해결한다. 프로덕션 에이전트 구축 시 참고 가치 높음.</div>
+    </div>
+
+    <div class="paper-card">
+      <div class="paper-title"><a href="https://arxiv.org/pdf/2603.23802" target="_blank">3. How are AI agents used? — MCP 툴 17만 개 분석</a></div>
+      <div class="paper-summary">📝 한 줄 요약: 실제로 사람들이 AI 에이전트에 어떤 툴을 붙여 쓰는지를 177,000개 데이터로 분석한 실증 연구. (2026년 3월)</div>
+      <div class="paper-why">왜 중요한가: 이론이 아닌 실제 사용 데이터. 어떤 에이전트 기능이 현업에서 많이 쓰이는지 파악하는 데 유용.</div>
+    </div>
+  </div>
+
+  <!-- 파트 D: 트렌드 -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🔗</span>
+      <div>
+        <div class="section-title">파트 D: 업계 트렌드 요약</div>
+      </div>
+    </div>
+
+    <div class="trend-item">
+      <div class="trend-title">1. MCP가 에이전트 표준으로 자리잡고 있다</div>
+      <div style="font-size:0.9rem;">Anthropic 주도의 MCP가 2026년 3월 설치 수 9,700만 건 돌파. OpenAI AGENTS.md, Block goose 등도 Linux Foundation 산하에 합류하면서 사실상 산업 표준으로 굳어지고 있다.</div>
+      <div class="trend-links">더 알아보기: <a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank">r/LocalLLaMA</a> <a href="https://simonwillison.net" target="_blank">Simon Willison 블로그</a></div>
+    </div>
+
+    <div class="trend-item">
+      <div class="trend-title">2. 컴퓨터를 직접 조작하는 에이전트 3사 경쟁</div>
+      <div style="font-size:0.9rem;">OpenAI(GPT-5.4), Anthropic(Computer Use), Google(Workspace 에이전트) 모두 화면을 보고 클릭·타이핑하는 에이전트를 2025~2026년 사이 출시. GPT-5.4는 OSWorld 벤치마크 역대 최고.</div>
+      <div class="trend-links">더 알아보기: <a href="https://x.com/karpathy" target="_blank">@karpathy</a> <a href="https://www.latent.space/" target="_blank">Latent Space</a></div>
+    </div>
+
+    <div class="trend-item">
+      <div class="trend-title">3. 추론 모델이 코딩·수학의 기준을 바꾸고 있다</div>
+      <div style="font-size:0.9rem;">OpenAI o3/o4, Anthropic Fable 5 등 "생각하는" 추론 모델이 수학·코딩 벤치마크를 빠르게 갱신 중. Noam Brown 주도 o-시리즈는 2025년 IMO 금메달 수준의 수학 능력을 보여줬다.</div>
+      <div class="trend-links">더 알아보기: <a href="https://x.com/polynoamial" target="_blank">@polynoamial</a> <a href="https://tldr.tech/ai" target="_blank">TLDR AI</a></div>
+    </div>
+
+    <div class="trend-item">
+      <div class="trend-title">4. 에이전트 메모리 연구가 핵심 과제로 부상</div>
+      <div style="font-size:0.9rem;">2026년 arxiv에 에이전트 메모리 관련 논문이 집중 등장. "장기 작업 중 맥락을 잃는 문제"가 에이전트 실용화 최대 병목으로 인식되면서 MAGMA·HiMem·EverMemOS 등 다양한 접근법이 경쟁 중.</div>
+      <div class="trend-links">더 알아보기: <a href="https://github.com/VoltAgent/awesome-ai-agent-papers" target="_blank">awesome-ai-agent-papers</a></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    이 리포트는 WebSearch 기반으로 작성되었습니다. 일부 링크는 시간 경과에 따라 변경될 수 있습니다.<br>
+    다음 업데이트: 주 1회 (월요일) 권장
+  </div>
+
+</div>
+</body>
+</html>

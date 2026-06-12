@@ -1,0 +1,5 @@
+{
+  "title": "토큰 낭비: deep-research 워크플로우 비효율",
+  "body": "## 문제\n\n- deep-research 워크플로우 사용으로 **1,963,813 토큰** 소비\n- 5방향 병렬 검색 + 15개 소스 수집 + 3-vote 교차 검증 = 오버킬\n\n## 영향\n\n- 일회성 리서치는 괜찮지만, 매일 자동화하면 월 **60M 토큰** 필요\n- 지속 불가능한 토큰 비용\n\n## 해결책\n\n- 단순 **WebSearch**로 충분 (토큰 50K~100K)\n- **토큰 20배 절감** 가능\n- 깊이 있는 검증이 필요한 경우에만 deep-research 사용\n\n## 우선순위\n\n높음 (비용 효율 핵심)",
+  "labels": ["optimization", "research", "high-priority"]
+}

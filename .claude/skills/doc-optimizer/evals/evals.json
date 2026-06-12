@@ -1,0 +1,23 @@
+{
+  "skill_name": "doc-optimizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "세 문서 최적화해줘. SOUL.md, README.md, CLAUDE.md가 프로젝트 루트에 있어.",
+      "expected_output": "세 파일을 읽고 중복·위치 오류를 검사한다. 이미 최적화된 상태라면 '변경 없음'을 명시하고 각 파일 역할 요약을 출력한다.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "문서 중복 제거해줘. SOUL.md에 토큰 수치(50-100K, 1.5-2M)랑 스크립트 경로가 섞여 있어.",
+      "expected_output": "토큰 수치와 경로를 SOUL.md에서 제거하고 README.md 또는 CLAUDE.md의 올바른 위치로 이동시킨다. SOUL.md에는 링크 또는 원칙만 남긴다.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "doc-optimizer 실행해줘. 현재 SOUL.md에 '구현 상태 80% 완성'이 있고, CLAUDE.md에 미션 문장이 있어. 교차되어 있는 상태야.",
+      "expected_output": "구현 상태를 SOUL.md → CLAUDE.md로 이동, 미션 문장을 CLAUDE.md → SOUL.md로 이동한다. 각 파일에 상호 링크를 추가하고 변경 요약을 출력한다.",
+      "files": []
+    }
+  ]
+}

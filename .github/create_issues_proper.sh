@@ -1,5 +1,13 @@
 #!/bin/bash
 
+set -e
+
+if [ -z "${GITHUB_TOKEN}" ]; then
+  echo "❌ GITHUB_TOKEN 환경변수가 설정되지 않았습니다."
+  echo "   export GITHUB_TOKEN=<your_token> 후 다시 실행하세요."
+  exit 1
+fi
+
 TOKEN="${GITHUB_TOKEN}"
 OWNER="chibolo79"
 REPO="ai-daily-report"

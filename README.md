@@ -1,7 +1,7 @@
 # AI Daily Report
 
 AI Agent 분야 논문·인플루언서·기업 업데이트를 Claude가 자동 수집·정리하는 프로젝트.  
-→ 미션·설계 원칙: [SOUL.md](SOUL.md)
+→ 미션·설계 원칙: [SOUL.md](SOUL.md) | Claude 행동 지침: [CLAUDE.md](CLAUDE.md)
 
 ## Structure
 

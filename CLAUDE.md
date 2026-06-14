@@ -32,9 +32,14 @@
 
 **인코딩**: GitHub API에 한국어 전송 시 반드시 UTF-8 (`ensure_ascii=False`).
 
+**로컬 파일 참조**: 영업 보고서 작성 시 `C:\Work\` 하위 DOCX·XLSX·PDF를 직접 읽는다. pandoc 또는 Python xml 파싱 사용. 파일 경로는 사용자가 제공한다.
+
+**Git Push 인증**: PAT(Personal Access Token)를 URL에 인라인으로 사용 (`https://user:token@github.com/...`). 토큰은 저장하지 않으며 사용 후 즉시 폐기를 안내한다.
+
 ## Implementation Status
 
 - `ai-agent-research-report`: 아키텍처·Git 통합 완성(80%). WebSearch 연동·GitHub Issues API 미구현
 - `github-issue-resolver`: 완성, API 호출 검증됨
+- `vietnam-visit-report`: 스킬 정의 완성. 분석 문서(`2026-06-14_Oristar_Vietnam_Sales_Analysis.md`) 생성 및 누적 관리 중. 스크립트 자동화 미구현(수동 작성 방식)
 
 개선 과제 → [ISSUES.md](ISSUES.md)

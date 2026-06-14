@@ -19,7 +19,9 @@
 
 **회사 개요**: Oristar는 베트남 내 Copper, Aluminum, Steel 소재를 취급하는 종합 소재 유통 및 가공 업체. 코로나 이후 꾸준히 매출 회복 및 거래처 확대. 2022년 코로나 이후 이미 DSR 공장을 방문한 바 있음.
 
-**방문 이력**: 2023년 방문 시 Oristar 사무실 및 Hung Yen 창고/공장 방문. HIGH CARBON WIRE 품질 면에서 한국산 제품에 대한 큰 관심 확인. 창고 방문 시 재고는 체계적으로 관리되었으나 클레임 발생 시 대응 이슈 있었음. 2024년 YANGMIN향 SWOSC-B DIA 4.20MM이 주력 판매 품목으로 확인되고 있으며, SWC U 수요 감소/PIANO WIRE U 증가 추세 파악됨.
+**방문 이력**:
+- **2023년 3월**: 하노이 사무실 + Hung Yen 창고/공장 방문. 한국산 HC WIRE에 대한 관심 확인. 재고 관리는 체계적이나 클레임 대응 프로세스 미흡
+- **2024년 9월**: 하노이 + 호치민 2공장/지사 + 흥옌 공장 방문. 호치민 지사 최초 Wire 취급 확인 (습도 관리 공간 마련). SWOSC-B 4.20MM 주력 유지. SWC U. 매출 감소 / PIANO WIRE U. 증가 추세 확인
 
 **영업 관리 주요 포인트**: YANGMIN, ADVANEX, MATEX, CAMEX 등 주요 거래처의 프로젝트 현황, 월 소요량, 용도, 타입 변화를 정기적으로 파악하는 체계 구축 필요. 클레임 발생 시 납기 회사와 독립적으로 Oristar의 자체 대응 프로세스 강화 필요.
 
@@ -100,7 +102,74 @@
 
 ---
 
-## 4. Oristar 현재 거래처 현황
+## 4. 방문 이력 요약
+
+### 2023년 3월 방문 (1차)
+- **방문 업체**: Oristar, Yangmin, Advanex, Camex, Matex
+- **주요 확인 사항**:
+  - Yangmin: SWOSC-B 4.20MM Forecast 약 120톤으로 하향 예상 (Honda 수요 감소). Oval Type Spring 샘플 연결 논의 (SWOSC-V 또는 VH 가능성)
+  - Advanex: 월 14~15톤 수요. SWC 2.3MM 일본산 → DSR 전환 추진 (Mitsuba 자동차 프로젝트). IATF 인증 획득. Kyocera(하이퐁) 신규 STS 프로젝트 빠른 납기 대응으로 수주 성공
+  - Camex: 연간 1,300톤 수요. KIS Wire + Bekaert Malaysia + 중국(Nantong Yuxiang Metal, Anbao)에서 구매 중. OT Wire는 단납기 때문에 중국산 사용
+  - Matex: SWC G. 1.00MM 표면 이슈(Scratch). KIS 제품 사용 중이나 DSR 전환 의향 있음. Brother/Canon/Kyocera 납품
+
+### 2024년 9월 방문 (2차, 작성자: 정세민 매니저, 2024-09-08~14)
+- **방문 업체**: Oristar (하노이 + 호치민), Advanex, Matex, Camex, Newtech, Hanh Phong, Regent Precision Metal, Dieu Thuan, Vinavit, Hoa Kim
+
+**Oristar**
+- 하노이 본사 + 흥옌 제1공장 + 호치민 제2공장/지사 + 다낭 지사(2020년 설립) 운영 확인
+- SWOSC-B DIA 4.20MM (YANGMIN향) 주력 유지. SWC U. 매출 감소 / PIANO WIRE U. 증가 추세
+- 호치민 지사 최초 Wire 취급 — 창고 습도 관리 공간 별도 마련 확인
+- STS(VINAVIT CHQ) 물량 회복 가능성 모색 중
+
+**Advanex VN** (2024년)
+- SWC 2.30MM: 일본산 50% → DSR 100% 전환 목표였으나 실제 발주는 2023년 1월~2024년 3월 총 21.6톤으로 기대치 하회
+- 품질 이슈 발생:
+  - UH1330P3 (SH M WIRE U. 0.762×0.508mm, Canon향): 납기 지연 + 품질 불만
+  - SWP-B 0.70MM (TH1735P2): 열처리 후 갈색 변색 (수입산 Rod 사용 가능성)
+  - SWP-B 0.635×0.635MM: T/S 상향 요청 (245-271 → 260-270 KG/MM²) — 현재 최대치라 균일 품질 관리로 답변
+- Kyocera, Canon 가장 큰 고객사. AIR 선적 대응 중 (Oristar 비용 전액 부담, 지속 불가)
+
+**Matex** (2024년)
+- TH1123 (SWP-A 0.40MM): 69개 중 10개 불량 (14.5%) — 타사 와이어 성적서 확인 후 T/S 관리 범위 상향하여 2차 샘플 발송 (2024-09-27 예정)
+- SWC G. 1.00MM 품질 이슈: Oristar 대응 미흡 확인 → 2024년 10월 UH1457부터 DIA - 공차 관리로 대응
+- 2024년 수요 20% 증가. 2024~2025년 연간 40톤 판매 목표
+- KOSNIC 문의. DSR VINA 에어로졸 생산에 관심 표명 (태국·남미·유럽 연계 가능성)
+- 필리핀 Inatec (98대 코일링 머신) 공급처 소개 요청
+
+**Camex** (2024년)
+- 실제 구매량: 약 1,200톤/월 (기존 2,500톤 답변과 괴리 확인)
+- OT Wire: 중국 Nantong Yuxiang Metal + Anbao에서 구매 중
+- KIS SWC U. 4.00MM (Washing Machine용 20톤/월): 윤활제 과다 품질 이슈 → 공급처 변경 가능성
+- DSR Trial Order: UH1265 — SWP-B 0.55/0.70/0.90/1.00/1.60MM 총 1.6톤
+- 샘플 요청: SWP-A/B 0.32MM 10KG, SWP-A/B 1.50MM 50KG
+- KOSNIC: SWP-B Grade 월 3톤 수요 (DIA 0.20/0.25/0.35MM) — Target price 확인 요청
+- 대표 = ADVANEX 출신. Samsung 납품 중, Canon 납품 예정. 직거래 선호
+
+**Newtech** (2024년, 신규)
+- 현재 SWP-B 0.32/0.40/5.70/8.00/10.00MM 사용
+- SWC G. 1.60/2.00/2.50/3.20MM 테스트 계획
+
+**Hanh Phong** (2024년, 호치민)
+- SWP-A DIA 0.30~1.60MM 주력 사용. 주요 사이즈: 1.00/0.60/0.50/1.60MM
+- STS 304 월 500KG~2톤, SWC 1.85MM 침대용 약 100톤 수요 — 중국산 가격 대비 DSR 가격 경쟁력 부족
+
+**Vinavit** (2024년, 호치민 신규)
+- CHQ 월 20톤 수요. 304CU 기준 US$3.87/KG으로 가격 조정 후 오퍼
+- 주요 Grade 구조: 304CU(유럽향 고품질) / 304HC3(대만·KOS) / 304HC(대만, 저가)
+- 10월 샘플 오더 (US1206, US1209) 성공 시 대량 물량 기대
+
+**Dieu Thuan** (2024년, 호치민)
+- 가격 중심 업체. 2019년부터 STS를 중국산으로 전환. DSR 가격 경쟁력 부족
+- Wire 딜러 + Spring 제조 겸업. 영어 소통 어려움
+
+**Regent Precision Metal (Concorde Metal)** (2024년, Dong Nai 신규)
+- 중국계. 매출 95%가 TTI(Techtronic Industries)향
+- SUS304 S-CO 월 2톤 (KOS VINA에서 구매), SWC/SWP-B 월 10톤 (KIS에서 구매)
+- 모든 구매는 중국 모회사에서 핸들링. DSR 직거래 선호하나 모회사 컨택 전 가능성 낮음
+
+---
+
+## 5. Oristar 현재 거래처 현황
 
 > 아래는 Oristar가 현재 관리 중인 **기존 거래처** 목록입니다.
 
@@ -123,7 +192,11 @@
 - OVAL TYPE 와이어 수요 검토 이력 있음 (SWOSC-V 또는 VH 가능성, 용도는 이너 드로잉 또는 스프링)
 - 2024년 TH1524 관련 spring forming 품질 이슈 발생 — 현재 상태 확인 필요
 
-**영업 포인트**: SWOSC-B 4.20MM 수요 변화 면밀히 추적. 타입 변경 및 신규 프로젝트 동향을 ORISTAR와 협력하여 선제 대응 필요.
+**방문 이력**:
+- **2023년 3월**: Forecast 약 120톤으로 하향 예상 (Honda 수요 감소 영향). Oval Type Spring 샘플 연결 논의. STS 월 약 1톤 수준 확인
+- **2024년 9월**: 기상 악화로 방문 불가 (공장 침수). 현황 미확인
+
+**영업 포인트**: SWOSC-B 4.20MM 수요 변화 면밀히 추적. Honda 클러치 부품 물량 동향 및 신규 프로젝트(OT/IT Wire) 파이프라인 확인. TH1524 품질 이슈 해소 여부 확인 필요.
 
 ---
 
@@ -148,7 +221,11 @@
 - 2024년 SWP-B 0.70MM 샘플 진행 + flat SWP-B 0.635×0.635MM T/S 요청 이력 있음
 - KYOCERA, CANON 프로젝트 관련 신규 수요는 아직 진입 못한 상태
 
-**영업 포인트**: ORISTAR 내 가장 활발한 client. 품질 이슈 발생 시 신속 대응이 최우선. User/application/forecast/target price 정보를 ORISTAR를 통해 사전 확보 후 대응 필요. STS 외 KOS 경쟁 구도 및 추가 size 확대 가능성 확인 필요.
+**방문 이력**:
+- **2023년 3월**: 월 14~15톤. SWC 2.3MM 일본산 → DSR 전환 목표. Mitsuba 자동차 프로젝트. Kyocera 하이퐁 STS 신규 납기 대응 성공. IATF 인증 취득
+- **2024년 9월**: 2023년 1월~2024년 3월 SWC 2.3MM 실제 발주 총 21.6톤(기대치 하회). 납기 지연 + 품질 이슈(변색, T/S 불만) 복수 발생. AIR 선적으로 Oristar가 비용 부담 중 — 구조적 개선 필요
+
+**영업 포인트**: 품질 이슈 신속 대응이 최우선. 납기 개선을 위한 Oristar 발주 프로세스 점검 필요. Canon/Kyocera 신규 프로젝트 파이프라인 확인. KOS와의 경쟁 구도 및 추가 size 확대 가능성 확인.
 
 ---
 
@@ -172,7 +249,11 @@
 - Trial order: UH1265 — SWP-B 0.55/0.70/0.90/1.00/1.60MM 약 1.6톤 진행
 - SWC U 4.00MM: washing machine 용도, KIS로부터 월 20톤 수준 구매 중 → target price 확인 필요
 
-**영업 포인트**: 베트남 내 최대 규모 spring maker 중 하나이나 중국·대만·KIS 등 다수 공급처와 경쟁. Trial order 이후 품질 이슈 없이 확대해야 하며, ORISTAR와 협력하여 2024년 10톤, 2025년 30~50톤 판매 목표 추진. KOSNIC-SWC/SWPB 및 SWC U 4.00MM target price 확인 필요.
+**방문 이력**:
+- **2023년 3월**: 연간 1,300톤 수요. KIS Wire + Bekaert Malaysia + 중국(Nantong Yuxiang Metal, Anbao) 복수 공급처 운영. OT Wire는 단납기 문제로 중국산. 공장 규모 10,000㎡, 직원 391명
+- **2024년 9월**: 실제 구매량 약 1,200톤/월로 재확인(기존 2,500톤 답변과 괴리). KIS SWC U. 4.00MM 윤활제 과다 품질 이슈 → 공급처 변경 가능성. DSR Trial order(UH1265 SWP-B 1.6톤) 진행. KOSNIC 월 3톤 수요 확인. 대표 = ADVANEX 출신. Samsung/Canon 주요 납품처
+
+**영업 포인트**: KIS SWC U. 4.00MM 품질 이슈를 기회로 DSR 공급 전환 추진. Trial order 품질 무결 대응 최우선. KOSNIC target price 확인 필요. 직거래 선호 성향 있으므로 Oristar와 역할 사전 조율 필요.
 
 ---
 
@@ -180,7 +261,7 @@
 
 | 회사명 | 특성 | 위치 | 주요 품목 | 세일즈 현황 요약 |
 |--------|------|------|----------|----------------|
-| **MATEX VIETNAM** | 일본계 spring maker, BROTHER/CANON/KYOCERA 납품 | Hai Phong (Hai Duong 일부) | SWC G., SWP-A/B | SWC G. 1.00MM 품질 이슈 중. KIS 대체로 DSR 전환 추진 중. 2024년 SWP-A 0.40MM T/S 이력. 2024~2025년 약 40톤 목표 수주. STS/KOSNIC 수요 가능성 있음 |
+| **MATEX VIETNAM** | 일본계 spring maker, BROTHER/CANON/KYOCERA 납품 | Hai Phong (Hai Duong 일부) | SWC G., SWP-A/B | **2023**: SWC G. 1.00MM Scratch 이슈, KIS 사용 중. **2024**: TH1123(SWP-A 0.40MM) 불량 14.5%, T/S 상향 후 2차 샘플 발송. UH1457부터 DIA - 공차 관리. 연 40톤 목표. 필리핀 Inatec 소개 요청 |
 | **LONGTECH PRECISION VN** | 대만계 spring maker, 1973년 설립. Bac Ninh | Bac Ninh (Que Vo IP) | STS, copper strip (Oristar 채널) / wire는 타 채널 | wire 사용량 약 50톤/월. 일본계 high carbon wire는 CAMEX에서 구매 중. wire 채널 분리되어 있어 재확인 필요 |
 | **GOKO SPRING VIETNAM** | 일본계 spring maker. 하나의 공장만 운영 | Noi Bai IP, Hanoi | SWC, SWP-A/B, STS NI-CO/S-CO | DSR 제품 미사용 확인 필요. 일부 4M 설비 가능성 있음. 초기 방문 시 설비·담당자·소요량 파악 우선 |
 | **VINA TAIYO SPRING** | 일본계(THS Spring 100% 출자), 2007년 설립 FDI | Thach That - Quoc Oai IP, Hanoi | SWC (DIA 1.40MM, 1.60MM) | 월 사용량 약 0.5~1톤 수준. 소량. 향후 추가 wire 타입 가능성 확인 필요 |
@@ -188,6 +269,19 @@
 | **DELBOEL VIETNAM** | 베트남 내 자동차·전장 부품 납품 업체 | Ha Dong, Hanoi (HQ) + Ha Nam (공장) | wire/steel 품목 포함 다품종 | 첫 방문 업체. 경쟁사 방문 시 네트워크 중심 접근 추천. wire 품목 및 거래처 확인 필요 |
 | **MSC** | Trading Company (제조사 아님) | Ha Dong, Hanoi | 와이어 포함 다품목 유통 | 소규모 유통사로 판단. 직접 거래 가능성보다 파트너/유통 가능성 검토 중심 |
 | **EAST STAR PRINTING VN** | 인쇄/포장업체 (wire 업체 아님) | Hai Phong | printing / paper packaging | DSR WIRE 사용처 불명확. 방문 시 연결고리·용도 확인 필요 |
+
+### 호치민 방문 업체 (2024년 신규)
+
+> 2024년 9월 방문. Oristar 호치민 지사를 통해 연결된 업체들.
+
+| 회사명 | 특성 | 현황 요약 |
+|--------|------|---------|
+| **Vinavit** | 화스너·스탬핑 부품 제조, 1999년 설립, LE MINH XUAN IP | CHQ 월 20톤 수요. 304CU US$3.87/KG 오퍼. 10월 샘플(US1206/US1209) 성공 시 대량 물량 기대. 유럽(독일) 고객향 고품질 제품 제조 |
+| **Hanh Phong** | 일반 스프링(Tension/Compression/Torsion) + 침대/소파 스프링 | SWP-A DIA 0.30~1.60MM 주력. STS 304 월 0.5~2톤, SWC 1.85MM 약 100톤 수요 있으나 중국산 가격 대비 경쟁력 부족. Lead Time 및 가격 문제가 진입 장벽 |
+| **Regent Precision Metal** | 중국계, TTI(Techtronic Industries)향 매출 95%, Dong Nai IP | SUS304 S-CO 월 2톤(KOS VINA), SWC/SWP-B 월 10톤(KIS). 구매는 중국 모회사 핸들링 — 단기 공략 어려움 |
+| **Dieu Thuan** | Spring 제조 + Wire 딜러 겸업, 가격 민감형 | 2019년 STS 중국산 전환. DSR 가격 경쟁력 부족. 영어 소통 어려움. 당분간 Oristar 통한 간접 접근 유지 |
+| **Hoa Kim** | 소규모 spring maker, 별도 웹사이트 없음 | SWP-A DIA 1.00/1.10/1.20MM Oristar를 통해 최근 공급 시작. STS는 중국산. 가격이 최우선 기준 |
+| **Newtech** | CNC 자동화, 산업용 스프링 도매 | SWP-B 0.32/0.40/5.70/8.00/10.00MM 사용 중. SWC G. 1.60~3.20MM 테스트 계획 중 |
 
 ---
 

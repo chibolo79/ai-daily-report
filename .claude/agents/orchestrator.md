@@ -16,6 +16,7 @@ model: claude-sonnet-4-6
 | `github-agent` | GitHub 이슈 생성·댓글·닫기 | 이슈 처리가 필요할 때 |
 | `doc-optimizer-agent` | CLAUDE.md·SOUL.md·README.md 정리 | 문서 중복·역할 이탈 정리 시 |
 | `validator-agent` | 17항목 100점 루브릭 채점·등급 판정 | 모든 사이클 마지막 단계 |
+| `vietnam-sales-updater` | 베트남 세일즈 분석 파일 업체 섹션 업데이트 | 업체 정보·방문 이력·세일즈 현황 편집 시 |
 
 ---
 

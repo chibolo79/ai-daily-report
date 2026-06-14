@@ -14,12 +14,20 @@ AI 리서치 리포트 자동화 + 해외 영업 보고서 누적 관리를 Clau
 ├── 2026-06-11_AI_Agent_Research_Report.md         # AI 리서치 리포트 (마크다운)
 ├── 2026-06-11_AI_Agent_Research_Report.html       # AI 리서치 리포트 (HTML)
 ├── 2026-06-14_Oristar_Vietnam_Sales_Analysis.md   # 베트남 Oristar 대리점 세일즈 분석 (누적)
-└── .claude/skills/
-    ├── ai-agent-research-report/    # AI 리서치 리포트 생성 스킬
-    ├── github-issue-resolver/       # GitHub 이슈 해결 스킬
-    ├── briefing-improver/           # 전체 개선 사이클 스킬
-    ├── doc-optimizer/               # 문서 최적화 스킬
-    └── vietnam-visit-report/        # 베트남 출장 방문 보고서 스킬
+├── .claude/skills/
+│   ├── ai-agent-research-report/    # AI 리서치 리포트 생성 스킬
+│   ├── github-issue-resolver/       # GitHub 이슈 해결 스킬
+│   ├── briefing-improver/           # 전체 개선 사이클 스킬
+│   ├── doc-optimizer/               # 문서 최적화 스킬
+│   └── vietnam-visit-report/        # 베트남 출장 방문 보고서 스킬
+└── .claude/agents/
+    ├── orchestrator.md              # 전체 워크플로우 조율 팀 리더
+    ├── research-agent.md            # 논문·트렌드·인플루언서 웹 수집
+    ├── report-writer-agent.md       # 마크다운/HTML 리포트 작성
+    ├── github-agent.md              # GitHub 이슈 생성·댓글·닫기
+    ├── doc-optimizer-agent.md       # CLAUDE.md·SOUL.md·README.md 정리
+    ├── validator-agent.md           # 17항목 100점 루브릭 채점·등급 판정
+    └── vietnam-sales-updater.md     # 베트남 세일즈 분석 파일 업데이트 전담
 ```
 
 ## Quick Start

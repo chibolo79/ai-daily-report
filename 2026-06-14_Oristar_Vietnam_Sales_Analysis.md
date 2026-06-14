@@ -257,18 +257,179 @@
 
 ---
 
-### YANGMIN, ADVANEX, CAMEX 외 거래처
+### MATEX VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | Mr. Wakimoto Takayuki (General Director), Mr. Thang (Factory Director), Mrs. Duong (Purchasing Executive) |
+| **주소** | Phuc Dien Industrial Zone, Mao Dien Commune, Hai Phong City, Vietnam ※ 일부 자료 Hai Duong / Cam Giang District 표기 혼선 — 방문 시 Map Pin 확인 필요 |
+| **연락처** | TEL: +84-220-3545-999 / +84-220-2241-896 / FAX: +84-220-3545-998 |
+| **이메일** | japan@matex.vn / vietnam@matex.vn |
+| **홈페이지** | https://matex.jp.net |
 
-| 회사명 | 특성 | 위치 | 주요 품목 | 세일즈 현황 요약 |
-|--------|------|------|----------|----------------|
-| **MATEX VIETNAM** | 일본계 spring maker, BROTHER/CANON/KYOCERA 납품 | Hai Phong (Hai Duong 일부) | SWC G., SWP-A/B | **2023**: SWC G. 1.00MM Scratch 이슈, KIS 사용 중. **2024**: TH1123(SWP-A 0.40MM) 불량 14.5%, T/S 상향 후 2차 샘플 발송. UH1457부터 DIA - 공차 관리. 연 40톤 목표. 필리핀 Inatec 소개 요청 |
-| **LONGTECH PRECISION VN** | 대만계 spring maker, 1973년 설립. Bac Ninh | Bac Ninh (Que Vo IP) | STS, copper strip (Oristar 채널) / wire는 타 채널 | wire 사용량 약 50톤/월. 일본계 high carbon wire는 CAMEX에서 구매 중. wire 채널 분리되어 있어 재확인 필요 |
-| **GOKO SPRING VIETNAM** | 일본계 spring maker. 하나의 공장만 운영 | Noi Bai IP, Hanoi | SWC, SWP-A/B, STS NI-CO/S-CO | DSR 제품 미사용 확인 필요. 일부 4M 설비 가능성 있음. 초기 방문 시 설비·담당자·소요량 파악 우선 |
-| **VINA TAIYO SPRING** | 일본계(THS Spring 100% 출자), 2007년 설립 FDI | Thach That - Quoc Oai IP, Hanoi | SWC (DIA 1.40MM, 1.60MM) | 월 사용량 약 0.5~1톤 수준. 소량. 향후 추가 wire 타입 가능성 확인 필요 |
-| **AIKO SPRING VN** | 일본계 spring maker, Ha Nam/Dong Van III IP | Ha Nam (Ninh Binh 일부 표기 혼선) | STS NI-CO/S-CO, SWP-A/B, SWC | 미방문 이력. 일본계 특성상 4M 설비 가능성. 첫 방문 시 wire grade/용도/현 공급처 파악 우선 |
-| **DELBOEL VIETNAM** | 베트남 내 자동차·전장 부품 납품 업체 | Ha Dong, Hanoi (HQ) + Ha Nam (공장) | wire/steel 품목 포함 다품종 | 첫 방문 업체. 경쟁사 방문 시 네트워크 중심 접근 추천. wire 품목 및 거래처 확인 필요 |
-| **MSC** | Trading Company (제조사 아님) | Ha Dong, Hanoi | 와이어 포함 다품목 유통 | 소규모 유통사로 판단. 직접 거래 가능성보다 파트너/유통 가능성 검토 중심 |
-| **EAST STAR PRINTING VN** | 인쇄/포장업체 (wire 업체 아님) | Hai Phong | printing / paper packaging | DSR WIRE 사용처 불명확. 방문 시 연결고리·용도 확인 필요 |
+**회사 개요**: 일본계 spring maker. Brother/Canon/Kyocera 납품. 단일 공장 운영.
+
+**세일즈 현황**:
+- 주력 품목: SWC G., SWP-A/B
+- 2023년 SWC G. 1.00MM Scratch 이슈 (KIS 사용 중, DSR 전환 의향 있음)
+- 2024년 TH1123 (SWP-A 0.40MM): 불량 14.5% → T/S 상향 후 2차 샘플 발송
+- UH1457부터 DIA - 공차 관리로 대응 중
+- 연 40톤 판매 목표. 필리핀 Inatec(코일링 머신 98대) 공급처 소개 요청
+
+**방문 이력**:
+- **2023년 3월**: KIS SWC G. 1.00MM Scratch 이슈 확인. DSR 전환 의향 있음
+- **2024년 9월**: TH1123 불량 대응. 2차 샘플 발송 완료(2024-09-27 예정). 수요 20% 증가. KOSNIC 문의
+
+**영업 포인트**: SWC G. 1.00MM 품질 이슈 해소 여부 확인. SWP-A/B 추가 size 확대 가능성. 2차 샘플 평가 결과 추적.
+
+---
+
+### LONGTECH PRECISION VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | Mr. Van (Purchasing Director), Ms. Hoa (Purchasing Executive) |
+| **주소** | Lot E1, Que Vo Industrial Park, Nam Son Ward, Bac Ninh Province, Vietnam |
+| **연락처** | TEL: +84-222-3634-369 / FAX: +84-222-3634-311 |
+| **이메일** | dannyliao@longtech.com.vn / sales12@longtech.com.vn / sales04@longtech.com.vn |
+| **홈페이지** | https://longtech.com.vn |
+
+**회사 개요**: 대만계 spring maker, 1973년 설립. Bac Ninh 단일 공장 운영.
+
+**세일즈 현황**:
+- Oristar 통해 STS, copper strip 거래 중
+- HC wire(high carbon wire)는 별도 채널 — CAMEX 경유 추정
+- 월 wire 사용량 약 50톤 (채널 분리 구조로 전체 파악 어려움)
+- wire 공급 채널 분리 여부 재확인 필요
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: HC wire 구매 채널 구조 파악. Oristar 채널로의 통합 또는 직거래 가능성 검토.
+
+---
+
+### GOKO SPRING VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **주소** | Lot 14, Noi Bai Industrial Zone, Soc Son, Hanoi, Vietnam |
+| **연락처** | TEL: +84-24-3582-1617 |
+| **이메일** | binhtv@gokosp.com.vn |
+| **홈페이지** | https://www.gokosp.com.vn |
+
+**회사 개요**: 일본계 spring maker. 하나의 공장만 운영. Noi Bai IP 소재.
+
+**세일즈 현황**:
+- 주력 품목: SWC, SWP-A/B, STS NI-CO/S-CO (추정)
+- DSR 제품 미사용 여부 확인 필요
+- 일부 4M 설비 보유 가능성 있음
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: 초기 방문 시 설비 현황·소요량·현 공급처 파악 우선. DSR 미사용 여부 확인.
+
+---
+
+### VINA TAIYO SPRING
+| 항목 | 내용 |
+|------|------|
+| **담당자** | Daisuke Hashimoto (Representative) |
+| **주소** | Lot CN4-4, Thach That - Quoc Oai Industrial Zone, Hanoi, Vietnam ※ 홈페이지 표기 Lot CN7 혼선 — 방문 시 Google Map Pin 확인 필요 |
+| **연락처** | TEL: +84-24-3394-0671 |
+| **이메일** | contact@vinataiyo-spring.com |
+| **홈페이지** | https://vinataiyo-spring.com |
+
+**회사 개요**: 일본 THS Spring 100% 출자, 2007년 설립 FDI. Stamping/forming 중심.
+
+**세일즈 현황**:
+- 주력 품목: SWC DIA 1.40MM, SWB DIA 1.60MM (2024년 확인)
+- 월 사용량 약 0.5~1톤 (소량)
+- 추가 wire 타입 가능성 확인 필요
+
+**방문 이력**: 방문 이력 있음 (상세 미기록)
+
+**영업 포인트**: 소량이나 일본계 거래처로 품질 신뢰 확보 중요. 추가 size/grade 파이프라인 확인.
+
+---
+
+### AIKO SPRING VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **주소** | Lot CN 04+08, Dong Van III Supporting Industrial Park Phase I, Dong Van Ward, Duy Tien Town, Ha Nam, Vietnam ※ 일부 자료 Ninh Binh 표기 혼선 — 방문 시 Map Pin 확인 필요 |
+| **연락처** | TEL: +84-226-396-6894 / FAX: +84-226-396-6895 |
+| **이메일** | gyomu@aiko-bane.com |
+| **홈페이지** | https://www.aiko-bane.com |
+
+**회사 개요**: 일본계 정밀 spring maker. Ha Nam / Dong Van III IP 소재.
+
+**세일즈 현황**:
+- 주력 품목: STS NI-CO/S-CO, SWP-A/B, SWC (추정)
+- 일본계 특성상 4M 설비 보유 가능성 있음
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: 첫 방문 시 wire grade·용도·현 공급처 파악 우선. 4M 설비 보유 여부 확인.
+
+---
+
+### DELBOEL VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **주소 (본사)** | Lot03-BT12, Van Phu New Urban Area, Phu La, Ha Dong, Hanoi, Vietnam |
+| **주소 (공장)** | Le Chan Street, Thi Son Commune, Kim Bang District, Ha Nam Province, Vietnam |
+| **연락처** | TEL: +84-24-2240-0001 ext.301 / HCM: +84-28-3602-5625 |
+| **이메일** | info@delboel.com |
+| **홈페이지** | http://www.delboel.com |
+
+**회사 개요**: 베트남 내 자동차·전장 부품 납품 업체. Wire/steel 포함 다품종 취급. 본사(Hanoi) + 공장(Ha Nam) 이원화.
+
+**세일즈 현황**:
+- Wire 품목 및 현 공급처 현황 미파악
+- 자동차·전장 납품 경로에서 wire 수요 가능성
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: 첫 방문 시 네트워크 중심 접근. wire 품목·용도·거래처 구조 파악 우선.
+
+---
+
+### MSC
+| 항목 | 내용 |
+|------|------|
+| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **주소** | H01 L24 An Phu Shop Villa, Duong Noi Urban Area, Duong Noi Ward, Ha Dong District, Hanoi, Vietnam |
+| **연락처** | 0934-566-061 (방문 시 재확인) |
+| **이메일** | infomsc@gmail.com (방문 시 재확인) |
+| **홈페이지** | https://msc.net.vn |
+
+**회사 개요**: Trading Company (제조사 아님). 소규모 유통사로 판단. 와이어 포함 다품목 유통.
+
+**세일즈 현황**:
+- 직접 거래 가능성보다 파트너/유통 채널 가능성 중심 검토
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: 유통 구조 및 취급 품목 확인. 파트너십 가능성 타진.
+
+---
+
+### EAST STAR PRINTING VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **주소** | Thon Trac Chau, Thanh Dong Ward, Hai Phong City, Vietnam ※ 일부 자료 An Thuong Commune, Hai Duong City 표기 혼선 — 방문 시 Google Map Pin 확인 필수 |
+| **연락처** | 0978-561-703 (임시 — 방문 시 재확인) |
+| **이메일** | (미확인 — 방문 시 확인 필요) |
+| **홈페이지** | (확인 불가) |
+
+**회사 개요**: 인쇄·포장 업체. Wire 업체가 아님. DSR WIRE 사용 연결고리 불명확.
+
+**세일즈 현황**:
+- Wire 사용 용도 및 수요 미파악
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: 방문 시 DSR wire 사용 경위 및 용도 확인 필수. 연결고리 불명확하면 재방문 우선순위 재검토.
 
 ### 호치민 방문 업체 (2024년 신규)
 

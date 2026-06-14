@@ -20,6 +20,10 @@
 **트리거**: "문서 최적화", "세 문서 정리", "CLAUDE.md SOUL.md README.md 정리"  
 **상세**: [SKILL.md](.claude/skills/doc-optimizer/SKILL.md)
 
+### `/vietnam-visit-report`
+**트리거**: "베트남 보고서", "출장 보고서", "방문 보고서", "미팅 결과 정리", "vietnam report"  
+**상세**: [SKILL.md](.claude/skills/vietnam-visit-report/SKILL.md)
+
 ## Operational Rules
 
 **토큰**: 기본값은 `--web-search`. `--deep-research`는 사용자가 명시적으로 요청할 때만.

@@ -14,10 +14,11 @@ AI Agent 분야 논문·인플루언서·기업 업데이트를 Claude가 자동
 ├── 2026-06-11_AI_Agent_Research_Report.md       # 최신 리포트 (마크다운)
 ├── 2026-06-11_AI_Agent_Research_Report.html     # 최신 리포트 (HTML)
 └── .claude/skills/
-    ├── ai-agent-research-report/    # 리포트 생성 스킬
+    ├── ai-agent-research-report/    # AI 리서치 리포트 생성 스킬
     ├── github-issue-resolver/       # GitHub 이슈 해결 스킬
     ├── briefing-improver/           # 전체 개선 사이클 스킬
-    └── doc-optimizer/               # 문서 최적화 스킬
+    ├── doc-optimizer/               # 문서 최적화 스킬
+    └── vietnam-visit-report/        # 베트남 출장 방문 보고서 스킬
 ```
 
 ## Quick Start

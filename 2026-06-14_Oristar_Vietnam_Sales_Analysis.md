@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-15 00:44 (Vina Taiyo Spring 상세 내용 보강 — 부대 공정, 태국 공장 연계 가능성, 향후 대응 방안)  
+**최종 업데이트**: 2026-06-15 (Goko Spring Vietnam 조사 반영 / Oristar 매출 구조·경쟁사 동향 추가)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -12,6 +12,7 @@
 |------|------|
 | **상담 담당자 (현재)** | Mr. Tuan Anh (Purchaser), Mr. Vu Tri Toan (Purchasing Manager), Mr. Le Minh Quan (Senior Sales Executive), Mr. Tran Tien Dung (Sales Director) |
 | **상담 담당자 (기존)** | Mr. Chinh (Sales Executive), Ms. Phuong (Purchasing Manager) ※ 기존 출장 보고서 기준 |
+| **Vina Taiyo 담당** | Ms. Pham Thi Thu Huong (Business Development Executive) — Mobile: +84-961-377-746 / thuhuong.pham@oristar.vn. 1986년생. 전 ThyssenKrupp 베트남 트레이딩 법인 근무 (알루미늄 플레이트 영업, 현재와 동일 업무). |
 | **사무소** | 9F, Detech Tower, No.8 Ton That Thuyet St., Cau Giay Ward, Hanoi, Vietnam |
 | **공장/창고** | Factory: Tan Quang / Van Lam District, Hung Yen Province, Vietnam |
 | **연락처** | TEL: +84-24-3972-0120 / FAX: +84-24-3972-0124 |
@@ -20,11 +21,32 @@
 
 **회사 개요**: Oristar는 베트남 내 Copper, Aluminum, Steel 소재를 취급하는 종합 소재 유통 및 가공 업체. 코로나 이후 꾸준히 매출 회복 및 거래처 확대. 2022년 코로나 이후 이미 DSR 공장을 방문한 바 있음.
 
+**매출 구조 (2026년 6월 확인)**:
+| 품목 | 매출 비중 | 비고 |
+|------|----------|------|
+| 구리(Copper) | 30%+ | 한국 풍산과도 거래 중 |
+| 알루미늄 플레이트 | 30%+ | 한국 fournine.kr, 유럽·미국·중국 등 다양한 소싱. 중국산은 품질 낮지만 가격이 절반 수준 → 가격 경쟁력으로 거래 |
+| Wire(DSR 포함) | **5% 미만** | Oristar 전체 매출에서 비중 매우 낮음 |
+
+**경쟁사 동향 (시장 정보)**:
+- **Daichi Group** — KIS(고려제강) 대리점. Oristar 방문하여 wire 영업 진행
+- **Bekaert** — 중국산 제품으로 Oristar 방문하여 영업 진행
+- → DSR 경쟁사들이 Oristar를 적극 공략 중. 관계 유지·강화 필요
+
+**지역별 특이사항**:
+- **하노이 본사**: Wire 포함 기존 사업 안정적
+- **호치민 지사**: 알루미늄 플레이트 비즈니스 최근 급성장. Wire는 저가 경쟁 심화로 공략 각도 미확보 — DSR 차별화 포인트 발굴 필요
+
 **방문 이력**:
 - **2023년 3월**: 하노이 사무실 + Hung Yen 창고/공장 방문. 한국산 HC WIRE에 대한 관심 확인. 재고 관리는 체계적이나 클레임 대응 프로세스 미흡
 - **2024년 9월**: 하노이 + 호치민 2공장/지사 + 흥옌 공장 방문. 호치민 지사 최초 Wire 취급 확인 (습도 관리 공간 마련). SWOSC-B 4.20MM 주력 유지. SWC U. 매출 감소 / PIANO WIRE U. 증가 추세 확인
 
-**영업 관리 주요 포인트**: YANGMIN, ADVANEX, MATEX, CAMEX 등 주요 거래처의 프로젝트 현황, 월 소요량, 용도, 타입 변화를 정기적으로 파악하는 체계 구축 필요. 클레임 발생 시 납기 회사와 독립적으로 Oristar의 자체 대응 프로세스 강화 필요.
+**영업 관리 주요 포인트**:
+- YANGMIN, ADVANEX, MATEX, CAMEX 등 주요 거래처의 프로젝트 현황, 월 소요량, 용도, 타입 변화를 정기적으로 파악하는 체계 구축 필요
+- Wire 매출 비중이 5% 미만 → Oristar 입장에서 우선순위 낮음. DSR이 먼저 거래처 개발 지원으로 동기 부여 필요
+- 호치민 지사 wire 확대를 위한 DSR 차별화 메시지(품질·납기·기술지원) 구체화 필요
+- Daichi(KIS), Bekaert(중국산) 경쟁사 동향 지속 모니터링
+- 클레임 발생 시 Oristar 자체 대응 프로세스 강화 지원 필요
 
 ---
 
@@ -262,19 +284,44 @@
 | 항목 | 내용 |
 |------|------|
 | **담당자** | Mr. Wakimoto Takayuki (General Director), Mr. Thang (Factory Director), Mrs. Duong (Purchasing Executive) |
-| **주소** | Phuc Dien Industrial Zone, Mao Dien Commune, Hai Phong City, Vietnam ※ 일부 자료 Hai Duong / Cam Giang District 표기 혼선 — 방문 시 Map Pin 확인 필요 |
+| **주소** | Phuc Dien Industrial Zone, **Cam Phuc Commune, Cam Giang District, Hai Duong**, Vietnam ※ Hai Phong / Mao Dien 표기는 오류 — Hai Duong 확정 |
 | **연락처** | TEL: +84-220-3545-999 / +84-220-2241-896 / FAX: +84-220-3545-998 |
 | **이메일** | japan@matex.vn / vietnam@matex.vn |
 | **홈페이지** | https://matex.jp.net |
 
-**회사 개요**: 일본계 spring maker. Brother/Canon/Kyocera 납품. 단일 공장 운영.
+**회사 개요**:
+- 일본 MATEX 그룹 베트남 법인. 그룹 창립 60년 이상, 200개 이상 거래처 보유
+- 핵심 사업: Precision Coil Spring 설계·제조 (정밀 기기 메커니즘 부품 전문)
+- 설립: 2006년 / 가동: 2007년 / 공장 면적: 5,600㎡ / 직원: 약 170명
+- 주요 납품처: **Brother Vietnam** (최대 고객), **Oberthur Technologies Vietnam** (보안 카드·인쇄), Canon Vietnam, Kyocera Vietnam
+- 수출 실적: 14,991건 shipment / 57개 바이어 대상
+- 수입 실적: 1,745건 / 32개 공급사 — **주요 수입품: Steel Wire (한국산·일본산)** → DSR 직접 공략 포인트
+
+**그룹 거점 구조 — "Optimum Production" 체계 (일본·중국·베트남·필리핀 4개국 연동)**:
+
+| 거점 | 위치 | 역할 | 규모 |
+|------|------|------|------|
+| 일본 본사 | 일본 | 기술 개발·경영 총괄 | — |
+| Hong Kong 법인 | Hong Kong | 설계·영업 허브 | — |
+| 중국 법인 | Huizhou, 광둥성 | Precision Coil Spring 생산 | — |
+| **베트남 법인 (Matex Vietnam Ltd.)** | Cam Giang, Hai Duong | Precision Coil Spring 생산 | Coiling Machine 167대 / 직원 약 170명 |
+| **필리핀 법인 (Inatec Corporation)** | Sto. Tomas, Batangas | Precision Coil Spring 생산·수출 | Coiling Machine 98대 / 직원 약 150명 |
+
+**Inatec Corporation (필리핀 계열사) 상세**:
+- 위치: Block 2, Lot 1, Light Industry & Science Park III, Sto. Tomas, Batangas, Philippines
+- 등록: PEZA (Philippine Economic Zone Authority) / 자본금: USD 1,000,000
+- 설립: 2012년 / 가동: 2013년 / 공장 면적: 4,500㎡ / 직원: 약 150명
+- 주요 생산품: Precision Coil Spring, Torsion Spring, Wheel-spring
+- 수출 주력품: alloy-wire 가공 제품
+- **주요 수입품: Coils (wire 원재료)** — 베트남과 별도 wire 조달 채널 운영 중 → DSR 별도 접근 가능
 
 **세일즈 현황**:
 - 주력 품목: SWC G., SWP-A/B
 - 2023년 SWC G. 1.00MM Scratch 이슈 (KIS 사용 중, DSR 전환 의향 있음)
 - 2024년 TH1123 (SWP-A 0.40MM): 불량 14.5% → T/S 상향 후 2차 샘플 발송
 - UH1457부터 DIA - 공차 관리로 대응 중
-- 연 40톤 판매 목표. 필리핀 Inatec(코일링 머신 98대) 공급처 소개 요청
+- 연 40톤 판매 목표
+- **필리핀 Inatec 공장향 DSR wire 공급 연결 요청** — 베트남 방문 시 Matex 측이 직접 요청. Inatec 별도 공략 채널로 활용 가능성 검토 필요
 
 **방문 이력**:
 - **2023년 3월**: KIS SWC G. 1.00MM Scratch 이슈 확인. DSR 전환 의향 있음
@@ -316,16 +363,34 @@
 | **이메일** | binhtv@gokosp.com.vn |
 | **홈페이지** | https://www.gokosp.com.vn |
 
-**회사 개요**: 일본계 spring maker. 하나의 공장만 운영. Noi Bai IP 소재.
+**회사 개요** (출처: gokosp.com.vn / goko-spring.co.jp / gokosp.co.id 공식 사이트):
+- **모회사**: GOKO HATSUJO CO., LTD. (일본 가나가와현 요코하마시 세야구) — 주주로 공식 확인
+- **그룹 거점**: 일본(본사) + 태국 + 베트남 + 인도네시아 4개국
+- **설립**: 2005년 8월 15일
+- **직원**: 약 138명 (2024년 기준)
+- **2024년 매출**: 전년 대비 +15.42% 성장
+- **생산 능력**: 복잡 형상 spring 월 **1,000만 개** 생산 가능
+- **제품 종류** (공식 홈페이지 기준):
+  - Compression Spring — 디지털 카메라, 모바일 힌지, 스위치류
+  - Extension Spring — 디지털 카메라, 사무기기(OA)
+  - Torsion Spring — 마이크로 스위치, 도어 센서
+- **주요 적용 산업**: 광학기기(디지털 카메라), OA기기, 모바일, 전자부품 → **일본계 전자·정밀기기 업체가 주요 고객으로 추정**
 
 **세일즈 현황**:
-- 주력 품목: SWC, SWP-A/B, STS NI-CO/S-CO (추정)
-- DSR 제품 미사용 여부 확인 필요
-- 일부 4M 설비 보유 가능성 있음
+- 사용 wire 품목·규격: 미확인 — **방문 시 확인 필요**
+- 현 wire 공급처: 미확인 — **방문 시 확인 필요**
+- 월 wire 사용량: 미확인 — **방문 시 확인 필요**
+- DSR 납품 이력: 없음 (신규 개척 대상)
+- 4M 등록 구조 여부: 미확인 — **방문 시 확인 필요**
 
-**방문 이력**: 미방문 (이번 출장 첫 방문)
+**방문 이력**: 미방문 — 이번 출장 **첫 방문**
 
-**영업 포인트**: 초기 방문 시 설비 현황·소요량·현 공급처 파악 우선. DSR 미사용 여부 확인.
+**영업 포인트**:
+- 현 공급처·품목·4M 등록 여부 방문 시 직접 파악 최우선
+- 2024년 매출 +15% 성장 → wire 수요 증가 중
+- 그룹 태국·인도네시아 법인 연동 → 베트남 거래 확보 시 **그룹 전체 공급 확장** 가능성
+- 일본계 특성상 Safety-critical 부품 중국산 배제 → DSR 품질 어필
+- 첫 방문: 탄소강 공급처·품목·수량·4M 등록 여부 파악 최우선
 
 ---
 
@@ -333,25 +398,54 @@
 | 항목 | 내용 |
 |------|------|
 | **담당자** | Daisuke Hashimoto (Representative) |
-| **주소** | Lot CN4-4, Thach That - Quoc Oai Industrial Zone, Hanoi, Vietnam ※ 홈페이지 표기 Lot CN7 혼선 — 방문 시 Google Map Pin 확인 필요 |
-| **연락처** | TEL: +84-24-3394-0671 |
-| **이메일** | contact@vinataiyo-spring.com |
-| **홈페이지** | https://vinataiyo-spring.com |
+| **구매 담당** | Kieu Thi Hoa (Supply Chain Supervisor) — Mobile: +84-367-789-618 / hoakt@vinataiyo-spring.com. 최근 육아휴직 복귀. 영어 불가. |
+| **구매 스태프** | Nguyen Thi Kim Phuong (Supply Chain Staff) — Mobile: +84-384-245-884 / phuongntk@vinataiyo-spring.com. 영어 불가. |
+| **주소** | Lot CN7, Thach That - Quoc Oai Industrial Zone, Tay Phuong Commune, Ha Noi City, Vietnam (명함 기준 CN7 확인) |
+| **연락처** | TEL: +84-24-3394-0671 / FAX: +84-24-3394-0674 |
+| **이메일** | hoakt@vinataiyo-spring.com / phuongntk@vinataiyo-spring.com |
+| **홈페이지** | http://www.vinataiyo-spring.com |
+| **인증** | IATF 16949 / ISO 9001 / ISO 14001 |
 
 **회사 개요**: 일본 THS Spring 100% 출자, 2007년 베트남 설립 FDI. 주요 사업은 stamping/forming 부품이며, 금형 설계·제작, 선반가공, spot welding, barreling, PVC coating, heat treatment, surface treatment 등 부대 공정도 수행. **태국 방콕 공장도 보유** — 향후 베트남 외 지역 수요 연결 가능성 있음.
 
+**서플라이 체인**:
+- 기존: `DSR → Oristar(대리점) → Vina Taiyo → KYB Vietnam → 일본계 오토바이 메이커`
+- 신규(Anti-Static): `DSR → Oristar → Vina Taiyo → Meiko(일본계 대형사)`
+- 일본계 체인 특성상 Safety-critical 부품은 중국산 wire 배제 → DSR 포지션 안정적
+
 **세일즈 현황**:
-- 주력 품목: SWC DIA 1.40MM, SWB DIA 1.60MM (2024년 확인)
-- 월 사용량 약 0.5~1톤 (소량)
-- 소량 대응 가능 여부 및 납기가 가격 경쟁력만큼 중요한 구매 기준으로 판단됨
+- 주력 품목: SWC DIA 1.40MM, SWB DIA 1.60MM
+- 월 사용량: 기존 약 0.5~1톤 → **현재 약 2톤/월로 증가** (2026년 6월 방문 확인)
+- **공급처**: Oristar 단독 구매 — 과거 일본산에서 **DSR 100% 전환 완료**
+- **DSR 평가**: 품질 안정적, 가격은 일본산 대비 경쟁력 있음
+- **4M 등록**: DSR wire로 4M 등록 완료 → **경쟁사 진입 실질적으로 차단**
+- **신규 Inquiry 접수 (2026-06-15)**: ※ End User 미확인으로 수요량 파악 불가
+
+| 품목 | 용도 | 비고 |
+|------|------|------|
+| SWP-A 0.6MM | 미확인 | 확인 필요 |
+| SWC 8MM | 에어필터(Air Filter)용 | MOQ 2톤 |
+| SWP-A 0.4MM | Anti-Static Carpet → Meiko | 샘플·견적 필요 |
+| SWP-A 0.16MM | Anti-Static Carpet → Meiko | ❌ DSR 생산 범위 외 — 대체 규격 제안 필요 |
 
 **방문 이력**:
 - **2024년 (신규 방문)**: SWC 1.40MM / SWB 1.60MM 수요 확인. 월 0.5~1MT 수준. 태국 방콕 공장 보유 확인. 상세 방문 일자·담당자 미기록
+- **2026년 6월 (이번 방문)**: DSR 100% 전환 및 4M 등록 확인. 신규 Inquiry 4건 접수. 현재 품질 이슈 없음. 태국 지사 Zalo 연락처 확보.
+
+**비즈니스 전망**:
+- 베트남 stamping 시장 경쟁 심화, 전망 불투명 (담당자 직접 언급)
+- 단, **Safety-critical 부품은 일본계 고객사가 중국산 배제 지속** → DSR 수요 기반 안정적
+
+**MOQ 조건**:
+- **Dia. 2mm 이상**: MOQ 2톤. 1톤도 가능하나 **Delivery 이슈 발생 가능** → 고객 사전 안내 필요
+- **Dia. 2mm 미만**: 별도 MOQ 조건 확인 필요
 
 **영업 포인트**:
-- 방문 시 확인 사항: 실제 사용 규격, 현 구매처, 승인 조건, 태국 공장과의 구매 연계 여부
-- 소량이므로 가격보다 납기·소량 대응 가능 여부가 진입 핵심
-- 태국 공장 연계 시 DSR 공급 확장 가능성 별도 검토 필요
+- 4M 등록 + DSR 100% 단독 공급 → 기존 거래 방어 견고, 신규 품목 확대에 집중
+- SWP-A 0.16MM 대체 규격(DSR 최소 생산 규격) 확인 후 Meiko 측 제안
+- SWC 8MM 1톤 주문 시 delivery 리스크 사전 안내, 2톤 기준 유도
+- **태국 지사 연락처**: 현재 Zalo만 확보. 정식 연락처(이메일/TEL) 수령 예정 → 입수 시 업데이트
+- 태국 공장 wire 구매 채널 확인 (베트남과 통합 여부) → 추가 수요 연결 가능성
 
 ---
 

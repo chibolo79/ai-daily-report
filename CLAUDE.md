@@ -56,7 +56,7 @@
 
 **토큰**: 기본값은 `--web-search`. `--deep-research`는 사용자가 명시적으로 요청할 때만.
 
-**Git**: 커밋·푸시·이슈 닫기는 사용자 확인 후 실행. 자동 실행하지 않는다.
+**Git**: 커밋·푸시는 사용자 요청 시 **확인 없이 즉시 실행**. 항상 동일한 원격(chibolo79/ai-daily-report master)에 push. 이슈 닫기는 사용자 확인 후 실행.
 
 **인코딩**: GitHub API에 한국어 전송 시 반드시 UTF-8 (`ensure_ascii=False`).
 

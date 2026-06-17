@@ -1,14 +1,40 @@
 ---
 name: image-organizer
 description: "프로젝트 루트에 저장된 이미지를 자동 분류·정리하는 스킬. 명함이면 인물별 크롭 → 파일명 변경 → business_cards/ 이동 → 분석 파일 담당자 정보 업데이트까지 자동 처리. 명함 외 이미지는 방문일 기준 images/YYYY-MM-DD/ 폴더로 이동. '이미지 정리', '명함 정리', '사진 정리', '이미지 올렸어', '명함 저장했어' 등의 표현에 트리거."
-status: "v1.1"
+status: "v1.2"
+---
+
+## ⚠️ 필수 주의사항 (2026-06-17 사고 교훈)
+
+### 1. 원본 파일 절대 훼손 금지
+- **원본(`images/KakaoTalk_*.jpg` 등)은 절대 덮어쓰지 않는다**
+- 크롭 작업은 반드시 `images/_staging/` 폴더에서 진행
+- QA 합격 후에만 `images/business_cards/`로 복사
+- `business_cards/` 안의 파일은 원본이 아님 — 재처리 시 원본 사진을 찾을 것
+
+### 2. 크롭 도구 우선순위
+Claude Code는 이미지 시각적 편집에 취약하다. 아래 순서로 도구를 선택한다:
+
+| 우선순위 | 도구 | 방법 |
+|---------|------|------|
+| 1순위 | **remove.bg API** | 배경 자동 제거 + 카드 분리 |
+| 2순위 | **Windows 사진 앱** | computer-use로 열어서 드래그 크롭 |
+| 3순위 | **Python PIL + 비전 좌표** | 마지막 수단 — 반복 시도 최대 2회 |
+
+### 3. 원본 확인 먼저
+작업 시작 전 반드시:
+```powershell
+Get-ChildItem "C:\Project.Claude\ai-daily-report\images" -Filter "KakaoTalk_*.jpg"
+```
+원본 없으면 사용자에게 경로 확인 요청. 절대 이미 처리된 파일로 재시작하지 말 것.
+
 ---
 
 ## 이 스킬이 하는 일
 
 프로젝트 루트(`C:\Project.Claude\ai-daily-report\`)에 저장된 이미지를 자동 감지·분류·정리한다.
 
-**명함 이미지** → 크롭 → 파일명 변경 → `images/business_cards/` → 분석 파일 업데이트  
+**명함 이미지** → 크롭(외부툴 우선) → 파일명 변경 → `images/business_cards/` → 분석 파일 업데이트  
 **현장 사진 등** → `images/YYYY-MM-DD/` 폴더로 이동 + 적절한 파일명 변경
 
 ---

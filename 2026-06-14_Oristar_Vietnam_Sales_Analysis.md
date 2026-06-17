@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-17 18:00 (ADVANEX — 담당자 4명 명함 정보 업데이트, Oristar Advanex 담당자 추가)  
+**최종 업데이트**: 2026-06-17 19:30 (ADVANEX 미팅 디브리핑 반영 — Cast&Helix 대응, 이형선 Corner Radius 팔로업, Medical 30% 포트폴리오, Eric 신규 승진, Advanex India BIS)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -239,7 +239,7 @@
 | **담당자 (2026 현재)** | **Nagumo Kazuhiro** (General Director / 総括管理者) — Mobile: +84-913-071-308 / kazuhiro_nagumo@advanex.co.jp. 상해 근무 이력, 중국어·영어 가능. |
 | **담당자 (2026 현재)** | **Yonezawa Ichiro** (Business Development Manager) — Mobile: +84-981-548-399 / ichiro_yonezawa@advanex.co.jp |
 | **담당자 (2026 현재)** | **Nguyễn Thị Hiền** (Logistics Manager) — Tel: +84-2223-626-887 / HP: +84-943-802-773 / Smile-Hien@advanex.com.vn |
-| **담당자 (2026 현재)** | **Nguyễn Xuân Tập, Eric** (Factory Manager) — HP: +84-914-106-725 / Eric-Tap@advanex.com.vn |
+| **담당자 (2026 현재)** | **Nguyễn Xuân Tập, Eric** (Factory Manager) — HP: +84-914-106-725 / Eric-Tap@advanex.com.vn ※ 2026년 6월 신규 승진 |
 | **담당자 (2019 기준)** | Mr. Sony Davadas (Factory Manager), Mr. Hoang Duc Thinh (QA & Engineering Manager), Mr. Tran Trung Hoang (Planning & Logistics Manager) |
 | **주소** | No.18, Road 11, VSIP Bac Ninh Integrated Township and Industrial Park, Dai Dong Commune, Bac Ninh, Vietnam |
 | **연락처** | TEL: +84-2223-626-887 |
@@ -256,12 +256,34 @@
 - SWC 2.30MM: 일본계에서 DSR로 전환 진행 중 (자동차 rear wiping machine 용도, MITSUBA 프로젝트)
 - 2024년 SWP-B 0.70MM 샘플 진행 + flat SWP-B 0.635×0.635MM T/S 요청 이력 있음
 - KYOCERA, CANON 프로젝트 관련 신규 수요는 아직 진입 못한 상태
+- **포트폴리오 구성 (2026-06-17 확인)**: Automotive 약 50%, Medical 약 30%+, 기타 20% 미만 — Medical 비중 급성장 중
+- **SWC 2.3MM 현황**: 오더 증량 진행 중 (2024년 대비 반전, 2026-06-17 확인)
+- **Advanex India BIS**: DSR 공급 가능·서포트 가능 확인. BIS(Bureau of Indian Standards) 인증 관련 지원 의향 전달
+- **STS VINA**: 미팅 중 언급됨 (관계·현황 상세 미확인 — 추가 확인 필요)
+- **기술 자료 공유**: DSR이 Advanex에 기술 지원 → 많은 도움이 된다고 평가
 
 **방문 이력**:
 - **2023년 3월**: 월 14~15톤. SWC 2.3MM 일본산 → DSR 전환 목표. Mitsuba 자동차 프로젝트. Kyocera 하이퐁 STS 신규 납기 대응 성공. IATF 인증 취득
 - **2024년 9월**: 2023년 1월~2024년 3월 SWC 2.3MM 실제 발주 총 21.6톤(기대치 하회). 납기 지연 + 품질 이슈(변색, T/S 불만) 복수 발생. AIR 선적으로 Oristar가 비용 부담 중 — 구조적 개선 필요
+- **2026년 6월 17일 (Nagumo General Director 포함 전체 미팅)**:
+  - Director(Nagumo Kazuhiro) 직접 참석. 분위기 매우 긍정적. 상해 근무 이력, 중국어·영어 가능.
+  - SWC 2.3MM 오더 증량 중 — 과거 이슈 대비 반전 확인
+  - Advanex India BIS 지원 가능 답변 (DSR 서포트 의향 전달)
+  - 원자재 가격 변동 및 현재 비즈니스 트렌드 공유
+  - **Cast & Helix 클레임 대응**: 생산 공정 또는 원자재 문제 가능성 모두 열어두고, 반복 클레임 발생 시 **코일별 전수검사** 실시로 품질 확보 약속
+  - **이형선(Flat Wire) Corner Radius**: Advanex 요청 — 반드시 확인해서 공유 필요 (🔴 팔로업 필수)
+  - **클레임 대응 프로세스**: Spring 도면을 클레임 시 함께 제공하면 원인 파악·대응에 큰 도움 → 향후 클레임 접수 시 도면 수령 프로세스 수립 필요
+  - Eric (Factory Manager) 신규 승진 확인 — 향후 커뮤니케이션 창구로 활용 가능
+  - DSR 기술 자료 지원이 Advanex에 높이 평가됨 (관계 강화 포인트)
 
-**영업 포인트**: 품질 이슈 신속 대응이 최우선. 납기 개선을 위한 Oristar 발주 프로세스 점검 필요. Canon/Kyocera 신규 프로젝트 파이프라인 확인. KOS와의 경쟁 구도 및 추가 size 확대 가능성 확인.
+**영업 포인트**:
+- 🔴 **이형선 Corner Radius 수치 확인 → Advanex 공유** (팔로업 필수)
+- 🔴 **클레임 접수 시 Spring 도면 함께 수령** 프로세스 수립
+- Cast & Helix 반복 클레임 → 코일별 전수검사 약속 이행 확인
+- Eric 신임 Factory Manager와 관계 구축 — 기술 소통 창구로 육성
+- Medical 30%+ 비중 → STS NI-CO 추가 수요 파이프라인 발굴
+- Advanex India BIS 지원 → 인도 법인 납품 가능성 후속 확인
+- Canon/Kyocera 신규 프로젝트 파이프라인 및 KOS 경쟁 구도 지속 모니터링
 
 ---
 

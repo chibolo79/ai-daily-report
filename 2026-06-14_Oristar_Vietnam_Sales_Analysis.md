@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-17 11:00 (DELTECH — 사명 변경 반영: Delboel → Deltech, 제조업 전환 이력 추가)  
+**최종 업데이트**: 2026-06-17 18:00 (ADVANEX — 담당자 4명 명함 정보 업데이트, Oristar Advanex 담당자 추가)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -14,6 +14,7 @@
 | **상담 담당자 (기존)** | Mr. Chinh (Sales Executive), Ms. Phuong (Purchasing Manager) ※ 기존 출장 보고서 기준 |
 | **Vina Taiyo 담당** | Ms. Pham Thi Thu Huong (Business Development Executive) — Mobile: +84-961-377-746 / thuhuong.pham@oristar.vn. 1986년생. 전 ThyssenKrupp 베트남 트레이딩 법인 근무 (알루미늄 플레이트 영업, 현재와 동일 업무). |
 | **Goko Spring 담당** | Mr. Le Nhu Duy (Business Development Executive) — Mobile: +84-982-233-283 / nhuduy.le@oristar.vn. 일본어 가능, 영어 불가. |
+| **Advanex 담당** | Ms. Nguyen Thanh Huyen (Business Unit Manager) — Mobile: +84(0) 981 110 938 / thanhhuyen.nguyen@oristar.vn |
 | **BDE (2026-06-16 명함 수령)** | Mr. Hoang Van Hieu (Business Development Executive) — Mobile: +84(0) 969 560 302 / +84(0) 968 312 772 / hieu.hoang@oristar.vn |
 | **BDE (2026-06-16 명함 수령)** | Ms. Vu Thi Dinh (Business Development Executive) — Mobile: +84 982 288 803 / dinh.vu@oristar.vn |
 | **사무소** | 9F, Detech Tower, No.8 Ton That Thuyet St., Cau Giay Ward, Hanoi, Vietnam |
@@ -235,7 +236,10 @@
 ### ADVANEX VN ⭐ STS 핵심 거래처
 | 항목 | 내용 |
 |------|------|
-| **담당자 (현재)** | Mrs. Hien (Assistant Director), Ms. Hang (Purchasing Executive) |
+| **담당자 (2026 현재)** | **Nagumo Kazuhiro** (General Director / 総括管理者) — Mobile: +84-913-071-308 / kazuhiro_nagumo@advanex.co.jp. 상해 근무 이력, 중국어·영어 가능. |
+| **담당자 (2026 현재)** | **Yonezawa Ichiro** (Business Development Manager) — Mobile: +84-981-548-399 / ichiro_yonezawa@advanex.co.jp |
+| **담당자 (2026 현재)** | **Nguyễn Thị Hiền** (Logistics Manager) — Tel: +84-2223-626-887 / HP: +84-943-802-773 / Smile-Hien@advanex.com.vn |
+| **담당자 (2026 현재)** | **Nguyễn Xuân Tập, Eric** (Factory Manager) — HP: +84-914-106-725 / Eric-Tap@advanex.com.vn |
 | **담당자 (2019 기준)** | Mr. Sony Davadas (Factory Manager), Mr. Hoang Duc Thinh (QA & Engineering Manager), Mr. Tran Trung Hoang (Planning & Logistics Manager) |
 | **주소** | No.18, Road 11, VSIP Bac Ninh Integrated Township and Industrial Park, Dai Dong Commune, Bac Ninh, Vietnam |
 | **연락처** | TEL: +84-2223-626-887 |

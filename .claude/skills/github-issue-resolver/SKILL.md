@@ -15,6 +15,8 @@ description: GitHub 오픈 이슈에 구조화된 해결 방안 댓글을 달고
 
 댓글 게시 및 이슈 닫기에는 `repo` 권한이 있는 Personal Access Token(PAT)이 필요합니다.
 
+**환경 주의**: 이 프로젝트는 Windows 환경이며 `gh` CLI가 설치되어 있지 않음. 모든 GitHub API 호출은 PowerShell + Python 스크립트 방식으로 처리한다. `git push`는 Windows Credential Manager로 자동 인증되지만, GitHub API(이슈·댓글)는 PAT가 별도로 필요하다.
+
 **토큰 확인 순서:**
 1. 환경변수 `$env:GITHUB_TOKEN` 또는 `$env:GH_TOKEN` 확인
 2. 사용자가 대화에서 직접 입력

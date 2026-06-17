@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-15 (Goko Spring Vietnam 조사 반영 / Oristar 매출 구조·경쟁사 동향 추가)  
+**최종 업데이트**: 2026-06-16 (Oristar 영업조직 구조 + Mr. Toan 퇴사 리스크 추가 / 명함 업데이트 전 3개사)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -13,6 +13,9 @@
 | **상담 담당자 (현재)** | Mr. Tuan Anh (Purchaser), Mr. Vu Tri Toan (Purchasing Manager), Mr. Le Minh Quan (Senior Sales Executive), Mr. Tran Tien Dung (Sales Director) |
 | **상담 담당자 (기존)** | Mr. Chinh (Sales Executive), Ms. Phuong (Purchasing Manager) ※ 기존 출장 보고서 기준 |
 | **Vina Taiyo 담당** | Ms. Pham Thi Thu Huong (Business Development Executive) — Mobile: +84-961-377-746 / thuhuong.pham@oristar.vn. 1986년생. 전 ThyssenKrupp 베트남 트레이딩 법인 근무 (알루미늄 플레이트 영업, 현재와 동일 업무). |
+| **Goko Spring 담당** | Mr. Le Nhu Duy (Business Development Executive) — Mobile: +84-982-233-283 / nhuduy.le@oristar.vn. 일본어 가능, 영어 불가. |
+| **BDE (2026-06-16 명함 수령)** | Mr. Hoang Van Hieu (Business Development Executive) — Mobile: +84(0) 969 560 302 / +84(0) 968 312 772 / hieu.hoang@oristar.vn |
+| **BDE (2026-06-16 명함 수령)** | Ms. Vu Thi Dinh (Business Development Executive) — Mobile: +84 982 288 803 / dinh.vu@oristar.vn |
 | **사무소** | 9F, Detech Tower, No.8 Ton That Thuyet St., Cau Giay Ward, Hanoi, Vietnam |
 | **공장/창고** | Factory: Tan Quang / Van Lam District, Hung Yen Province, Vietnam |
 | **연락처** | TEL: +84-24-3972-0120 / FAX: +84-24-3972-0124 |
@@ -20,6 +23,12 @@
 | **홈페이지** | http://www.oristar.vn |
 
 **회사 개요**: Oristar는 베트남 내 Copper, Aluminum, Steel 소재를 취급하는 종합 소재 유통 및 가공 업체. 코로나 이후 꾸준히 매출 회복 및 거래처 확대. 2022년 코로나 이후 이미 DSR 공장을 방문한 바 있음.
+
+**영업 조직 구조 (2026-06-16 확인)**:
+- 세일즈 직원 약 20명. 품목 전담제 없음 — 담당자 1인이 복수 품목(Copper/Al/Wire 등) 통합 관리
+- 담당 거래처 수: 담당자별 20~50개사 이상. Sales Volume 기준으로 배분되는 것으로 추정
+- Wire 전담 직원 없음 → DSR 입장에서 담당자 교체·이탈 리스크 상시 존재
+- ⚠️ **[인사 리스크]** 직원 근속연수 전반적으로 짧음. Mr. Vu Tri Toan (Sales, 15년 근속 예외적 장기 근무자)도 경영진 마찰로 2026년 6월 이후 퇴사 예정. 담당자 교체 시 거래처 관계·히스토리 단절 가능성 → 정기적으로 복수 담당자 확보 및 관계 유지 필요
 
 **매출 구조 (2026년 6월 확인)**:
 | 품목 | 매출 비중 | 비고 |
@@ -252,29 +261,95 @@
 
 ---
 
+### NEW TECH CNC VIETNAM
+| 항목 | 내용 |
+|------|------|
+| **담당자 (구매)** | Duong Thi Nam (Sales Dep't) — Mobile: 0977 103 335 / Email: newtech.cnc.vn@gmail.com |
+| **담당자 (대표)** | Nguyen Van Da (Director) — Mobile: 0938 662 198 / 0911 103 343 / Email: newtech.cnc.vn@gmail.com |
+| **주소** | Trinh Xuyen Village, Vinh Lai Commune, Hai Phong City, Vietnam ※ 대표 명함 주소: Trinh Xuyen Village, Nghia An Commune, Ninh Giang District, Hai Duong Province — 명함 2장 주소 상이. 방문 시 Map Pin 확인 필요 |
+| **연락처** | 0977 103 335 (Ms. Nam) / 0938 662 198 (Mr. Da) |
+| **이메일** | newtech.cnc.vn@gmail.com |
+| **홈페이지** | https://loxovn.com |
+
+**회사 개요**: 산업용 스프링 전문 제조업체. 하이퐁 소재. 공장 2개소 (총 2,000㎡), 직원 약 150명. 완전 자동화 CNC 기계 라인 보유. Compression / Torsion / Extension / Hook Spring 생산. 국내외 납품.
+
+**세일즈 현황**:
+- **최대 사용 규격**: 10.00mm — SWC 및 STS304 공통
+
+| 품목 | 규격 | 수량 | 공급처 | 비고 |
+|------|------|------|--------|------|
+| SWP-B | 0.3 / 0.4mm | 각 100kg/연 (3 Size) | 미확인 | 주력 소형 품목, 소량 |
+| SWP-B | 5.70 / 8.00 / 10.00mm | 미확인 | 미확인 | |
+| SWC | 전 규격 | 연 **500톤** | **중국산** | 가격 이유. DSR 대응 어려우나 Target Price 수령 예정 |
+| STS304 | 전 규격 | 월 **3~5톤** | **Daichi 경유 일본산** | 초기 일본산 개발 후 중국산 전환 건 다수. 중국산 딜러 미공개 (향후 공개 가능성 있음) |
+
+**신규 Inquiry (2026-06-16)**:
+- **SUS304 2.00mm + 2.60mm** — 합계 **1~2 CNT/년** (약 18~40톤/년)
+  - 용도: **단열 파이프(Insulated Pipe) 제조용 대형 코일 스프링** — 길이 3~5m, 직경 Ø200mm
+  - 내식성 필요 + 영구 매립 구조 → STS 필수 사양
+  - End User: **미공개** (고객사 오픈 불가)
+  - 현재 일본산 → **DSR 교체 의향 있음**
+
+**방문 이력**:
+- **2024년**: 신규 방문. SWP-B 복수 규격 사용 확인. SWC G. 1.60/2.00/2.50/3.20mm 테스트 계획 파악.
+- **2026년 6월 (2차 방문)**: 세일즈 현황 상세 파악. STS Inquiry 접수. SWC 중국산 Target Price 수령 예정.
+
+**영업 포인트**:
+- **단기**: STS304 2.00/2.60mm 견적 신속 제출 → 일본산 교체 가능성 있음. **베트남 STS 레퍼런스 확보 차원에서도 중요**
+- **중기**: SWC 중국산 Target Price 확인 후 가격 갭 판단 → 일부 전환 가능성 검토
+- Daichi 채널 고착 구조 → 신규 품목·프로젝트 중심으로 접근
+- ⚠️ **샘플 대응 속도 이슈 (시장 전반)**: 중국 메이커는 샘플 대응 상당히 빠름. 한국 메이커는 2~3개월 소요 → 신규 프로젝트 타이밍 놓치는 경우 多. **DSR 샘플 리드타임 단축이 베트남 시장 경쟁력의 핵심 과제**
+
+---
+
 ### CAMEX ⭐ 성장 잠재력 大
 | 항목 | 내용 |
 |------|------|
-| **담당자** | Nguyen Van Chinh (Director), Nguyen Thi Huong (Head of Purchase) |
-| **주소** | Hong Hung Commune, Gia Loc District, Hai Duong Province, Vietnam |
-| **연락처** | TEL: 0974-809-800 / 0220-3689-099 |
-| **이메일** | camex-chinh@camex.com.vn |
+| **담당자** | Nguyen Van Chinh (Director) — Mobile: (+84) 974 809 800 / Tel: 02203 689 099 / Email: Camex-chinh@camex.com.vn |
+| **기타 담당자** | Nguyen Thi Huong (Head of Purchase) — 연락처 미확인 |
+| **미팅 참가자 (2026-06-16)** | Ms. Sang, Ms. Duyen (직함 미확인 — 명함 수령 시 업데이트 필요) |
+| **주소** | Do Xa Village, Vinh Lai Commune, Hai Phong City, Vietnam ※ 명함 기준. 기존 기록(Hong Hung Commune, Gia Loc District, Hai Duong)과 상이 — Map Pin 확인 필요 |
+| **연락처** | TEL: 02203 689 099 / Mobile: (+84) 974 809 800 |
+| **이메일** | Camex-chinh@camex.com.vn |
 | **홈페이지** | https://www.camex.com.vn |
 
-**회사 개요**: 2023년 이전 VINA SPRING이라는 이름으로 방문 이력 있음. 베트남 내 대형 spring maker 중 하나. 2012년 설립, 2022년 공장 증설. 2024년 기준 직원 약 475명, 연매출 약 US$2M, 설비 약 8,936대.
+**회사 개요**: 베트남 내 대형 spring maker 중 하나. 2012년 설립, 2022년 공장 증설. 2024년 기준 직원 약 475명, 연매출 약 US$2M, 설비 약 8,936대. 대표 = ADVANEX 출신. 주요 납품처: Samsung, Canon, LG Electronics, Panasonic.
+- **거래처 구성 (2026-06-16 확인)**: 총 약 300개사 — 전자 30~40%, 자동차(Automotive) 10%, 기타 50~60% (미확인)
 
 **세일즈 현황**:
 - 2023년 wire 사용량: 약 1,300톤/월 (ADVANEX VN 대비 압도적 규모)
 - 2023년 잠재 수요 추정: 약 2,500톤/월까지 성장 가능성
-- 기존 공급처: KIS, BEKAERT Malaysia, 중국, 대만, 일본산 복수 채널
+- 기존 공급처: KIS (→ **Daichi 대리점 경유** 구매), Bekaert Malaysia, 중국(Nantong Yuxiang Metal, Anbao), 대만, 일본산 복수 채널
 - 품목 범위: torsion/extension/compression spring (DIA 0.10~8.00MM), wire forming (DIA 0.10~5.00MM), flat spring (DIA 0.08~2.00MM)
-- 2024년 실제 wire 사용량: 약 1,200톤/월 수준으로 파악됨
+- 2024년 실제 wire 사용량: 약 1,200톤/월 수준으로 파악됨 → **2026년 기준 수요 증가 확인** (정확한 수치 미확인 — 추가 확인 필요)
 - Trial order: UH1265 — SWP-B 0.55/0.70/0.90/1.00/1.60MM 약 1.6톤 진행
+- **DSR 현재 공급 중**: 월 2~3톤 (품목 미확인 — 방문 후 추가 확인 필요)
 - SWC U 4.00MM: washing machine 용도, KIS로부터 월 20톤 수준 구매 중 → target price 확인 필요
+  - 과거 KIS 품질 이슈: 윤활제 과다 + **Tensile Strength 이슈** 동시 발생 → **현재는 품질 해소됨** (2026-06-16 확인)
+- **SWP-B 6.2MM Big Project**: End User가 **KIS 지정**, 장기 사용으로 공급처 변경 어려움 → 현 프로젝트 진입 불가
+  - **신규 프로젝트**는 DSR 소개 가능 (Camex 측 의향 확인)
+  - **차별화 포인트 강조 요청**: KIS Malaysia 공급 vs **DSR Korea 공급** — 원산지·품질 차별성 고객사에 적극 어필 요청받음
 
 **방문 이력**:
 - **2023년 3월**: 연간 1,300톤 수요. KIS Wire + Bekaert Malaysia + 중국(Nantong Yuxiang Metal, Anbao) 복수 공급처 운영. OT Wire는 단납기 문제로 중국산. 공장 규모 10,000㎡, 직원 391명
 - **2024년 9월**: 실제 구매량 약 1,200톤/월로 재확인(기존 2,500톤 답변과 괴리). KIS SWC U. 4.00MM 윤활제 과다 품질 이슈 → 공급처 변경 가능성. DSR Trial order(UH1265 SWP-B 1.6톤) 진행. KOSNIC 월 3톤 수요 확인. 대표 = ADVANEX 출신. Samsung/Canon 주요 납품처
+
+**신규 Inquiry (2026-06-16)**:
+| 품목 | 규격 | 수량 | 비고 |
+|------|------|------|------|
+| SUS304 | Ø3.0mm (-0.03) × Coil | 4,000kg/월 | 인장강도 480~580N/mm², **Bright** |
+| SUS304 | Ø4.5mm (-0.03) × Coil | 16,000kg/월 | 인장강도 480~580N/mm², **Bright** |
+
+> 📎 스펙시트: ![SUS304 Spec](../images/2026-06-16/camex_sus304_spec.jpg)
+> 📎 제품 사진: ![Mesh Basket](../images/2026-06-16/camex_mesh_basket.jpg)
+- **월 총 소요량: 20톤/월** (Ø3.0 + Ø4.5 합산)
+- 용도: 스테인리스 메쉬 바스켓 (오븐/에어프라이어용 추정)
+- **품종 확인**: 저강도(480~580N/mm²) 대응은 **SUS304Cu** 만 가능 → Cu 함유 Accept 여부 고객사 문의 중
+- **가격 조건**: DSR 내수 가격 수준이면 월 20톤 대응 가능 (Camex 확인)
+- **후속 액션**: ① DSR SUS304Cu 생산 가능 여부 확인 ② 내수 가격 기준 견적 제출
+- **납기 이슈**: 40~45일 delivery time 요구 → Oristar 재고 핸들링 부담 상당
+- **Forecast 부재**: End User가 수요 forecast 미제공 → Oristar 단독 재고 운용 어려움 → 해결 방안 검토 필요
+- **DSR 납기 정책 안내 완료**: Piano grade wire 기준, 1년 이상 거래 실적 보유 시 20일 전 발주 → DSR 생산계획 100% 반영 보장. 단, Forecast 확보 시 더 안정적임을 설명.
 
 **영업 포인트**: KIS SWC U. 4.00MM 품질 이슈를 기회로 DSR 공급 전환 추진. Trial order 품질 무결 대응 최우선. KOSNIC target price 확인 필요. 직거래 선호 성향 있으므로 Oristar와 역할 사전 조율 필요.
 
@@ -357,7 +432,8 @@
 ### GOKO SPRING VIETNAM
 | 항목 | 내용 |
 |------|------|
-| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **담당자 (일본인)** | Go Yamamoto 山本豪 (Production & QA Manager) — Mobile: +84-852-106-074 / g_yamamoto@goko-spring.co.jp. 일본인. 영어 불가. **구매 결정 권한 있음.** |
+| **담당자 (구매)** | Nguyen Thi Thu Thoa (Purchasing Staff) — Mobile: +84-962-986-609 / sales3@gokosp.com.vn. 정보 제공은 하나 구체적 구입처·메이커 오픈 불가. |
 | **주소** | Lot 14, Noi Bai Industrial Zone, Soc Son, Hanoi, Vietnam |
 | **연락처** | TEL: +84-24-3582-1617 |
 | **이메일** | binhtv@gokosp.com.vn |
@@ -377,20 +453,39 @@
 - **주요 적용 산업**: 광학기기(디지털 카메라), OA기기, 모바일, 전자부품 → **일본계 전자·정밀기기 업체가 주요 고객으로 추정**
 
 **세일즈 현황**:
-- 사용 wire 품목·규격: 미확인 — **방문 시 확인 필요**
-- 현 wire 공급처: 미확인 — **방문 시 확인 필요**
-- 월 wire 사용량: 미확인 — **방문 시 확인 필요**
+- 사용 wire 품목·규격: **SWC 1.20MM, SWPB G 1.20MM, SWOSC-V 2.1MM** (2026-06-16 방문 확인)
+  - SWC / SWPB G 1.20mm → Canon향 정밀 spring
+  - SWOSC-V 2.1mm → 오토바이용 (상세 용도 미확인 — 추가 확인 필요) ※ DSR 공급 가능 안내 완료
+  - **Ni-Co 0.3mm** → DSR 샘플 제공 완료, **거래처 Approval 대기 중** (2026-06-16 확인)
+- 현 wire 공급처: 미확인 (구매 의사결정 **일본 본사 컨트롤** — 베트남 법인 단독 결정 불가)
+- 월 wire 사용량: **SWC 2.5~3톤/월, SWPB G 1톤/월** (2026-06-16 방문 확인)
+- 총 wire 수입량: **약 25톤/월** — 일본·중국·한국산 혼용 (구체적 공급처 미확인)
 - DSR 납품 이력: 없음 (신규 개척 대상)
+- **품질 이슈 (현재 진행 중)**: 1코일 불량 발생. NG rate 1%. 생산 완료 후 검출되어 원선 확보 불가.
+  - **고객 요청**: CAR(Corrective Action Report) 신속·구체적 제공 요망 → **귀국 후 즉시 대응 필요**
 - 4M 등록 구조 여부: 미확인 — **방문 시 확인 필요**
 
-**방문 이력**: 미방문 — 이번 출장 **첫 방문**
+**서플라이 체인**: `DSR → Oristar → Goko Spring Vietnam → Canon` (2026-06-16 방문 확인)
+- Canon향 정밀 spring 생산 → 일본계 품질 기준 적용, 중국산 wire 배제 가능성 높음
+
+**비즈니스 전망**: 거래처 지속 개발 중 → **향후 비즈니스 긍정적** (담당자 직접 언급, 2026-06-16)
+- 주요 거래처 업종: **전자회사, 오토바이 메이커** (Canon 포함 복수 고객)
+
+**방문 이력**: 미방문 → **2026년 6월 첫 방문**
 
 **영업 포인트**:
-- 현 공급처·품목·4M 등록 여부 방문 시 직접 파악 최우선
+- **구매 의사결정 일본 본사 컨트롤** → 베트남 담당자만으론 진행 불가, 본사 접촉 경로 확보 필요
+- **DSR Japan이 Goko 본사와 별도 컨택 중** (담당자 상이 — DSR 내 일본 담당 vs. 동남아 담당 분리) → 본사 레벨 협의는 DSR Japan 담당자와 연계 필요
+- **태국 공장이 베트남보다 훨씬 큰 규모** → 태국 거래는 DSR Japan 담당자와 협력하여 공략 필요
+- SWOSC-V 2.1mm 신규 Inquiry — **가격 확인 후 샘플 테스트 진행** 합의 (2026-06-16)
 - 2024년 매출 +15% 성장 → wire 수요 증가 중
-- 그룹 태국·인도네시아 법인 연동 → 베트남 거래 확보 시 **그룹 전체 공급 확장** 가능성
-- 일본계 특성상 Safety-critical 부품 중국산 배제 → DSR 품질 어필
-- 첫 방문: 탄소강 공급처·품목·수량·4M 등록 여부 파악 최우선
+- Canon향 품질 기준 + 일본 본사 컨트롤 → DSR Japan 본사 컨택과 연계하여 그룹 전체 공급 확장 추진
+
+**⚠️ 경쟁사 동향 — 긴급**:
+- **Jintu Vietnam (중국계)** 이 동일 품목(SWC/SWPB 등)으로 Goko Spring에 Price List 직접 발송하여 오퍼
+- **Advanex에도 동일 방식으로 오퍼** (Oristar 확인) → Jintu의 베트남 시장 내 무차별 직접 영업 확인
+- Price List 직접 발송은 DSR 대리점(Oristar) 채널 보호 차원에서도 심각한 문제
+- **→ 긴급 대응 필요: DSR 중국 담당자 통해 Jintu의 베트남 시장 영업 행위 즉시 제약 요청**
 
 ---
 

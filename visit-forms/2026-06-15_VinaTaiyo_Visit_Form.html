@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>VINA TAIYO SPRING — 방문 체크리스트</title>
+  <style>
+    body { font-family: 'Malgun Gothic', Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 24px; background: #f5f5f5; color: #222; }
+    h1 { font-size: 20px; border-bottom: 3px solid #2c5f9e; padding-bottom: 10px; margin-bottom: 6px; }
+    .meta { font-size: 13px; color: #666; margin-bottom: 28px; }
+    .item { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 18px 20px; margin-bottom: 16px; }
+    .item-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+    input[type="checkbox"] { width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; accent-color: #2c5f9e; }
+    .item-title { font-weight: bold; font-size: 15px; line-height: 1.4; }
+    .item-hint { font-size: 12px; color: #888; margin: 4px 0 8px 30px; }
+    textarea { width: 100%; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; padding: 10px 12px; font-size: 14px; font-family: inherit; resize: vertical; min-height: 80px; background: #fafafa; transition: border 0.2s; }
+    textarea:focus { outline: none; border-color: #2c5f9e; background: #fff; }
+    .section-label { font-size: 11px; color: #999; margin-bottom: 4px; }
+    .btn-area { text-align: center; margin: 32px 0 16px; }
+    button { background: #2c5f9e; color: #fff; border: none; border-radius: 6px; padding: 12px 32px; font-size: 15px; cursor: pointer; font-family: inherit; }
+    button:hover { background: #1e4a80; }
+    #output { display: none; margin-top: 24px; background: #fff; border: 1px solid #ccc; border-radius: 8px; padding: 20px; white-space: pre-wrap; font-size: 13px; font-family: monospace; line-height: 1.6; }
+    .copy-btn { background: #555; margin-left: 10px; font-size: 13px; padding: 8px 18px; }
+    .done { background: #e8f4e8; border-color: #4caf50; }
+  </style>
+</head>
+<body>
+
+<h1>🏭 VINA TAIYO SPRING — 방문 체크리스트</h1>
+<div class="meta">
+  방문일: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 담당자: Daisuke Hashimoto (Representative) | TEL: +84-24-3394-0671
+</div>
+
+<div class="item" id="q1">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q1')">
+    <div class="item-title">1. 현 wire 공급처</div>
+  </div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="공급처명, 국가, 거래 기간 등"></textarea>
+</div>
+
+<div class="item" id="q2">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q2')">
+    <div class="item-title">2. DSR 인지 여부 / 기존 접촉 이력</div>
+  </div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="DSR 알고 있는지, 이전에 접촉한 적 있는지"></textarea>
+</div>
+
+<div class="item" id="q3">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q3')">
+    <div class="item-title">3. 실제 사용 규격 전체 리스트</div>
+  </div>
+  <div class="item-hint">기확인: SWC 1.40MM / SWB 1.60MM</div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="규격, Grade, 용도별로 기재"></textarea>
+</div>
+
+<div class="item" id="q4">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q4')">
+    <div class="item-title">4. 월 사용량 재확인 및 규격별 수량</div>
+  </div>
+  <div class="item-hint">기확인: 전체 약 0.5~1톤/월</div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="규격별 월 사용량 (KG/MT)"></textarea>
+</div>
+
+<div class="item" id="q5">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q5')">
+    <div class="item-title">5. 승인 조건 / 4M 변경 절차</div>
+  </div>
+  <div class="item-hint">일본계 특성상 공급처 변경 시 고객사 승인 필요 여부</div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="승인 절차, 소요 기간, 필요 서류 등"></textarea>
+</div>
+
+<div class="item" id="q6">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q6')">
+    <div class="item-title">6. 태국 방콕 공장 wire 구매 채널</div>
+  </div>
+  <div class="item-hint">베트남과 통합 구매인지 / 별도 채널인지</div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="태국 공장 구매 구조, 연계 가능 여부"></textarea>
+</div>
+
+<div class="item" id="q7">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q7')">
+    <div class="item-title">7. 납기 요건 / 소량 대응 조건</div>
+  </div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="요구 납기, 최소 발주량(MOQ), 패키징 조건 등"></textarea>
+</div>
+
+<div class="item" id="q8">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q8')">
+    <div class="item-title">8. 향후 신규 프로젝트 / 추가 wire 수요 가능성</div>
+  </div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="신규 프로젝트, 추가 Grade·규격 검토 중인 것"></textarea>
+</div>
+
+<div class="item" id="q9">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q9')">
+    <div class="item-title">9. 다음 액션 합의 사항</div>
+  </div>
+  <div class="section-label">담당자 답변</div>
+  <textarea placeholder="샘플 요청 / 견적 요청 / 차기 미팅 일정 등"></textarea>
+</div>
+
+<div class="item" id="q10">
+  <div class="item-header">
+    <input type="checkbox" onchange="toggleDone('q10')">
+    <div class="item-title">10. 기타 특이사항</div>
+  </div>
+  <div class="section-label">메모</div>
+  <textarea placeholder="미팅 분위기, 상대방 온도, 기타 메모"></textarea>
+</div>
+
+<div class="btn-area">
+  <button onclick="exportText()">📋 보고서용 텍스트 내보내기</button>
+  <button class="copy-btn" onclick="copyText()">복사</button>
+</div>
+
+<div id="output"></div>
+
+<script>
+  function toggleDone(id) {
+    const el = document.getElementById(id);
+    const cb = el.querySelector('input[type="checkbox"]');
+    el.classList.toggle('done', cb.checked);
+  }
+
+  const questions = [
+    "1. 현 wire 공급처",
+    "2. DSR 인지 여부 / 기존 접촉 이력",
+    "3. 실제 사용 규격 전체 리스트",
+    "4. 월 사용량 재확인 및 규격별 수량",
+    "5. 승인 조건 / 4M 변경 절차",
+    "6. 태국 방콕 공장 wire 구매 채널",
+    "7. 납기 요건 / 소량 대응 조건",
+    "8. 향후 신규 프로젝트 / 추가 wire 수요 가능성",
+    "9. 다음 액션 합의 사항",
+    "10. 기타 특이사항"
+  ];
+
+  function exportText() {
+    const textareas = document.querySelectorAll('textarea');
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    let result = "VINA TAIYO SPRING — 방문 결과\n";
+    result += "=".repeat(40) + "\n\n";
+    textareas.forEach((ta, i) => {
+      const checked = checkboxes[i].checked ? "[✓]" : "[ ]";
+      result += `${checked} ${questions[i]}\n`;
+      result += ta.value.trim() ? ta.value.trim() : "(미기재)";
+      result += "\n\n";
+    });
+    const out = document.getElementById('output');
+    out.textContent = result;
+    out.style.display = 'block';
+  }
+
+  function copyText() {
+    const out = document.getElementById('output');
+    if (!out.textContent) { exportText(); }
+    navigator.clipboard.writeText(out.textContent).then(() => alert('복사되었습니다.'));
+  }
+</script>
+
+</body>
+</html>

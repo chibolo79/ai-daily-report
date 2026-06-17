@@ -57,7 +57,27 @@
 
 **로컬 파일 참조**: 영업 보고서 작성 시 `C:\Work\` 하위 DOCX·XLSX·PDF를 직접 읽는다. pandoc 또는 Python xml 파싱 사용. 파일 경로는 사용자가 제공한다.
 
-**Git Push 인증**: PAT(Personal Access Token)를 URL에 인라인으로 사용 (`https://user:token@github.com/...`). 토큰은 저장하지 않으며 사용 후 즉시 폐기를 안내한다.
+**Git Push 인증**: Windows Credential Manager에 `git:https://github.com` 자격증명이 저장되어 있어 `git push` 시 자동 인증됨. PAT를 별도 입력할 필요 없음. GitHub API 호출(이슈 생성·댓글 등)은 PAT가 별도로 필요하며, 사용자가 대화에서 직접 입력한다.
+
+## 이미지 관리 규칙
+
+**폴더**: `images/YYYY-MM-DD/` (방문일 기준) / 명함은 `images/business_cards/`
+
+**이미지 워크플로우**:
+- 사용자가 `C:\Project.Claude\ai-daily-report\images\` 에 파일을 직접 저장 후 분류 요청
+- AI는 요청 시 `images/` 하위 파일을 확인하고 날짜·업체별 폴더로 이동·정리
+- 어느 업체 관련인지 애매한 경우 → 임의로 분류하지 않고 사용자에게 먼저 확인 후 정리
+- 채팅 업로드 이미지는 분석 전용 (경로 정보 없음 — 파일 저장 불가)
+
+**파일명 규칙**: `업체명_내용설명.jpg` (예: `camex_sus304_spec.jpg`, `newtech_whiteboard.jpg`)
+
+**보고서 포함 기준**:
+- ✅ 포함 가능: 스펙시트, 화이트보드, Inquiry 문서, 제품 사진
+- ❌ 미포함: 명함 (`business_cards/`에 별도 보관)
+
+**최종 보고서(DOCX) 요청 시**: 해당 날짜 `images/` 폴더 이미지를 자동으로 포함시킨다.
+
+**마크다운 삽입 형식**: `![설명](../images/YYYY-MM-DD/파일명.jpg)`
 
 ## 토큰 절약 규칙 (필수 — 모든 작업에 적용)
 
@@ -108,8 +128,10 @@
 
 ## Implementation Status
 
-- `ai-agent-research-report`: 아키텍처·Git 통합 완성(80%). WebSearch 연동·GitHub Issues API 미구현
-- `github-issue-resolver`: 완성, API 호출 검증됨
+- `ai-agent-research-report`: 아키텍처·Git 통합 완성(80%). WebSearch 연동·GitHub Issues API 미구현 (→ Issue #28, #29)
+- `github-issue-resolver`: 완성. Python API 방식으로 동작 (gh CLI 미설치 환경 — Windows Credential Manager 인증, GitHub API는 별도 PAT 필요)
 - `vietnam-visit-report`: 스킬 정의 완성. 분석 문서(`2026-06-14_Oristar_Vietnam_Sales_Analysis.md`) 생성 및 누적 관리 중. 스크립트 자동화 미구현(수동 작성 방식)
+- `vietnam-live-debrief`: v1.1 운영 중. 배치 입력·업체 전환 신호·마무리 루틴 포함
+- `vietnam-sales-updater`: 단건 수정 전담 에이전트. 운영 중
 
 개선 과제 → [ISSUES.md](ISSUES.md)

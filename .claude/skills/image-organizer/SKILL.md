@@ -1,7 +1,7 @@
 ---
 name: image-organizer
 description: "프로젝트 루트에 저장된 이미지를 자동 분류·정리하는 스킬. 명함이면 인물별 크롭 → 파일명 변경 → business_cards/ 이동 → 분석 파일 담당자 정보 업데이트까지 자동 처리. 명함 외 이미지는 방문일 기준 images/YYYY-MM-DD/ 폴더로 이동. '이미지 정리', '명함 정리', '사진 정리', '이미지 올렸어', '명함 저장했어' 등의 표현에 트리거."
-status: "v1.0"
+status: "v1.1"
 ---
 
 ## 이 스킬이 하는 일
@@ -38,25 +38,63 @@ Get-ChildItem "C:\Project.Claude\ai-daily-report" -MaxDepth 1 -Include "*.jpg","
 3. 분석 파일 해당 업체 섹션 담당자 테이블에 추가
 
 #### 복수 명함 (한 사진에 여러 장)
-1. Python Pillow로 명함 수에 맞게 크롭
-   - 2장: 좌/우 or 상/하 분할
-   - 4장: 2×2 분할
-   - 불규칙 배치: 시각적 경계 기준으로 개별 크롭
-2. 각 명함을 개별 파일로 저장 후 위 단일 명함 절차 반복
-3. 원본 파일 삭제
+
+**반드시 2단계로 처리한다: ① 대략 분할 → ② 각 조각에서 명함만 정밀 크롭**
+
+단순 50/50 분할만 하면 배경·인접 명함이 포함됨. 반드시 아래 정밀 크롭 함수를 적용.
 
 ```python
+import cv2, numpy as np
 from PIL import Image
+import os
+
+# Step 1: 균등 분할 (4장 예시)
 img = Image.open(원본경로)
 w, h = img.size
-# 4분할 예시
-regions = {
-    '이름1': (0, 0, w//2, h//2),
-    '이름2': (w//2, 0, w, h//2),
-    '이름3': (0, h//2, w//2, h),
-    '이름4': (w//2, h//2, w, h),
+rough = {
+    '이름1': img.crop((0, 0, w//2, h//2)),
+    '이름2': img.crop((w//2, 0, w, h//2)),
+    '이름3': img.crop((0, h//2, w//2, h)),
+    '이름4': img.crop((w//2, h//2, w, h)),
 }
+for name, piece in rough.items():
+    piece.save(f'tmp_{name}.jpg')
+
+# Step 2: 각 조각에서 명함만 정밀 크롭
+def crop_card_clean(img_path, out_path):
+    img = cv2.imread(img_path)
+    h, w = img.shape[:2]
+
+    # 가장자리 8% 제외 (인접 명함·배경 노이즈 제거)
+    mx, my = int(w * 0.08), int(h * 0.08)
+    roi = img[my:h-my, mx:w-mx]
+
+    # HSV 흰색/밝은 영역(명함 본체) 마스크
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+    mask = cv2.inRange(hsv, (0, 0, 170), (180, 50, 255))
+    kernel = np.ones((15,15), np.uint8)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((8,8), np.uint8))
+
+    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if not contours:
+        # 폴백: 가장자리만 제거
+        cv2.imwrite(out_path, roi, [cv2.IMWRITE_JPEG_QUALITY, 95])
+        return
+
+    c = max(contours, key=cv2.contourArea)
+    x, y, bw, bh = cv2.boundingRect(c)
+    pad = 8
+    x1 = max(0, x + mx - pad)
+    y1 = max(0, y + my - pad)
+    x2 = min(w, x + mx + bw + pad)
+    y2 = min(h, y + my + bh + pad)
+    cv2.imwrite(out_path, img[y1:y2, x1:x2], [cv2.IMWRITE_JPEG_QUALITY, 95])
 ```
+
+**주의**: 스티커·라벨 등 이물질이 명함 가장자리에 있으면 추가로 해당 방향 margin을 높여서 재크롭.
+
+원본 파일은 처리 완료 후 삭제.
 
 ### Step 4: 현장 사진·문서 처리
 

@@ -104,6 +104,17 @@ model: claude-sonnet-4-6
 ### 문서만 정리
 1. `doc-optimizer-agent` → 세 문서 역할 분리 + 중복 제거
 
+### 베트남 세일즈 워크플로우
+
+> **주의**: 베트남 세일즈 작업에는 `validator-agent` 루브릭을 적용하지 않는다.
+
+| 상황 | 사용 에이전트/스킬 |
+|------|-------------------|
+| 방문 전 브리핑 | `/vietnam-visit-report` 스킬 (직접 처리) |
+| 미팅 후 실시간 수집 | `/vietnam-live-debrief` 스킬 (직접 처리) |
+| 단건 업체 정보 수정 | `vietnam-sales-updater` 에이전트 (자연어 호출) |
+| 공식 출장 보고서 작성 | `/vietnam-visit-report` 스킬 (직접 처리) |
+
 ---
 
 ## 루프 완료 보고 형식

@@ -31,6 +31,11 @@
 **용도**: 미팅 후 구두 전달 내용 실시간 수집 → 체크리스트 추적(✅/🔶/⬜) → 분석 파일 즉시 반영. 미팅 수집은 반드시 이 스킬 사용  
 **상세**: [SKILL.md](.claude/skills/vietnam-live-debrief/SKILL.md)
 
+### `/skill-agent-reviewer`
+**트리거**: "스킬 리뷰", "에이전트 점검", "스킬 개선", "skill review", "스킬 파일 정리", "에이전트 파일 개선"  
+**용도**: `.claude/skills/` · `.claude/agents/` 파일 점검·개선. Grep-first 방식으로 전체 Read 없이 이슈 탐지 → 부분 Read → Edit  
+**상세**: [SKILL.md](.claude/skills/skill-agent-reviewer/SKILL.md)
+
 ### `vietnam-sales-updater` (서브에이전트)
 **트리거**: "업체 정보 업데이트", "방문 이력 추가", "세일즈 현황 수정", "업체 섹션 추가", `회사명 / 항목 / 내용` 형식 입력  
 **용도**: 분석 파일 직접 편집 전담 (단건 수정에 특화)  
@@ -82,7 +87,8 @@
 ## 토큰 절약 규칙 (필수 — 모든 작업에 적용)
 
 **① Read 최소화**: 파일 전체 Read 금지.  
-→ 순서: `Grep(키워드)` → 라인 번호 확인 → `Read(offset, limit ±40줄)` → `Edit`
+→ 순서: `Grep(키워드)` → 라인 번호 확인 → `Read(offset, limit ±40줄)` → `Edit`  
+→ **리뷰·점검 작업 시**: 전체 파일 Read 금지. `Grep(description|tools|역할|status)` 로 메타 라인만 추출 → 문제 가설 수립 → 해당 구간만 부분 Read → Edit. 전체 파일을 컨텍스트에 올리는 것은 실제 편집 분량의 10배 이상 토큰 낭비.
 
 **② Write 금지**: 기존 파일은 Edit만. Write는 신규 파일 생성 시에만.
 

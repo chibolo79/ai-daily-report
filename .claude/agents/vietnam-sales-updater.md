@@ -45,5 +45,4 @@ model: claude-sonnet-4-6
 # 참조 파일
 
 - 분석 파일: `2026-06-14_Oristar_Vietnam_Sales_Analysis.md`
-- 스킬 상세: `.claude/skills/vietnam-visit-report/SKILL.md`
-- 운영 규칙: `CLAUDE.md`
+- 운영 규칙·섹션 포맷: `CLAUDE.md`

@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-16 (Oristar 영업조직 구조 + Mr. Toan 퇴사 리스크 추가 / 명함 업데이트 전 3개사)  
+**최종 업데이트**: 2026-06-17 11:00 (DELTECH — 사명 변경 반영: Delboel → Deltech, 제조업 전환 이력 추가)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -565,25 +565,64 @@
 
 ---
 
-### DELBOEL VIETNAM
+### DELTECH VIETNAM
+※ 구 사명: **Delboel Vietnam** → **Deltech Vietnam**으로 공식 변경. 이메일 도메인(`deltech.com.vn`) 및 담당자 확인 완료.
+
 | 항목 | 내용 |
 |------|------|
-| **담당자** | (미확인 — 방문 시 확인 필요) |
-| **주소 (본사)** | Lot03-BT12, Van Phu New Urban Area, Phu La, Ha Dong, Hanoi, Vietnam |
-| **주소 (공장)** | Le Chan Street, Thi Son Commune, Kim Bang District, Ha Nam Province, Vietnam |
-| **연락처** | TEL: +84-24-2240-0001 ext.301 / HCM: +84-28-3602-5625 |
-| **이메일** | info@delboel.com |
-| **홈페이지** | http://www.delboel.com |
+| **담당자** | **Mr. Dat** (대표/Director) |
+| **이메일 (직통)** | **datpt@deltech.com.vn** |
+| **주소** | XQ4C+VF8, Khu đô thị Văn Phú, Kiến Hưng, Hà Nội ※ 랜드마크: DT 494B 도로, Quan Moc 식당(옆 골목) |
+| **공장** | Le Chan Street, Thi Son Commune, Kim Bang District, Ha Nam Province |
+| **연락처** | TEL: +84-24-2240-0001 ext.301 |
+| **홈페이지** | http://www.delboel.com (접속 불가) / www.deltech.com.vn (의료기기사 — 동명 별개 법인 가능성) |
 
-**회사 개요**: 베트남 내 자동차·전장 부품 납품 업체. Wire/steel 포함 다품종 취급. 본사(Hanoi) + 공장(Ha Nam) 이원화.
+**회사 개요**: 2011년 설립 (등록 기준). **약 15년간 트레이딩 회사로 운영** → **2026년 3월부터 제조업 전환** (Spring 생산 시작). 자동차·오토바이 부품 납품. L&M VINA(의류 제조, 중국계)와 같은 부지 공유 — 소규모 그룹 구조로 추정. Oristar 기존 거래처(Aluminum Plate·Copper·DSR Wire 공급 중).
+※ Delboel(트레이딩) → Deltech(제조) 법인 분리 가능성 있음 — 추후 확인 필요.
+
+**취급 품목** (방문 확인):
+- Spring 제조 (Automotive / Motorcycle용)
+- Fastener 카테고리: Cap Screw, Nut, Washer, Pin, Rivet 등 (웹 정보 기준)
 
 **세일즈 현황**:
-- Wire 품목 및 현 공급처 현황 미파악
-- 자동차·전장 납품 경로에서 wire 수요 가능성
+- **DSR 제품 사용 확인** ✅
+  - SWPB (Piano Wire): 3가지 사이즈 사용 중 → **1.6mm 확인** (나머지 2종 미확인)
+  - SWOSC-V: **2.2mm, 2.4mm** 사용 중
+  - OT Wire: 사용 중 (coil 사이즈 이슈 있음)
+- **Aluminum Plate**: Oristar 공급 중
+- **Copper**: Oristar 공급 중
+- **전체 Wire 수요 (예상)**: 2026년 8월부터 전 품목 합산 **약 2톤/월** 예상
+- **Oristar 공급 규모 (전 품목 합산)**: 현재 약 300톤/년 → 2026년 목표 약 500톤/년
 
-**방문 이력**: 미방문 (이번 출장 첫 방문)
+**서플라이 체인**: `DSR → Oristar → Delboel/Deltech → Spring 부품 → Automotive / Motorcycle` (고객사명 공개 거부)
 
-**영업 포인트**: 첫 방문 시 네트워크 중심 접근. wire 품목·용도·거래처 구조 파악 우선.
+**방문 이력**:
+- **2026년 6월 방문 (1차)**: Oristar Director · Mr. Dat(Delboel/Deltech 대표) 간 **첫 대면**. DSR·Oristar 관계 및 취급 전 품목 소개. SWPB 3종·SWOSC-V 2.2·2.4mm 사용 확인. 8월부터 월 2톤 수요 예상. OT Wire coil 사이즈 피더 불일치 이슈 접수. Sales Reference(Matex·Goko Spring·Advanex·Camex) 소개. 거래 조건 전반(Stocking·Lead Time·Forecast) 설명. **신규 프로젝트 발생 시 도면 + 상세 Demand 공유 합의**.
+
+**비즈니스 전망**: Oristar 기존 거래처. 8월부터 월 2톤 수요 확대 예정. OT Wire 패킹 이슈 해결 시 거래 안정화 가능.
+
+**현장 이슈**:
+- **OT Wire 패킹 Coil 사이즈 문제** 🔴: 현재 납품 중인 OT Wire의 coil 사이즈가 보유 피더(Feeder) 장비 규격보다 커서 사용 불가 → 즉시 팔로업 필요
+  - 확인 필요: 피더 허용 coil 사이즈 규격 (내경/외경/폭)
+  - DSR/Oristar 측 소포장(소코일) 대응 가능 여부 검토
+
+**경쟁사 현황**:
+- **"Sunway"(브랜드명 미확인)** — 일본계, 베트남 현지 생산 기지 보유. DSR와 경쟁 중
+  - **납기**: 원자재 보유 시 1개월 / 미보유 시 2~3개월
+  - ※ 정확한 법인명·브랜드명 추후 확인 필요
+
+**후속 액션**:
+| 항목 | 내용 | 담당 |
+|------|------|------|
+| OT Wire coil 사이즈 이슈 | 피더 허용 규격 확인 → 소코일/스풀 패킹 가능 여부 검토 | DSR/Oristar |
+| Sunway 경쟁사 정보 | 정확한 법인명·브랜드명 확인 | 차기 방문 시 |
+| SWPB 나머지 2종 규격 | 1.6mm 외 2종 확인 | 차기 방문 시 |
+| 신규 프로젝트 공유 | 도면 + 상세 Demand → Delboel이 공유 예정 | Delboel → DSR |
+
+**영업 포인트**:
+- **Oristar 기존 거래처** → SWPB·SWOSC-V·Aluminum·Copper 공급 중. Spring 제조사 확인.
+- **신규 프로젝트 도면 공유 합의** → 선제 대응으로 납기·품질 경쟁력 확보 기회
+- **OT Wire coil 사이즈 이슈** → 신속 해결 시 신뢰도 제고
 
 ---
 

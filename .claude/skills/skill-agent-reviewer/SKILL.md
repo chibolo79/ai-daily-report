@@ -1,7 +1,7 @@
 ---
 name: skill-agent-reviewer
 description: "프로젝트의 스킬(.claude/skills/)·에이전트(.claude/agents/) 파일을 점검하고 개선하는 스킬. Grep-first 방식으로 전체 파일 Read 없이 메타 정보만 추출해 이슈를 진단한 뒤, 문제 파일만 부분 Read → Edit. '스킬 리뷰', '에이전트 점검', '스킬 개선', 'skill review', '스킬 파일 정리', '에이전트 파일 개선' 등의 표현에 트리거."
-status: "v1.0"
+status: "v1.1"
 ---
 
 ## 이 스킬이 하는 일
@@ -66,14 +66,35 @@ Grep(pattern="^name:|^description:|^model:|^tools:|^status:", path=".claude/")
 모두 수정할까요, 아니면 특정 이슈만 처리할까요?
 ```
 
-### Step 5: 파일별 부분 Read → Edit
+### Step 5: 이슈 유형별 수정 — 토큰 최소화
 
-사용자 확인 후 이슈별로:
+**수정 전 반드시 유형 판단 → 유형에 맞는 방법 선택.**
 
-1. `Grep(이슈 관련 키워드, path=해당파일)` → 라인 번호 확인
-2. `Read(offset=라인번호-5, limit=50)` — 해당 구간만
+#### 🟢 단순 삽입/치환 (Read 없이 PowerShell로 일괄 처리)
+
+`status:`, `model:` 누락처럼 **동일 패턴이 여러 파일에 반복**될 때:
+
+```powershell
+# 예: 닫는 --- 바로 앞에 status 삽입 (Read 없이)
+(Get-Content 파일경로) -replace '^---$', "status: `"v1.0`"`n---" | Set-Content 파일경로
+```
+
+또는 `tools:` 블록 끝 뒤에 삽입:
+```powershell
+$c = Get-Content 파일경로 -Raw
+$c = $c -replace '(tools:[\s\S]*?)(---)', "`$1status: `"v1.0`"`n`$2"
+Set-Content 파일경로 $c
+```
+
+→ **Read 0회, 파일 수에 관계없이 Bash 1~2회로 처리.**
+
+#### 🟡 내용 교체/삭제 (Grep → 부분 Read → Edit)
+
+깨진 링크, 중복 콘텐츠, description 수정 등 **내용을 확인해야 하는 경우**:
+
+1. `Grep(키워드, path=해당파일)` → 라인 번호 확인
+2. `Read(offset=라인번호-3, limit=20)` — 해당 구간만
 3. `Edit` — 최소 변경
-4. 한 줄 완료 알림
 
 **전체 파일 Read 절대 금지. 편집 내용 채팅 재출력 금지.**
 
@@ -114,7 +135,7 @@ Grep(pattern="^name:|^description:|^model:|^tools:|^status:", path=".claude/")
 | 도구 누락 | frontmatter `tools:` 에 추가 |
 | 범위 불명확 | description 또는 본문 첫 줄에 적용 범위 명시 |
 | 역할 경계 혼재 | description 재작성 — 스킬이면 "직접 처리", 에이전트면 "서브에이전트 스폰용" 명시 |
-| 버전 누락 | frontmatter `status: "v1.0"` 추가 |
+| 버전 누락 | PowerShell 일괄 삽입 (Read 없이) |
 
 ---
 
@@ -125,10 +146,12 @@ Grep(pattern="^name:|^description:|^model:|^tools:|^status:", path=".claude/")
 | Step 1 Glob | ~500 |
 | Step 2 메타 Grep | ~1,000 |
 | Step 3 이슈 Grep (선택) | ~500 × 이슈 수 |
-| Step 5 부분 Read | ~800 × 수정 파일 수 |
-| **합계 (10파일 기준)** | **~8,000** |
+| Step 5A 단순삽입 (PowerShell) | ~200 (파일 수 무관) |
+| Step 5B 부분 Read → Edit | ~500 × 수정 파일 수 |
+| **합계 (10파일 기준)** | **~4,000** |
 
-전체 파일 Read 방식 대비 약 **70% 절약** 목표.
+전체 파일 Read 방식 대비 약 **85% 절약** 목표.
+단순 삽입은 반드시 PowerShell 일괄 처리 — Read 1회도 허용하지 않는다.
 
 ---
 

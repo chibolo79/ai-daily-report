@@ -56,7 +56,7 @@ status: "v1.0"
 
 **목적**: 등록된 오픈 이슈를 모두 처리하고 닫는다.
 
-→ 상세 절차는 [`github-issue-resolver/SKILL.md`](.claude/skills/github-issue-resolver/SKILL.md) 참조.
+→ 상세 절차는 [`github-issue-resolver/SKILL.md`](../github-issue-resolver/SKILL.md) 참조.
 
 **요약 흐름**:
 1. `GET /repos/{owner}/{repo}/issues?state=open` 로 목록 조회
@@ -71,7 +71,7 @@ status: "v1.0"
 
 **목적**: CLAUDE.md·SOUL.md·README.md 세 파일의 역할 분리 원칙 준수 여부를 점검하고 정제한다.
 
-→ 상세 절차는 [`doc-optimizer/SKILL.md`](.claude/skills/doc-optimizer/SKILL.md) 참조.
+→ 상세 절차는 [`doc-optimizer/SKILL.md`](../doc-optimizer/SKILL.md) 참조.
 
 **요약 흐름**:
 1. 세 파일 읽기

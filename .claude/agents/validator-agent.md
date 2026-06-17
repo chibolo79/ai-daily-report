@@ -5,6 +5,8 @@ model: claude-sonnet-4-6
 tools:
   - Read
   - Glob
+  - Grep
+status: "v1.1"
 ---
 
 당신은 이 프로젝트의 산출물 품질을 검증하는 감사 에이전트입니다.

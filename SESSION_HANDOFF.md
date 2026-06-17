@@ -38,11 +38,20 @@
 - `skill-agent-reviewer` v1.0 (신규) — 스킬/에이전트 파일 Grep-first 점검·개선 전용 스킬
 
 ### 에이전트 개선 (2026-06-17)
-- `vietnam-sales-updater` — 잘못된 스킬 참조 제거
-- `github-agent` — tools에 Write 추가 (Python 스크립트 작성 지원)
-- `validator-agent` — AI 리서치 리포트 전용 루브릭임을 명시 (베트남 파일 제외)
-- `orchestrator` — 베트남 세일즈 워크플로우 섹션 추가
-- `vietnam-live-debrief` (에이전트) — 스킬과의 역할 경계 명확화 (에이전트=서브에이전트 스폰용, 스킬=직접 대화용)
+- `vietnam-sales-updater` — 잘못된 스킬 참조 제거, tools/status 추가
+- `github-agent` — tools에 Write 추가, status v1.1
+- `validator-agent` — AI 리서치 리포트 전용 루브릭 명시, Grep 도구 추가, status v1.1
+- `orchestrator` — 베트남 세일즈 워크플로우 섹션 추가, tools/status 추가
+- `vietnam-live-debrief` (에이전트) — 역할 경계 명확화, tools/status 추가
+- `doc-optimizer-agent` — Grep 도구 추가, status v1.0
+- `research-agent` — status v1.0
+- `report-writer-agent` — status v1.0
+
+### 스킬 개선 (2026-06-17)
+- `briefing-improver` — status v1.0 추가
+- `doc-optimizer` — status v1.0 추가
+- `github-issue-resolver` — status v1.0 추가
+- `skill-agent-reviewer` — 신규 생성 v1.0 (Grep-first 점검 전용)
 
 ### 이미지 관리
 - `images/business_cards/` — 명함 9장 저장 완료

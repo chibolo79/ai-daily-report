@@ -1,6 +1,7 @@
 ---
 name: github-issue-resolver
 description: GitHub 오픈 이슈에 구조화된 해결 방안 댓글을 달고 이슈를 닫는 스킬. 사용자가 GitHub 이슈를 처리하고 싶을 때, 이슈에 해결 댓글을 달고 싶을 때, 여러 이슈를 한꺼번에 정리할 때 반드시 사용. "이슈 해결해줘", "이슈에 댓글 달고 닫아줘", "GitHub 이슈 처리해줘", "이슈 작업 이어서 하고 싶어", "resolve issues", "close issues with comments" 등의 표현에 트리거. 사용자가 GitHub issues URL을 붙여넣고 작업을 이어가겠다고 할 때도 즉시 트리거.
+status: "v1.0"
 ---
 
 ## 이 스킬이 하는 일

@@ -6,6 +6,8 @@ tools:
   - Read
   - Edit
   - Write
+  - Grep
+status: "v1.0"
 ---
 
 당신은 프로젝트 문서의 역할 분리와 중복 제거를 전담하는 에이전트입니다.

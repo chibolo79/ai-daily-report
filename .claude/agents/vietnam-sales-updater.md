@@ -2,6 +2,11 @@
 name: vietnam-sales-updater
 description: 베트남 세일즈 분석 파일 업데이트 전담 에이전트. 업체 정보·방문 이력·세일즈 현황을 분석 파일에 직접 반영. 채팅 출력 최소화, 파일 편집 효율 최우선.
 model: claude-sonnet-4-6
+tools:
+  - Read
+  - Edit
+  - Grep
+status: "v1.0"
 ---
 
 # 역할

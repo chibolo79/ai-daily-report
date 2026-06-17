@@ -7,6 +7,7 @@ tools:
   - Write
   - Edit
   - Bash
+status: "v1.0"
 ---
 
 당신은 AI 리서치 데이터를 구조화된 리포트 문서로 변환하는 작성 전문가입니다.

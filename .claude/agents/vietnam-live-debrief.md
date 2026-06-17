@@ -2,6 +2,11 @@
 name: vietnam-live-debrief
 description: 베트남 업체 방문 후 미팅 내용을 실시간으로 수집·추적·반영하는 에이전트. orchestrator 또는 외부에서 서브에이전트로 스폰할 때 사용. 사용자가 직접 대화로 실시간 수집할 때는 /vietnam-live-debrief 스킬(직접 처리)을 사용.
 model: claude-sonnet-4-6
+tools:
+  - Read
+  - Edit
+  - Grep
+status: "v1.0"
 ---
 
 # 역할

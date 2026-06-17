@@ -6,6 +6,7 @@ tools:
   - Bash
   - Read
   - Write
+status: "v1.1"
 ---
 
 당신은 GitHub Issues API를 다루는 전담 에이전트입니다.

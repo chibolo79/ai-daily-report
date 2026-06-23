@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-23 (Wire Client information.xlsx 반영 — MSC 담당자·수요 업데이트, LONGTECH 이메일·수요량 업데이트, EAST STAR 담당자·이메일·수요 업데이트, AIKO SPRING 신규 추가)  
+**최종 업데이트**: 2026-06-23 (AIKO SPRING — 담당자 Ms. Tuyen·웹사이트·주소·연락처 업데이트, 중복 섹션 통합)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -572,24 +572,26 @@
 
 ---
 
-### AIKO SPRING VIETNAM
+### AIKO SPRING VIETNAM CO., LTD
 | 항목 | 내용 |
 |------|------|
-| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **담당자** | Ms. Tuyen / Mobile: +84-988-772-217 |
 | **주소** | Lot CN 04+08, Dong Van III Supporting Industrial Park Phase I, Dong Van Ward, Duy Tien Town, Ha Nam, Vietnam ※ 일부 자료 Ninh Binh 표기 혼선 — 방문 시 Map Pin 확인 필요 |
 | **연락처** | TEL: +84-226-396-6894 / FAX: +84-226-396-6895 |
 | **이메일** | gyomu@aiko-bane.com |
 | **홈페이지** | https://www.aiko-bane.com |
 
-**회사 개요**: 일본계 정밀 spring maker. Ha Nam / Dong Van III IP 소재.
+**회사 개요**: 일본계 정밀 spring maker (모회사: Aiko Spring Co., Ltd. Japan). Ha Nam / Dong Van III IP 소재.
 
 **세일즈 현황**:
-- 주력 품목: STS NI-CO/S-CO, SWP-A/B, SWC (추정)
-- 일본계 특성상 4M 설비 보유 가능성 있음
+- 수요 품목: SUS304 WPB S-Co 0.2~0.45mm
+- 수요량: 100 tons/year 이상
+- 이슈: 신규 소스 적용을 위한 4M 승인 시간 필요
+- 이슈: DSR STS wire 가격이 KOS Vietnam 대비 높음 → 가격 경쟁력 확보 필요
 
 **방문 이력**: 미방문 (이번 출장 첫 방문)
 
-**영업 포인트**: 첫 방문 시 wire grade·용도·현 공급처 파악 우선. 4M 설비 보유 여부 확인.
+**영업 포인트**: STS 100t/year 이상 대형 잠재 거래처. 4M 승인 지원 계획 제안. KOS Vietnam 대비 가격 경쟁력 방안 검토 필수.
 
 ---
 
@@ -673,29 +675,6 @@
 **방문 이력**: 미방문 (이번 출장 첫 방문)
 
 **영업 포인트**: 유통 구조 및 취급 품목 확인. 리드타임 준수 조건으로 파트너십 가능성 타진. Piano wire 라인업 제안 우선.
-
----
-
-### AIKO SPRING VIETNAM CO., LTD
-| 항목 | 내용 |
-|------|------|
-| **담당자** | Ms. Tuyen |
-| **주소** | (미확인 — 방문 시 확인 필요) |
-| **연락처** | +84-988-772-217 |
-| **이메일** | (미확인 — 방문 시 확인 필요) |
-| **홈페이지** | (미확인 — 방문 시 확인 필요) |
-
-**회사 개요**: Spring 제조업체.
-
-**세일즈 현황**:
-- 수요 품목: SUS304 WPB S-Co 0.2~0.45mm
-- 수요량: 100 tons/year 이상
-- 이슈: 신규 소스 적용을 위한 4M 승인 시간 필요
-- 이슈: DSR STS wire 가격이 KOS Vietnam 대비 높음 → 가격 경쟁력 확보 필요
-
-**방문 이력**: 미방문 (이번 출장 첫 방문)
-
-**영업 포인트**: STS 100t/year 이상 대형 잠재 거래처. 4M 승인 지원 계획 제안. KOS Vietnam 대비 가격 경쟁력 방안 검토 필수.
 
 ---
 

@@ -41,6 +41,11 @@
 **용도**: 루트에 저장된 이미지 자동 분류. 명함 → 크롭·파일명변경·business_cards/ 이동·분석파일 담당자 업데이트. 현장사진 → images/YYYY-MM-DD/ 이동  
 **상세**: [SKILL.md](.claude/skills/image-organizer/SKILL.md)
 
+### `/receipt-organizer`
+**트리거**: "영수증 정리", "영수증 올렸어", "영수증 분류해줘", "영수증 합계 내줘"  
+**용도**: 출장 영수증 이미지 비전 읽기 → 현금/카드 분류 → 파일명 표준화(날짜_시간_용도_업체_금액) → 폴더 이동 → USD 환산 합계  
+**상세**: [SKILL.md](.claude/skills/receipt-organizer/SKILL.md)
+
 ### `vietnam-sales-updater` (서브에이전트)
 **트리거**: "업체 정보 업데이트", "방문 이력 추가", "세일즈 현황 수정", "업체 섹션 추가", `회사명 / 항목 / 내용` 형식 입력  
 **용도**: 분석 파일 직접 편집 전담 (단건 수정에 특화)  

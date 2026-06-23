@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-17 19:30 (ADVANEX 미팅 디브리핑 반영 — Cast&Helix 대응, 이형선 Corner Radius 팔로업, Medical 30% 포트폴리오, Eric 신규 승진, Advanex India BIS)  
+**최종 업데이트**: 2026-06-23 (Wire Client information.xlsx 반영 — MSC 담당자·수요 업데이트, LONGTECH 이메일·수요량 업데이트, EAST STAR 담당자·이메일·수요 업데이트, AIKO SPRING 신규 추가)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -445,13 +445,15 @@
 
 **세일즈 현황**:
 - Oristar 통해 STS, copper strip 거래 중
-- HC wire(high carbon wire)는 별도 채널 — CAMEX 경유 추정
-- 월 wire 사용량 약 50톤 (채널 분리 구조로 전체 파악 어려움)
-- wire 공급 채널 분리 여부 재확인 필요
+- 수요 품목: SWC / Piano wire 0.2~1mm, SUS304 Ni-Co 0.2~0.6mm (신규 프로젝트)
+- 수요량: SWC 150 tons/year, Piano wire 150 tons/year, STS wire 미예측
+- 담당: Ms. Hoa (Purchasing Executive) / muaban.lt@longtech.com.vn
+- 이슈: 대부분 중국산 제품 사용 중 (CNC Newtech보다 큰 물량). 일부 소규모 사이즈만 공급 중
+- HC wire 구매 채널 분리 구조 재확인 필요
 
 **방문 이력**: 미방문 (이번 출장 첫 방문)
 
-**영업 포인트**: HC wire 구매 채널 구조 파악. Oristar 채널로의 통합 또는 직거래 가능성 검토.
+**영업 포인트**: SWC·Piano wire 합산 300t/year 대형 잠재 거래처. 중국산 전환 공략 — 품질·납기 차별화 필요. STS Ni-Co 신규 프로젝트 진입 기회 선점.
 
 ---
 
@@ -655,40 +657,68 @@
 ### MSC
 | 항목 | 내용 |
 |------|------|
-| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **담당자** | Mrs. Yen |
 | **주소** | H01 L24 An Phu Shop Villa, Duong Noi Urban Area, Duong Noi Ward, Ha Dong District, Hanoi, Vietnam |
 | **연락처** | 0934-566-061 (방문 시 재확인) |
-| **이메일** | infomsc@gmail.com (방문 시 재확인) |
+| **이메일** | yenhoang.msc@gmail.com |
 | **홈페이지** | https://msc.net.vn |
 
-**회사 개요**: Trading Company (제조사 아님). 소규모 유통사로 판단. 와이어 포함 다품목 유통.
+**회사 개요**: Materials Supply Chain Ltd., Co. Trading Company (제조사 아님). 소규모 유통사로 판단. 와이어 포함 다품목 유통. Claudio → DSR → Oristar 경유 연결.
 
 **세일즈 현황**:
-- 직접 거래 가능성보다 파트너/유통 채널 가능성 중심 검토
+- 수요 품목: Piano wire 0.5mm ~ 3mm / 연간 15~20 tons
+- 전체 예상 수요: 50~100 tons (예측치)
+- 이슈: Lead time 약 2개월 필요, 장기 Forecast 없음
 
 **방문 이력**: 미방문 (이번 출장 첫 방문)
 
-**영업 포인트**: 유통 구조 및 취급 품목 확인. 파트너십 가능성 타진.
+**영업 포인트**: 유통 구조 및 취급 품목 확인. 리드타임 준수 조건으로 파트너십 가능성 타진. Piano wire 라인업 제안 우선.
+
+---
+
+### AIKO SPRING VIETNAM CO., LTD
+| 항목 | 내용 |
+|------|------|
+| **담당자** | Ms. Tuyen |
+| **주소** | (미확인 — 방문 시 확인 필요) |
+| **연락처** | +84-988-772-217 |
+| **이메일** | (미확인 — 방문 시 확인 필요) |
+| **홈페이지** | (미확인 — 방문 시 확인 필요) |
+
+**회사 개요**: Spring 제조업체.
+
+**세일즈 현황**:
+- 수요 품목: SUS304 WPB S-Co 0.2~0.45mm
+- 수요량: 100 tons/year 이상
+- 이슈: 신규 소스 적용을 위한 4M 승인 시간 필요
+- 이슈: DSR STS wire 가격이 KOS Vietnam 대비 높음 → 가격 경쟁력 확보 필요
+
+**방문 이력**: 미방문 (이번 출장 첫 방문)
+
+**영업 포인트**: STS 100t/year 이상 대형 잠재 거래처. 4M 승인 지원 계획 제안. KOS Vietnam 대비 가격 경쟁력 방안 검토 필수.
 
 ---
 
 ### EAST STAR PRINTING VIETNAM
 | 항목 | 내용 |
 |------|------|
-| **담당자** | (미확인 — 방문 시 확인 필요) |
+| **담당자** | Ms. Huong |
 | **주소** | Thon Trac Chau, Thanh Dong Ward, Hai Phong City, Vietnam ※ 일부 자료 An Thuong Commune, Hai Duong City 표기 혼선 — 방문 시 Google Map Pin 확인 필수 |
 | **연락처** | 0978-561-703 (임시 — 방문 시 재확인) |
-| **이메일** | (미확인 — 방문 시 확인 필요) |
+| **이메일** | vnngukim@gmail.com |
 | **홈페이지** | (확인 불가) |
 
-**회사 개요**: 인쇄·포장 업체. Wire 업체가 아님. DSR WIRE 사용 연결고리 불명확.
+**회사 개요**: 인쇄·포장 업체. Spring wire 사용 업체.
 
 **세일즈 현황**:
-- Wire 사용 용도 및 수요 미파악
+- 수요 품목: Piano wire SWP-B 0.2mm / 0.45mm, SUS304 WPB S-Co 0.3~0.45mm
+- 수요량: Piano wire 60 tons/year, STS wire 30 tons/year
+- 이슈: 신규 소스·프로젝트용 샘플 필요 + 4M 승인 프로세스 기간 소요
+- 이슈: DSR STS wire 가격이 KOS Vietnam 대비 높음 → 가격 경쟁력 확보 필요
 
 **방문 이력**: 미방문 (이번 출장 첫 방문)
 
-**영업 포인트**: 방문 시 DSR wire 사용 경위 및 용도 확인 필수. 연결고리 불명확하면 재방문 우선순위 재검토.
+**영업 포인트**: Piano wire 60t + STS 30t 연간 수요 확인. 샘플 제공 및 4M 승인 지원 계획 수립. STS 가격 경쟁력 방안 검토 필요.
 
 ### 호치민 방문 업체 (2024년 신규)
 

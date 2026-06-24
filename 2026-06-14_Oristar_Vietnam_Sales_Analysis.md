@@ -621,13 +621,12 @@ MS. TUYEN과 첫 미팅을 통해 SUS304 WPB S-CO 0.20-0.45MM 수요 및 연간 
 
 **세일즈 현황**:
 - **DSR 제품 사용 확인** ✅
-  - SWPB (Piano Wire): 3가지 사이즈 사용 중 → **1.6mm 확인** (나머지 2종 미확인)
-  - SWOSC-V: **2.2mm, 2.4mm** 사용 중
-  - OT Wire: 사용 중 (coil 사이즈 이슈 있음)
-- **Aluminum Plate**: Oristar 공급 중
-- **Copper**: Oristar 공급 중
-- **전체 Wire 수요 (예상)**: 2026년 8월부터 전 품목 합산 **약 2톤/월** 예상
-- **Oristar 공급 규모 (전 품목 합산)**: 현재 약 300톤/년 → 2026년 목표 약 500톤/년
+  - SWPB (PIANO WIRE): 1.6MM 외 2종 사용 중
+  - SWOSC-V (OT WIRE): 2.2MM, 2.4MM 사용 중 (COIL 사이즈 이슈 있음)
+- **ALUMINUM PLATE**: ORISTAR 공급 중
+- **COPPER**: ORISTAR 공급 중
+- **전체 WIRE 수요 (예상)**: 2026년 8월부터 전 품목 합산 약 2톤/월 예상
+- **DSR-ORISTAR 거래 규모 (전 품목 합산)**: 현재 약 300톤/년 → 2026년 목표 약 500톤/년 (MR. DAT 답변 기준)
 
 **서플라이 체인**: `DSR → Oristar → Delboel/Deltech → Spring 부품 → Automotive / Motorcycle` (고객사명 공개 거부)
 

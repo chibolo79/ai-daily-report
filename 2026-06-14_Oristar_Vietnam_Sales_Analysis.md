@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-23 (AIKO SPRING — 담당자 Ms. Tuyen·웹사이트·주소·연락처 업데이트, 중복 섹션 통합)  
+**최종 업데이트**: 2026-06-24 (ADVANEX — 회사 개요(설립·자본·직원·해외법인) 추가, 품질 이슈 이력 상세화, 방문 이력 3차 정리)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -245,35 +245,39 @@
 | **연락처** | TEL: +84-2223-626-887 |
 | **홈페이지** | https://www.advanex.co.jp |
 
-**회사 개요**: 일본계 spring maker. 아시아 전역 (Singapore, 베트남, 중국, 태국 등)에 생산 거점 보유. 자동차 + 피아노·바이올린 현 분야 수요 보유.
+**회사 개요**: 일본계 precision spring maker. 1946년 설립, 자본금 1억 엔. 연결 직원 1,913명 / 단독 363명 (2026년 3월 기준). 해외 법인 14개사 (아시아 10, 북미 2, 유럽 2). 싱가포르·베트남·중국·태국 등 아시아 전역 생산 거점 보유. 제품군: Wire Springs, Flat Springs, Deep Drawings, Insert Moldings, Spring Assemblies. 주요 고객사: **KYOCERA, CANON** (최대 거래처). 자동차·Medical·이륜차·피아노·바이올린 현 분야 수요 보유. IATF 인증 취득.
 
 **세일즈 현황**:
 - 주력 품목: **STS NI-CO/S-CO** — 월 약 10톤 수준, KOS 및 일본산 병행 사용 중
-- 주요 Size: DIA 0.12~1.60MM, main size DIA 0.40~0.70MM
+- 주요 SIZE: DIA 0.12~1.60MM, MAIN SIZE DIA 0.40~0.70MM
 - 피아노·바이올린 현 분야: 월 약 10톤 수준
 - SWC 2.00MM, 2.30MM: 월 5~6톤 추가 수요 가능성
 - 2023년 전체 wire 사용량: 약 14~15톤/월, 약 10% 증가 추세
-- SWC 2.30MM: 일본계에서 DSR로 전환 진행 중 (자동차 rear wiping machine 용도, MITSUBA 프로젝트)
-- 2024년 SWP-B 0.70MM 샘플 진행 + flat SWP-B 0.635×0.635MM T/S 요청 이력 있음
-- KYOCERA, CANON 프로젝트 관련 신규 수요는 아직 진입 못한 상태
-- **포트폴리오 구성 (2026-06-17 확인)**: Automotive 약 50%, Medical 약 30%+, 기타 20% 미만 — Medical 비중 급성장 중
-- **SWC 2.3MM 현황**: 오더 증량 진행 중 (2024년 대비 반전, 2026-06-17 확인)
-- **Advanex India BIS**: DSR 공급 가능·서포트 가능 확인. BIS(Bureau of Indian Standards) 인증 관련 지원 의향 전달
+- SWC 2.30MM: 일본계에서 DSR로 전환 진행 중 (자동차 REAR WIPING MACHINE 용도, MITSUBA 프로젝트)
+- **포트폴리오 구성 (2026-06-17 확인)**: AUTOMOTIVE 약 50%, MEDICAL 약 30%+, 기타 20% 미만 — MEDICAL 비중 급성장 중
+- **SWC 2.30MM 현황**: 오더 증량 진행 중 (2024년 대비 반전, 2026-06-17 확인)
+- **Advanex India BIS**: DSR 공급 가능·서포트 가능 확인. BIS(BUREAU OF INDIAN STANDARDS) 인증 관련 지원 의향 전달
 - **STS VINA**: 미팅 중 언급됨 (관계·현황 상세 미확인 — 추가 확인 필요)
 - **기술 자료 공유**: DSR이 Advanex에 기술 지원 → 많은 도움이 된다고 평가
 
+**품질 이슈 이력**:
+- **UH1330P3** (SH M WIRE U. 0.762×0.508MM, CANON향): 납기 지연 + 품질 불만 발생
+- **TH1735P2** (SWP-B 0.70MM): 열처리 후 갈색 변색 — 수입산 ROD 사용 가능성
+- **FLAT SWP-B 0.635×0.635MM**: T/S 상향 요청 (245~271 → 260~270 KG/MM²) — 현재 최대치라 균일 품질 관리로 답변
+- **CAST & HELIX 클레임**: 반복 클레임 발생 시 코일별 전수검사 실시로 품질 확보 약속 (2026-06-17)
+- AIR 선적 대응 중 (ORISTAR 비용 전액 부담 — 구조적 개선 필요)
+
 **방문 이력**:
-- **2023년 3월**: 월 14~15톤. SWC 2.3MM 일본산 → DSR 전환 목표. Mitsuba 자동차 프로젝트. Kyocera 하이퐁 STS 신규 납기 대응 성공. IATF 인증 취득
-- **2024년 9월**: 2023년 1월~2024년 3월 SWC 2.3MM 실제 발주 총 21.6톤(기대치 하회). 납기 지연 + 품질 이슈(변색, T/S 불만) 복수 발생. AIR 선적으로 Oristar가 비용 부담 중 — 구조적 개선 필요
-- **2026년 6월 17일 (Nagumo General Director 포함 전체 미팅)**:
-  - Director(Nagumo Kazuhiro) 직접 참석. 분위기 매우 긍정적. 상해 근무 이력, 중국어·영어 가능.
-  - SWC 2.3MM 오더 증량 중 — 과거 이슈 대비 반전 확인
+- **2023년 3월 (1차)**: 월 14~15톤. SWC 2.30MM 일본산 → DSR 전환 목표. MITSUBA 자동차 프로젝트. KYOCERA 하이퐁 STS 신규 납기 대응 성공. IATF 인증 취득
+- **2024년 9월 (2차)**: SWC 2.30MM 2023년 1월~2024년 3월 실제 발주 총 21.6톤 (기대치 하회). 품질 이슈 복수 발생 (UH1330P3, TH1735P2, FLAT WIRE T/S). AIR 선적 ORISTAR 비용 부담 지속 — 구조적 개선 필요
+- **2026년 6월 17일 (3차, NAGUMO GENERAL DIRECTOR 포함 전체 미팅)**:
+  - DIRECTOR(NAGUMO KAZUHIRO) 직접 참석. 분위기 매우 긍정적. 상해 근무 이력, 중국어·영어 가능.
+  - SWC 2.30MM 오더 증량 중 — 과거 이슈 대비 반전 확인
   - Advanex India BIS 지원 가능 답변 (DSR 서포트 의향 전달)
   - 원자재 가격 변동 및 현재 비즈니스 트렌드 공유
-  - **Cast & Helix 클레임 대응**: 생산 공정 또는 원자재 문제 가능성 모두 열어두고, 반복 클레임 발생 시 **코일별 전수검사** 실시로 품질 확보 약속
-  - **이형선(Flat Wire) Corner Radius**: Advanex 요청 — 반드시 확인해서 공유 필요 (🔴 팔로업 필수)
-  - **클레임 대응 프로세스**: Spring 도면을 클레임 시 함께 제공하면 원인 파악·대응에 큰 도움 → 향후 클레임 접수 시 도면 수령 프로세스 수립 필요
-  - Eric (Factory Manager) 신규 승진 확인 — 향후 커뮤니케이션 창구로 활용 가능
+  - **이형선(FLAT WIRE) CORNER RADIUS**: Advanex 요청 — 반드시 확인해서 공유 필요 (🔴 팔로업 필수)
+  - **클레임 대응 프로세스**: SPRING 도면을 클레임 시 함께 제공하면 원인 파악·대응에 큰 도움 → 향후 클레임 접수 시 도면 수령 프로세스 수립 필요
+  - ERIC (FACTORY MANAGER) 신규 승진 확인 — 향후 커뮤니케이션 창구로 활용 가능
   - DSR 기술 자료 지원이 Advanex에 높이 평가됨 (관계 강화 포인트)
 
 **영업 포인트**:

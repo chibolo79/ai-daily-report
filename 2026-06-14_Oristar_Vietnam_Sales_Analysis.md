@@ -1,7 +1,7 @@
 # Oristar — 베트남 시장 세일즈 분석
 
 **작성일**: 2026-06-14  
-**최종 업데이트**: 2026-06-24 (ADVANEX — 회사 개요(설립·자본·직원·해외법인) 추가, 품질 이슈 이력 상세화, 방문 이력 3차 정리)  
+**최종 업데이트**: 2026-06-24 (ADVANEX — 전면 재작성: 결재권자 열람 기준 서술 강화, 영문 대문자 통일, 품질이슈·방문이력 상세화)  
 **데이터 기준**: 2020 ~ 2026 H1 (Order Q'ty, KG)
 
 ---
@@ -236,58 +236,55 @@
 ### ADVANEX VN ⭐ STS 핵심 거래처
 | 항목 | 내용 |
 |------|------|
-| **담당자 (2026 현재)** | **Nagumo Kazuhiro** (General Director / 総括管理者) — Mobile: +84-913-071-308 / kazuhiro_nagumo@advanex.co.jp. 상해 근무 이력, 중국어·영어 가능. |
-| **담당자 (2026 현재)** | **Yonezawa Ichiro** (Business Development Manager) — Mobile: +84-981-548-399 / ichiro_yonezawa@advanex.co.jp |
-| **담당자 (2026 현재)** | **Nguyễn Thị Hiền** (Logistics Manager) — Tel: +84-2223-626-887 / HP: +84-943-802-773 / Smile-Hien@advanex.com.vn |
-| **담당자 (2026 현재)** | **Nguyễn Xuân Tập, Eric** (Factory Manager) — HP: +84-914-106-725 / Eric-Tap@advanex.com.vn ※ 2026년 6월 신규 승진 |
-| **담당자 (2019 기준)** | Mr. Sony Davadas (Factory Manager), Mr. Hoang Duc Thinh (QA & Engineering Manager), Mr. Tran Trung Hoang (Planning & Logistics Manager) |
-| **주소** | No.18, Road 11, VSIP Bac Ninh Integrated Township and Industrial Park, Dai Dong Commune, Bac Ninh, Vietnam |
+| **담당자** | NAGUMO KAZUHIRO (GENERAL DIRECTOR) — Mobile: +84-913-071-308 / kazuhiro_nagumo@advanex.co.jp |
+| **담당자** | YONEZAWA ICHIRO (BUSINESS DEVELOPMENT MANAGER) — Mobile: +84-981-548-399 / ichiro_yonezawa@advanex.co.jp |
+| **담당자** | NGUYEN THI HIEN (LOGISTICS MANAGER) — Tel: +84-2223-626-887 / HP: +84-943-802-773 / Smile-Hien@advanex.com.vn |
+| **담당자** | NGUYEN XUAN TAP, ERIC (FACTORY MANAGER) — HP: +84-914-106-725 / Eric-Tap@advanex.com.vn ※ 2026년 6월 신규 승진 |
+| **주소** | NO.18, ROAD 11, VSIP BAC NINH INTEGRATED TOWNSHIP AND INDUSTRIAL PARK, DAI DONG COMMUNE, BAC NINH, VIETNAM |
 | **연락처** | TEL: +84-2223-626-887 |
 | **홈페이지** | https://www.advanex.co.jp |
 
-**회사 개요**: 일본계 precision spring maker. 1946년 설립, 자본금 1억 엔. 연결 직원 1,913명 / 단독 363명 (2026년 3월 기준). 해외 법인 14개사 (아시아 10, 북미 2, 유럽 2). 싱가포르·베트남·중국·태국 등 아시아 전역 생산 거점 보유. 제품군: Wire Springs, Flat Springs, Deep Drawings, Insert Moldings, Spring Assemblies. 주요 고객사: **KYOCERA, CANON** (최대 거래처). 자동차·Medical·이륜차·피아노·바이올린 현 분야 수요 보유. IATF 인증 취득.
+**회사 개요**:
+ADVANEX는 1946년에 설립된 일본계 정밀 SPRING 전문 제조업체로, 본사는 일본에 있으며 자본금 1억 엔 규모의 상장사입니다. 2026년 3월 기준 연결 직원 수는 1,913명(단독 363명)이며, 아시아 10개사·북미 2개사·유럽 2개사 등 총 14개 해외 법인을 운영하는 글로벌 기업입니다. 베트남을 포함하여 싱가포르·중국·태국 등 아시아 전역에 생산 거점을 보유하고 있습니다.
+
+주요 제품군은 WIRE SPRINGS, FLAT SPRINGS, DEEP DRAWINGS, INSERT MOLDINGS, SPRING ASSEMBLIES이며, 최대 고객사는 **KYOCERA**와 **CANON**입니다. 자동차(AUTOMOTIVE)·의료기기(MEDICAL)·이륜차·피아노 및 바이올린 현(弦) 등 다양한 산업에 공급하고 있으며, IATF 인증을 취득한 품질 관리 체계를 갖추고 있습니다.
+
+베트남 법인(ADVANEX VN)은 BAC NINH VSIP 산업단지 내에 위치하며, 2026년 6월 기준 포트폴리오는 AUTOMOTIVE 약 50%, MEDICAL 약 30% 이상, 기타 20% 미만으로 구성되어 있습니다. 특히 MEDICAL 부문 비중이 급격히 성장하고 있어 고품질 STS WIRE 수요가 지속 확대될 것으로 전망됩니다.
 
 **세일즈 현황**:
-- 주력 품목: **STS NI-CO/S-CO** — 월 약 10톤 수준, KOS 및 일본산 병행 사용 중
-- 주요 SIZE: DIA 0.12~1.60MM, MAIN SIZE DIA 0.40~0.70MM
-- 피아노·바이올린 현 분야: 월 약 10톤 수준
-- SWC 2.00MM, 2.30MM: 월 5~6톤 추가 수요 가능성
-- 2023년 전체 wire 사용량: 약 14~15톤/월, 약 10% 증가 추세
-- SWC 2.30MM: 일본계에서 DSR로 전환 진행 중 (자동차 REAR WIPING MACHINE 용도, MITSUBA 프로젝트)
-- **포트폴리오 구성 (2026-06-17 확인)**: AUTOMOTIVE 약 50%, MEDICAL 약 30%+, 기타 20% 미만 — MEDICAL 비중 급성장 중
-- **SWC 2.30MM 현황**: 오더 증량 진행 중 (2024년 대비 반전, 2026-06-17 확인)
-- **Advanex India BIS**: DSR 공급 가능·서포트 가능 확인. BIS(BUREAU OF INDIAN STANDARDS) 인증 관련 지원 의향 전달
-- **STS VINA**: 미팅 중 언급됨 (관계·현황 상세 미확인 — 추가 확인 필요)
-- **기술 자료 공유**: DSR이 Advanex에 기술 지원 → 많은 도움이 된다고 평가
+- **주력 공급 품목**: STS NI-CO/S-CO — 현재 월 약 10톤 수준을 공급 중이며, ADVANEX VN은 기존에 KOS(한국)산 및 일본산을 병행 사용하고 있습니다. DSR이 경쟁 중인 주요 품목입니다.
+- **공급 SIZE 범위**: DIA 0.12~1.60MM (MAIN SIZE DIA 0.40~0.70MM). 피아노·바이올린 현 분야 wire 수요도 월 약 10톤 수준으로 별도 존재합니다.
+- **SWC 수요**: SWC 2.00MM 및 2.30MM에서 월 5~6톤 추가 수요 가능성이 있습니다. 2023년 기준 전체 WIRE 사용량은 월 약 14~15톤 수준이며 약 10% 성장 추세를 보였습니다.
+- **SWC 2.30MM 전환 프로젝트**: 자동차 REAR WIPING MACHINE 용도(MITSUBA 프로젝트)로 기존 일본산에서 DSR로 전환을 추진해왔으나, 2023년 1월~2024년 3월 실제 발주 총 21.6톤에 그쳐 목표 대비 저조하였습니다. 그러나 2026년 6월 방문 시 오더가 다시 증량되고 있음을 확인하였습니다.
+- **ADVANEX INDIA BIS 지원**: 인도 법인의 BIS(BUREAU OF INDIAN STANDARDS) 인증 관련하여 DSR의 공급 및 기술 지원이 가능함을 확인하고 의향을 전달하였습니다. 향후 인도 법인 납품으로 이어질 가능성이 있습니다.
+- **STS VINA 언급**: 미팅 중 STS VINA가 언급되었으나 관계 및 현황 상세 내용은 미확인 상태로 추가 확인이 필요합니다.
+- **기술 자료 공유**: DSR이 ADVANEX에 지속적으로 기술 자료를 지원하고 있으며, ADVANEX 측에서 "많은 도움이 된다"고 높이 평가하고 있습니다. 이는 단순 가격 경쟁을 넘어 파트너 관계를 형성하는 중요한 차별화 포인트입니다.
 
 **품질 이슈 이력**:
-- **UH1330P3** (SH M WIRE U. 0.762×0.508MM, CANON향): 납기 지연 + 품질 불만 발생
-- **TH1735P2** (SWP-B 0.70MM): 열처리 후 갈색 변색 — 수입산 ROD 사용 가능성
-- **FLAT SWP-B 0.635×0.635MM**: T/S 상향 요청 (245~271 → 260~270 KG/MM²) — 현재 최대치라 균일 품질 관리로 답변
-- **CAST & HELIX 클레임**: 반복 클레임 발생 시 코일별 전수검사 실시로 품질 확보 약속 (2026-06-17)
-- AIR 선적 대응 중 (ORISTAR 비용 전액 부담 — 구조적 개선 필요)
+ADVANEX VN과의 거래 과정에서 아래와 같은 품질 및 납기 이슈가 발생하였습니다. 신뢰 회복과 재발 방지 체계 수립이 중장기 관계 유지의 핵심 과제입니다.
+
+- **UH1330P3** (SH M WIRE U. 0.762×0.508MM, CANON향): 납기 지연과 함께 품질 불만이 동시에 제기된 사례입니다. CANON이 최대 고객사인 ADVANEX에 납품되는 품목이므로 영향도가 높습니다.
+- **TH1735P2** (SWP-B 0.70MM): 열처리 후 갈색 변색이 발생하였으며, 수입산 ROD 사용에 따른 원인 가능성이 있는 것으로 파악되었습니다.
+- **FLAT SWP-B 0.635×0.635MM**: ADVANEX 측이 TENSILE STRENGTH(인장강도) 관리 범위 상향(245~271 → 260~270 KG/MM²)을 요청하였으나, 현재 해당 SIZE의 기술적 최대치에 해당하여 균일 품질 관리를 통해 대응하는 것으로 답변하였습니다.
+- **CAST & HELIX 클레임**: 반복적인 클레임이 발생하고 있으며, 생산 공정 또는 원자재 문제 가능성을 모두 열어두고 검토 중입니다. 2026년 6월 방문 시, 반복 클레임 발생 시 코일 단위 전수검사를 실시하여 품질을 확보하겠다고 약속하였습니다.
+- **AIR 선적 대응**: 납기 이슈 발생 시 AIR 선적으로 긴급 대응하고 있으나, 현재 그 비용을 ORISTAR가 전액 부담하고 있는 구조로 지속 가능하지 않습니다. 근본적인 구조 개선이 필요합니다.
 
 **방문 이력**:
-- **2023년 3월 (1차)**: 월 14~15톤. SWC 2.30MM 일본산 → DSR 전환 목표. MITSUBA 자동차 프로젝트. KYOCERA 하이퐁 STS 신규 납기 대응 성공. IATF 인증 취득
-- **2024년 9월 (2차)**: SWC 2.30MM 2023년 1월~2024년 3월 실제 발주 총 21.6톤 (기대치 하회). 품질 이슈 복수 발생 (UH1330P3, TH1735P2, FLAT WIRE T/S). AIR 선적 ORISTAR 비용 부담 지속 — 구조적 개선 필요
-- **2026년 6월 17일 (3차, NAGUMO GENERAL DIRECTOR 포함 전체 미팅)**:
-  - DIRECTOR(NAGUMO KAZUHIRO) 직접 참석. 분위기 매우 긍정적. 상해 근무 이력, 중국어·영어 가능.
-  - SWC 2.30MM 오더 증량 중 — 과거 이슈 대비 반전 확인
-  - Advanex India BIS 지원 가능 답변 (DSR 서포트 의향 전달)
-  - 원자재 가격 변동 및 현재 비즈니스 트렌드 공유
-  - **이형선(FLAT WIRE) CORNER RADIUS**: Advanex 요청 — 반드시 확인해서 공유 필요 (🔴 팔로업 필수)
-  - **클레임 대응 프로세스**: SPRING 도면을 클레임 시 함께 제공하면 원인 파악·대응에 큰 도움 → 향후 클레임 접수 시 도면 수령 프로세스 수립 필요
-  - ERIC (FACTORY MANAGER) 신규 승진 확인 — 향후 커뮤니케이션 창구로 활용 가능
-  - DSR 기술 자료 지원이 Advanex에 높이 평가됨 (관계 강화 포인트)
+
+- **2023년 3월 (1차 방문)**: 당시 월 사용량 약 14~15톤 수준을 확인하였으며, SWC 2.30MM을 기존 일본산에서 DSR로 전환하는 것을 목표로 협의를 시작하였습니다. MITSUBA 자동차 프로젝트 관련 수요를 파악하였고, KYOCERA 하이퐁 법인에 대한 STS 신규 프로젝트에서 빠른 납기 대응으로 수주에 성공하였습니다. 또한 ADVANEX VN이 IATF 인증을 취득하였음을 확인하였습니다.
+
+- **2024년 9월 (2차 방문)**: 2023년 1월부터 2024년 3월까지 SWC 2.30MM 실제 발주량이 총 21.6톤에 그쳐 당초 목표치를 크게 하회하였음을 확인하였습니다. 이 기간 중 납기 지연(UH1330P3)과 품질 이슈(TH1735P2 변색, FLAT WIRE T/S 불만) 등 복수의 클레임이 발생하였습니다. 긴급 대응을 위해 AIR 선적을 반복하고 있으나 ORISTAR가 비용을 전액 부담하고 있는 상황으로, 근본적인 품질·납기 안정화가 시급함을 재확인하였습니다.
+
+- **2026년 6월 17일 (3차 방문, NAGUMO GENERAL DIRECTOR 포함 전체 미팅)**: GENERAL DIRECTOR NAGUMO KAZUHIRO가 직접 참석한 이례적인 전체 미팅으로, 전반적인 분위기가 매우 긍정적이었습니다. NAGUMO DIRECTOR는 상해 근무 이력이 있으며 중국어와 영어 모두 가능하여 소통이 원활하였습니다. SWC 2.30MM 오더가 다시 증량되고 있어 2024년 대비 관계가 회복 국면에 접어든 것으로 판단됩니다. DSR의 기술 자료 지원에 대해 높이 평가한다는 피드백을 받았으며, ADVANEX INDIA BIS 인증 관련 지원 의향에 대해서도 긍정적인 반응을 확인하였습니다. 다만 이형선(FLAT WIRE) CORNER RADIUS 수치 확인 요청과 클레임 발생 시 SPRING 도면 수령 프로세스 수립 등 팔로업이 필요한 사항이 남아 있습니다. 또한 2026년 6월 ERIC(NGUYEN XUAN TAP)이 FACTORY MANAGER로 신규 승진하였음을 확인하였으며, 향후 실무 커뮤니케이션 창구로 활용할 수 있을 것으로 기대됩니다.
 
 **영업 포인트**:
-- 🔴 **이형선 Corner Radius 수치 확인 → Advanex 공유** (팔로업 필수)
-- 🔴 **클레임 접수 시 Spring 도면 함께 수령** 프로세스 수립
-- Cast & Helix 반복 클레임 → 코일별 전수검사 약속 이행 확인
-- Eric 신임 Factory Manager와 관계 구축 — 기술 소통 창구로 육성
-- Medical 30%+ 비중 → STS NI-CO 추가 수요 파이프라인 발굴
-- Advanex India BIS 지원 → 인도 법인 납품 가능성 후속 확인
-- Canon/Kyocera 신규 프로젝트 파이프라인 및 KOS 경쟁 구도 지속 모니터링
+- 🔴 **이형선(FLAT WIRE) CORNER RADIUS 수치 확인 후 ADVANEX에 공유** — ADVANEX가 직접 요청한 사항으로 반드시 팔로업 필요
+- 🔴 **클레임 접수 시 SPRING 도면 함께 수령하는 프로세스 수립** — 도면 공유가 원인 파악 및 대응 속도를 크게 향상시킬 수 있음
+- CAST & HELIX 반복 클레임 관련 코일별 전수검사 약속을 실제로 이행하고 있는지 지속 확인 필요
+- ERIC 신임 FACTORY MANAGER와 기술 중심의 관계를 구축하여 장기적인 실무 소통 창구로 육성
+- MEDICAL 부문 비중이 30% 이상으로 급성장 중인 만큼, STS NI-CO 추가 수요 파이프라인을 적극 발굴할 것
+- ADVANEX INDIA BIS 인증 지원을 계기로 인도 법인 납품 가능성을 구체화하는 후속 행동 필요
+- CANON·KYOCERA 신규 프로젝트 동향 및 KOS와의 경쟁 구도를 지속 모니터링하여 진입 기회 포착
 
 ---
 

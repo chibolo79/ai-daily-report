@@ -448,7 +448,6 @@ LONGTECH PRECISION VIETNAM은 1973년 대만 신북시에서 KONGDA SPRING으로
 - **SUS304 NI-CO 0.20-0.60MM**: 신규 프로젝트용 수요 발생 — 초기 진입 기회로 적극 공략 필요.
 - **전체 WIRE 수요량**: PIANO WIRE 150톤/년, SWC 150톤/년 — 합산 300톤/년 규모의 대형 잠재 거래처.
 - **현 공급 구조**: 대부분 중국산 제품 사용 중. 일부 소규모 사이즈만 현재 공급 중.
-- **HC WIRE 구매 채널**: 분리 구조 재확인 필요.
 
 **논의사항**:
 첫 방문을 통해 MR. VAN 및 MS. HOA와 미팅을 진행함. PIANO WIRE 연간 150톤, SWC 150톤 수요를 확인하였으나, SWC는 대부분 중국산으로 전환된 상태로 단기 공략이 어려운 구조임. PIANO WIRE 및 SUS304 NI-CO 신규 프로젝트를 주력 진입 채널로 설정함.
@@ -457,7 +456,6 @@ LONGTECH PRECISION VIETNAM은 1973년 대만 신북시에서 KONGDA SPRING으로
 - PIANO WIRE 연간 150톤 — 중국산 대비 품질·납기 차별화 전략으로 공급 확대 공략
 - SUS304 NI-CO 신규 프로젝트 진입 기회 선점 — 초기 샘플 제공 및 승인 지원
 - SWC는 단기 공략 대상에서 제외, PIANO WIRE 및 STS 위주로 집중
-- HC WIRE 구매 채널 분리 구조 재확인
 
 ---
 

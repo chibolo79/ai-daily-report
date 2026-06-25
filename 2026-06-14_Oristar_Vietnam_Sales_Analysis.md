@@ -6,57 +6,47 @@
 
 ---
 
-## 1. Oristar 대리점 기본 정보
+## 1. ORISTAR 대리점 기본 정보
 
-| 항목 | 내용 |
-|------|------|
-| **상담 담당자 (현재)** | Mr. Tuan Anh (Purchaser), Mr. Vu Tri Toan (Purchasing Manager), Mr. Le Minh Quan (Senior Sales Executive), Mr. Tran Tien Dung (Sales Director) |
-| **상담 담당자 (기존)** | Mr. Chinh (Sales Executive), Ms. Phuong (Purchasing Manager) ※ 기존 출장 보고서 기준 |
-| **Vina Taiyo 담당** | Ms. Pham Thi Thu Huong (Business Development Executive) — Mobile: +84-961-377-746 / thuhuong.pham@oristar.vn. 1986년생. 전 ThyssenKrupp 베트남 트레이딩 법인 근무 (알루미늄 플레이트 영업, 현재와 동일 업무). |
-| **Goko Spring 담당** | Mr. Le Nhu Duy (Business Development Executive) — Mobile: +84-982-233-283 / nhuduy.le@oristar.vn. 일본어 가능, 영어 불가. |
-| **Advanex 담당** | Ms. Nguyen Thanh Huyen (Business Unit Manager) — Mobile: +84(0) 981 110 938 / thanhhuyen.nguyen@oristar.vn |
-| **BDE (2026-06-16 명함 수령)** | Mr. Hoang Van Hieu (Business Development Executive) — Mobile: +84(0) 969 560 302 / +84(0) 968 312 772 / hieu.hoang@oristar.vn |
-| **BDE (2026-06-16 명함 수령)** | Ms. Vu Thi Dinh (Business Development Executive) — Mobile: +84 982 288 803 / dinh.vu@oristar.vn |
-| **사무소** | 9F, Detech Tower, No.8 Ton That Thuyet St., Cau Giay Ward, Hanoi, Vietnam |
-| **공장/창고** | Factory: Tan Quang / Van Lam District, Hung Yen Province, Vietnam |
-| **연락처** | TEL: +84-24-3972-0120 / FAX: +84-24-3972-0124 |
-| **이메일** | info@oristar.vn |
-| **홈페이지** | http://www.oristar.vn |
+### 담당자 현황
 
-**회사 개요**: Oristar는 베트남 내 Copper, Aluminum, Steel 소재를 취급하는 종합 소재 유통 및 가공 업체. 코로나 이후 꾸준히 매출 회복 및 거래처 확대. 2022년 코로나 이후 이미 DSR 공장을 방문한 바 있음.
+| 역할 | 이름 | 연락처 | 비고 |
+|------|------|--------|------|
+| PURCHASING MANAGER | MR. VU TRI TOAN | - | 15년 근속. 경영진 마찰로 2026년 6월 이후 퇴사 예정 |
+| PURCHASER | MR. TUAN ANH | - | 현재 구매 담당 |
+| SALES DIRECTOR | MR. TRAN TIEN DUNG | - | |
+| SENIOR SALES EXECUTIVE | MR. LE MINH QUAN | - | |
+| BUSINESS UNIT MANAGER (ADVANEX 담당) | MS. NGUYEN THANH HUYEN | +84-981-110-938 / thanhhuyen.nguyen@oristar.vn | |
+| BDE (VINA TAIYO 담당) | MS. PHAM THI THU HUONG | +84-961-377-746 / thuhuong.pham@oristar.vn | 1986년생. 전 THYSSENKRUPP VN 근무 |
+| BDE (GOKO SPRING 담당) | MR. LE NHU DUY | +84-982-233-283 / nhuduy.le@oristar.vn | 일본어 가능, 영어 불가 |
+| BDE (2026-06-16 명함 수령) | MR. HOANG VAN HIEU | +84-969-560-302 / +84-968-312-772 / hieu.hoang@oristar.vn | |
+| BDE (2026-06-16 명함 수령) | MS. VU THI DINH | +84-982-288-803 / dinh.vu@oristar.vn | |
+| SALES EXECUTIVE (기존) | MR. CHINH | - | 기존 출장 보고서 기준 |
+| PURCHASING MANAGER (기존) | MS. PHUONG | - | 기존 출장 보고서 기준 |
 
-**영업 조직 구조 (2026-06-16 확인)**:
-- 세일즈 직원 약 20명. 품목 전담제 없음 — 담당자 1인이 복수 품목(Copper/Al/Wire 등) 통합 관리
-- 담당 거래처 수: 담당자별 20-50개사 이상. Sales Volume 기준으로 배분되는 것으로 추정
-- Wire 전담 직원 없음 → DSR 입장에서 담당자 교체·이탈 리스크 상시 존재
-- ⚠️ **[인사 리스크]** 직원 근속연수 전반적으로 짧음. Mr. Vu Tri Toan (Sales, 15년 근속 예외적 장기 근무자)도 경영진 마찰로 2026년 6월 이후 퇴사 예정. 담당자 교체 시 거래처 관계·히스토리 단절 가능성 → 정기적으로 복수 담당자 확보 및 관계 유지 필요
+**사무소**: 9F, DETECH TOWER, NO.8 TON THAT THUYET ST., CAU GIAY WARD, HANOI, VIETNAM  
+**공장/창고**: TAN QUANG / VAN LAM DISTRICT, HUNG YEN PROVINCE, VIETNAM  
+**TEL**: +84-24-3972-0120 / **FAX**: +84-24-3972-0124 / **이메일**: info@oristar.vn / **홈페이지**: http://www.oristar.vn
+
+---
+
+### 회사 개요 및 조직 구조
+
+ORISTAR는 베트남 내 COPPER, ALUMINUM, STEEL 소재를 취급하는 종합 소재 유통·가공 업체임. 하노이 본사, 흥옌 제1공장, 호치민 제2공장/지사, 다낭 지사(2020년 설립) 운영 중. 2022년 코로나 이후 DSR 공장을 방문한 바 있으며, 이후 꾸준히 매출 회복 및 거래처를 확대함.
+
+**영업 조직**: 세일즈 직원 약 20명. 품목 전담제 없이 담당자 1인이 COPPER/ALUMINUM/WIRE 등 복수 품목을 통합 관리. 담당 거래처 수는 담당자별 20-50개사 이상으로, SALES VOLUME 기준으로 배분되는 것으로 추정됨. WIRE 전담 직원이 없어 담당자 교체·이탈 시 거래처 관계 및 히스토리 단절 리스크가 상시 존재함. ⚠️ MR. VU TRI TOAN(15년 근속 예외적 장기 근무자)이 경영진 마찰로 2026년 6월 이후 퇴사 예정 — 복수 담당자 확보 및 관계 유지 필요.
 
 **매출 구조 (2026년 6월 확인)**:
+
 | 품목 | 매출 비중 | 비고 |
 |------|----------|------|
-| 구리(Copper) | 30%+ | 한국 풍산과도 거래 중 |
-| 알루미늄 플레이트 | 30%+ | 한국 fournine.kr, 유럽·미국·중국 등 다양한 소싱. 중국산은 품질 낮지만 가격이 절반 수준 → 가격 경쟁력으로 거래 |
-| Wire(DSR 포함) | **5% 미만** | Oristar 전체 매출에서 비중 매우 낮음 |
+| COPPER(구리) | 30%+ | 한국 풍산과도 거래 중 |
+| ALUMINUM PLATE(알루미늄 플레이트) | 30%+ | 한국 FOURNINE.KR, 유럽·미국·중국 등 다양한 소싱. 중국산은 품질 낮지만 가격이 절반 수준 |
+| WIRE (DSR 포함) | 5% 미만 | ORISTAR 전체 매출에서 비중 매우 낮음 |
 
-**경쟁사 동향 (시장 정보)**:
-- **Daichi Group** — KIS(고려제강) 대리점. Oristar 방문하여 wire 영업 진행
-- **Bekaert** — 중국산 제품으로 Oristar 방문하여 영업 진행
-- → DSR 경쟁사들이 Oristar를 적극 공략 중. 관계 유지·강화 필요
+**경쟁사 동향**: DAICHI GROUP(KIS/고려제강 대리점), BEKAERT(중국산) 등이 ORISTAR를 적극 공략 중. 관계 유지·강화 필요.
 
-**지역별 특이사항**:
-- **하노이 본사**: Wire 포함 기존 사업 안정적
-- **호치민 지사**: 알루미늄 플레이트 비즈니스 최근 급성장. Wire는 저가 경쟁 심화로 공략 각도 미확보 — DSR 차별화 포인트 발굴 필요
-
-**방문 이력**:
-- **2023년 3월**: 하노이 사무실 + Hung Yen 창고/공장 방문. 한국산 HC WIRE에 대한 관심 확인. 재고 관리는 체계적이나 클레임 대응 프로세스 미흡
-- **2024년 9월**: 하노이 + 호치민 2공장/지사 + 흥옌 공장 방문. 호치민 지사 최초 Wire 취급 확인 (습도 관리 공간 마련). SWOSC-B 4.20MM 주력 유지. SWC U. 매출 감소 / PIANO WIRE U. 증가 추세 확인
-
-**영업 관리 주요 포인트**:
-- YANGMIN, ADVANEX, MATEX, CAMEX 등 주요 거래처의 프로젝트 현황, 월 소요량, 용도, 타입 변화를 정기적으로 파악하는 체계 구축 필요
-- Wire 매출 비중이 5% 미만 → Oristar 입장에서 우선순위 낮음. DSR이 먼저 거래처 개발 지원으로 동기 부여 필요
-- 호치민 지사 wire 확대를 위한 DSR 차별화 메시지(품질·납기·기술지원) 구체화 필요
-- Daichi(KIS), Bekaert(중국산) 경쟁사 동향 지속 모니터링
-- 클레임 발생 시 Oristar 자체 대응 프로세스 강화 지원 필요
+**지역별 특이사항**: 하노이 본사는 WIRE 포함 기존 사업 안정적. 호치민 지사는 ALUMINUM PLATE 비즈니스 최근 급성장. WIRE는 저가 경쟁 심화로 DSR 차별화 포인트 발굴 필요.
 
 ---
 
@@ -616,6 +606,35 @@ MRS. YEN과의 첫 미팅을 통해 PIANO WIRE 0.50-3.00MM 수요와 연간 15-2
 - PIANO WIRE 라인업 우선 제안 — 0.50-3.00MM 범위 내 SIZE별 가격 및 납기 조건 안내
 - 리드타임 2개월 대응 방안 검토 — ORISTAR 재고 활용 가능성 확인
 - 유통사 특성상 최종 사용처(END USER) 확인 필요 — 취급 품목 범위 및 실수요 구조 파악
+
+---
+
+### ORISTAR
+| 항목 | 내용 |
+|------|------|
+| **담당자** | MR. TRAN TIEN DUNG (SALES DIRECTOR) / MR. VU TRI TOAN (PURCHASING MANAGER, 2026년 6월 이후 퇴사 예정) / MR. TUAN ANH (PURCHASER) / MR. LE MINH QUAN (SENIOR SALES EXECUTIVE) / MS. NGUYEN THANH HUYEN (BUSINESS UNIT MANAGER, ADVANEX 담당, +84-981-110-938) / MS. PHAM THI THU HUONG (BDE, VINA TAIYO 담당, +84-961-377-746) / MR. LE NHU DUY (BDE, GOKO SPRING 담당, +84-982-233-283, 일본어 가능) / MR. HOANG VAN HIEU (BDE, +84-969-560-302) / MS. VU THI DINH (BDE, +84-982-288-803) |
+| **주소** | 9F, DETECH TOWER, NO.8 TON THAT THUYET ST., CAU GIAY WARD, HANOI, VIETNAM |
+| **공장/창고** | TAN QUANG / VAN LAM DISTRICT, HUNG YEN PROVINCE, VIETNAM |
+| **연락처** | TEL: +84-24-3972-0120 / FAX: +84-24-3972-0124 |
+| **이메일** | info@oristar.vn |
+| **홈페이지** | http://www.oristar.vn |
+
+**회사 개요**: ORISTAR는 베트남 내 COPPER, ALUMINUM, STEEL 소재를 취급하는 종합 소재 유통·가공 업체로, DSR의 베트남 시장 공식 대리점임. 하노이 본사, 흥옌 제1공장, 호치민 제2공장/지사, 다낭 지사(2020년 설립)를 운영 중이며, 세일즈 직원 약 20명 규모임. 품목 전담제 없이 1인이 COPPER/ALUMINUM/WIRE 등 복수 품목을 통합 관리하는 구조로, WIRE 전담 직원이 없어 담당자 교체 시 거래처 히스토리 단절 리스크가 상시 존재함. 주요 매출은 COPPER(30%+), ALUMINUM PLATE(30%+)이며, WIRE(DSR 포함)는 전체 매출의 5% 미만으로 ORISTAR 내 우선순위가 낮은 편임. 2022년 코로나 이후 DSR 공장을 직접 방문한 이력이 있음.
+
+**세일즈 현황**:
+- **DSR 수요 품목(대리점 취급 전체)**: SWOSC-B, SWOSC-V, SWP-B, SWP-A, SWC, SWB, STS WIRE 등 DSR 전 품목. YANGMIN(SWOSC-B 주력), ADVANEX(STS/SWC), MATEX(SWC/SWP), CAMEX(SWP-B), GOKO SPRING(SWP-B/SWOSC-V), VINA TAIYO(SWC/SWB), DELTECH(SWP-B/SWOSC-V) 등 다수 거래처에 공급 중
+- **전체 WIRE 수요량(DSR → ORISTAR 납품 기준)**: 2024년 351톤, 2025년 443톤, 2026 H1 289톤(연환산 약 578톤 페이스). 2026년 목표 약 500톤/년(MR. DAT 답변 기준)
+- **경쟁사**: DAICHI GROUP(KIS/고려제강 대리점), BEKAERT(중국산) — ORISTAR를 직접 공략 중
+
+**논의사항**:
+- **기존 논의사항**: 2023년 방문 시 하노이 사무소 및 흥옌 창고/공장 방문. 한국산 HC WIRE 관심 확인. 재고 관리 체계적이나 클레임 대응 프로세스 미흡. 2024년 방문 시 호치민 지사 최초 WIRE 취급(습도 관리 공간 마련) 확인. SWOSC-B 4.20MM 주력 유지, SWC 매출 감소 / PIANO WIRE 증가 추세 파악.
+- **금번 논의사항**: 2026-06-16 하노이 본사 방문. 영업 조직 구조 및 담당자 현황 전반 파악. MR. VU TRI TOAN 퇴사 예정(인사 리스크) 확인. WIRE 매출 비중이 5% 미만으로 ORISTAR 내 우선순위가 낮으며, DSR이 먼저 거래처 개발 지원을 통해 동기 부여가 필요한 구조임을 확인. 담당자 교체·이탈 리스크 대응을 위해 복수 담당자 확보 및 관계 유지 전략 수립 필요.
+
+**FOLLOW UP**:
+- MR. VU TRI TOAN 퇴사 후 후임 구매 담당자 조기 파악 및 관계 구축
+- WIRE 매출 비중 제고를 위한 거래처 개발 지원 강화 — YANGMIN, ADVANEX, MATEX, CAMEX 등 주요 거래처 프로젝트 현황 정기 공유 체계 수립
+- 호치민 지사 WIRE 확대를 위한 DSR 차별화 메시지(품질·납기·기술지원) 구체화
+- DAICHI(KIS), BEKAERT 경쟁사 동향 지속 모니터링
 
 ---
 

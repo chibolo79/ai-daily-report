@@ -500,55 +500,32 @@ LONGTECH PRECISION VIETNAM은 1973년 대만 신북시에서 KONGDA SPRING으로
 ### VINA TAIYO SPRING
 | 항목 | 내용 |
 |------|------|
-| **담당자** | Daisuke Hashimoto (Representative) |
-| **구매 담당** | Kieu Thi Hoa (Supply Chain Supervisor) — Mobile: +84-367-789-618 / hoakt@vinataiyo-spring.com. 최근 육아휴직 복귀. 영어 불가. |
-| **구매 스태프** | Nguyen Thi Kim Phuong (Supply Chain Staff) — Mobile: +84-384-245-884 / phuongntk@vinataiyo-spring.com. 영어 불가. |
-| **주소** | Lot CN7, Thach That - Quoc Oai Industrial Zone, Tay Phuong Commune, Ha Noi City, Vietnam (명함 기준 CN7 확인) |
-| **연락처** | TEL: +84-24-3394-0671 / FAX: +84-24-3394-0674 |
+| **담당자** | DAISUKE HASHIMOTO (REPRESENTATIVE) / KIEU THI HOA (SUPPLY CHAIN SUPERVISOR, 육아휴직 복귀, 영어 불가) / NGUYEN THI KIM PHUONG (SUPPLY CHAIN STAFF, 영어 불가) |
+| **주소** | LOT CN7, THACH THAT - QUOC OAI INDUSTRIAL ZONE, TAY PHUONG COMMUNE, HA NOI CITY, VIETNAM |
+| **연락처** | TEL: +84-24-3394-0671 / FAX: +84-24-3394-0674 / KIEU THI HOA: +84-367-789-618 / NGUYEN THI KIM PHUONG: +84-384-245-884 |
 | **이메일** | hoakt@vinataiyo-spring.com / phuongntk@vinataiyo-spring.com |
 | **홈페이지** | http://www.vinataiyo-spring.com |
-| **인증** | IATF 16949 / ISO 9001 / ISO 14001 |
 
-**회사 개요**: 일본 THS Spring 100% 출자, 2007년 베트남 설립 FDI. 주요 사업은 stamping/forming 부품이며, 금형 설계·제작, 선반가공, spot welding, barreling, PVC coating, heat treatment, surface treatment 등 부대 공정도 수행. **태국 방콕 공장도 보유** — 향후 베트남 외 지역 수요 연결 가능성 있음.
-
-**서플라이 체인**:
-- 기존: `DSR → Oristar(대리점) → Vina Taiyo → KYB Vietnam → 일본계 오토바이 메이커`
-- 신규(Anti-Static): `DSR → Oristar → Vina Taiyo → Meiko(일본계 대형사)`
-- 일본계 체인 특성상 Safety-critical 부품은 중국산 wire 배제 → DSR 포지션 안정적
+**회사 개요**: 일본 THS SPRING 100% 출자, 2007년 베트남 설립 FDI. 주요 사업은 STAMPING/FORMING 부품이며, 금형 설계·제작, 선반가공, SPOT WELDING, BARRELING, PVC COATING, HEAT TREATMENT, SURFACE TREATMENT 등 부대 공정도 수행. 인증: IATF 16949 / ISO 9001 / ISO 14001. 태국 방콕 공장도 보유하고 있어 향후 베트남 외 지역 수요 연결 가능성이 있음. 서플라이 체인 구조: DSR → ORISTAR(대리점) → VINA TAIYO → KYB VIETNAM → 일본계 오토바이 메이커. 신규(ANTI-STATIC): DSR → ORISTAR → VINA TAIYO → MEIKO(일본계 대형사). 일본계 체인 특성상 SAFETY-CRITICAL 부품은 중국산 WIRE 배제 기조가 유지되어 DSR 포지션이 안정적임.
 
 **세일즈 현황**:
-- 주력 품목: SWC DIA 1.40MM, SWB DIA 1.60MM
-- 월 사용량: 기존 약 0.5-1톤 → **현재 약 2톤/월로 증가** (2026년 6월 방문 확인)
-- **공급처**: Oristar 단독 구매 — 과거 일본산에서 **DSR 100% 전환 완료**
+- **DSR 수요 품목**: SWC DIA 1.40MM, SWB DIA 1.60MM (기존 주력). 신규 INQUIRY(2026-06-15): SWP-A 0.60MM(용도 미확인), SWC 8.00MM(AIR FILTER용), SWP-A 0.40MM(ANTI-STATIC CARPET → MEIKO), SWP-A 0.16MM(ANTI-STATIC CARPET → MEIKO — DSR 생산 범위 외, 대체 규격 제안 필요)
+- **전체 WIRE 수요량**: 약 2톤/월 (2026년 6월 방문 확인. 2024년 방문 시 약 0.5-1톤/월에서 증가함)
+- **공급 구조**: ORISTAR 단독 구매. 과거 일본산에서 DSR 100% 전환 완료
 - **DSR 평가**: 품질 안정적, 가격은 일본산 대비 경쟁력 있음
-- **4M 등록**: DSR wire로 4M 등록 완료 → **경쟁사 진입 실질적으로 차단**
-- **신규 Inquiry 접수 (2026-06-15)**: ※ End User 미확인으로 수요량 파악 불가
+- **4M 등록**: DSR WIRE로 4M 등록 완료 — 경쟁사 진입이 실질적으로 차단된 상태임
+- **MOQ**: DIA 2.00MM 이상 기준 MOQ 2톤. 1톤 발주도 가능하나 DELIVERY 이슈 발생 가능. DIA 2.00MM 미만은 별도 MOQ 확인 필요
 
-| 품목 | 용도 | 비고 |
-|------|------|------|
-| SWP-A 0.6MM | 미확인 | 확인 필요 |
-| SWC 8MM | 에어필터(Air Filter)용 | MOQ 2톤 |
-| SWP-A 0.4MM | Anti-Static Carpet → Meiko | 샘플·견적 필요 |
-| SWP-A 0.16MM | Anti-Static Carpet → Meiko | ❌ DSR 생산 범위 외 — 대체 규격 제안 필요 |
-
-**방문 이력**:
-- **2024년 (신규 방문)**: SWC 1.40MM / SWB 1.60MM 수요 확인. 월 0.5-1MT 수준. 태국 방콕 공장 보유 확인. 상세 방문 일자·담당자 미기록
-- **2026년 6월 (이번 방문)**: DSR 100% 전환 및 4M 등록 확인. 신규 Inquiry 4건 접수. 현재 품질 이슈 없음. 태국 지사 Zalo 연락처 확보.
-
-**비즈니스 전망**:
-- 베트남 stamping 시장 경쟁 심화, 전망 불투명 (담당자 직접 언급)
-- 단, **Safety-critical 부품은 일본계 고객사가 중국산 배제 지속** → DSR 수요 기반 안정적
-
-**MOQ 조건**:
-- **Dia. 2mm 이상**: MOQ 2톤. 1톤도 가능하나 **Delivery 이슈 발생 가능** → 고객 사전 안내 필요
-- **Dia. 2mm 미만**: 별도 MOQ 조건 확인 필요
+**논의사항**:
+- **기존 논의사항**: 2024년 방문 시 SWC 1.40MM / SWB 1.60MM 수요 확인. 월 0.5-1톤 수준. 태국 방콕 공장 보유 확인.
+- **금번 논의사항**: DSR 100% 전환 및 4M 등록 완료 확인. 베트남 STAMPING 시장 경쟁 심화로 전망 불투명하다는 담당자 언급 있었으나, SAFETY-CRITICAL 부품 특성상 일본계 고객사의 중국산 배제 기조가 유지되어 DSR 수요 기반은 안정적인 것으로 판단됨. 신규 INQUIRY 4건(SWP-A 0.60MM / SWC 8.00MM / SWP-A 0.40MM / SWP-A 0.16MM) 접수. 태국 지사 ZALO 연락처 확보.
 
 **FOLLOW UP**:
-- 4M 등록 + DSR 100% 단독 공급 → 기존 거래 방어 견고, 신규 품목 확대에 집중
-- SWP-A 0.16MM 대체 규격(DSR 최소 생산 규격) 확인 후 Meiko 측 제안
-- SWC 8MM 1톤 주문 시 delivery 리스크 사전 안내, 2톤 기준 유도
-- **태국 지사 연락처**: 현재 Zalo만 확보. 정식 연락처(이메일/TEL) 수령 예정 → 입수 시 업데이트
-- 태국 공장 wire 구매 채널 확인 (베트남과 통합 여부) → 추가 수요 연결 가능성
+- SWP-A 0.16MM: DSR 최소 생산 규격 확인 후 대체 규격 MEIKO 측에 제안
+- SWP-A 0.40MM / SWC 8.00MM: 샘플·견적 준비 및 제출
+- SWC 8.00MM 1톤 발주 시 DELIVERY 리스크 사전 안내, 2톤 기준으로 유도
+- SWP-A 0.60MM: END USER 및 용도 확인 필요
+- 태국 지사 정식 연락처(이메일/TEL) 입수 후 업데이트 — 태국 공장 WIRE 구매 채널(베트남과 통합 여부) 확인하여 추가 수요 연결 가능성 검토
 
 ---
 

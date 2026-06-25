@@ -379,7 +379,7 @@ CAMEX는 베트남 내 대형 SPRING 제조업체 중 하나로, 2012년 설립 
 | **홈페이지** | https://matex.jp.net |
 
 **회사 개요**:
-MATEX VIETNAM LTD.는 일본 나가노현 이나시에 본사를 둔 MATEX 그룹의 베트남 법인으로, 2006년 설립·2007년 가동을 시작하였음. 2026년 4월 베트남 공장 20주년 기념식을 개최함. 자본금 USD 2,350,000. 공장 면적 5,600㎡, 코일링 머신 167대, 열처리로 120대 보유. 수출가공기업(EPE) 형태로 운영되며 ISO 9001·ISO 14001 인증 보유. 핵심 사업은 PRECISION COIL SPRING 설계·제조(정밀 기기 메커니즘 부품 전문)이며, 직원 약 170명. 주요 납품처: BROTHER VIETNAM(최대 고객), OBERTHUR TECHNOLOGIES VIETNAM(보안 카드·인쇄), CANON VIETNAM, KYOCERA VIETNAM. 수출 14,991건(57개 바이어), 수입 1,745건(32개 공급사) — 주요 수입품이 STEEL WIRE(한국산·일본산)로, DSR 직접 공략 포인트임. 그룹 거점은 일본(본사) · 홍콩(설계·영업 허브) · 중국(후이저우) · 베트남 · 필리핀(INATEC CORPORATION) 5개국 체계로 운영됨.
+MATEX VIETNAM LTD.는 일본 나가노현 이나시에 본사를 둔 MATEX 그룹의 베트남 법인으로, 2006년 설립·2007년 가동을 시작하였음. 2026년 4월 베트남 공장 20주년 기념식을 개최함. 자본금 USD 2,350,000. 공장 면적 5,600㎡, 코일링 머신 167대, 열처리로 120대 보유. 수출가공기업(EPE) 형태로 운영되며 ISO 9001·ISO 14001 인증 보유. 핵심 사업은 PRECISION COIL SPRING 설계·제조(정밀 기기 메커니즘 부품 전문)이며, 직원 약 170명. 주요 납품처: BROTHER VIETNAM(최대 고객), OBERTHUR TECHNOLOGIES VIETNAM(보안 카드·인쇄), CANON VIETNAM, KYOCERA VIETNAM. 수출 14,991건(57개 바이어), 수입 1,745건(32개 공급사) — 주요 수입품이 STEEL WIRE(한국산·일본산)로, DSR 직접 공략 포인트임. 그룹 거점은 일본(본사) · 홍콩(설계·영업 허브) · 중국(후이저우) · 베트남 · 필리핀(INATEC CORPORATION) 5개국 체계로 운영됨. 수출입 기록 조사 결과, MATEX H.K.(홍콩 법인)이 MATEX VIETNAM에 직접 SUS304 WPB 0.20-2.00MM를 공급하는 구조가 확인됨(2018-2022년 875건 선적). 홍콩 법인 경유 중국산 STS WIRE가 주요 조달 루트 중 하나로 파악되며, 이는 기존 복수 공급처 구조와 일치함.
 
 **그룹 거점 구조 — "Optimum Production" 체계 (일본·중국·베트남·필리핀 4개국 연동)**:
 

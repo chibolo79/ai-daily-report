@@ -362,12 +362,10 @@ CAMEX는 베트남 내 대형 SPRING 제조업체 중 하나로, 2012년 설립 
 - **금번 논의사항**: MS. SANG, MS. DUYEN과 미팅을 진행함. SUS304 BRIGHT WIRE 신규 INQUIRY(월 20톤) 접수. KIS SWC 품질 이슈는 현재 해소된 것으로 파악됨. SWP-B 6.20MM 프로젝트는 KIS 지정으로 진입 불가하나 신규 프로젝트에 DSR 소개 합의. ORISTAR와의 역할 분담 및 CAMEX의 직거래 선호 성향 확인.
 
 **FOLLOW UP**:
-- SUS304CU Ø3.00MM / Ø4.50MM DSR 생산 가능 여부 확인 및 내수 가격 기준 견적 제출 — 월 20톤 규모로 즉시 대응 필요
-- FORECAST 미확보 상황에서 ORISTAR 재고 운용 방안 검토 — 40-45일 납기 조건 대응 구조 수립
-- SWP-B TRIAL ORDER(UH1265) 품질 무결 대응 최우선 — 첫 납품 신뢰도가 향후 물량 확대의 핵심
-- KOSNIC TARGET PRICE 확인
+- SUS304CU Ø3.00MM / Ø4.50MM DSR 생산 가능 여부 확인 및 TARGET 가격 확인 필요
+- CAMEX의 FORECAST 제공 의향이 없는 것으로 파악됨 — ORISTAR 자체 재고 운용을 통한 40-45일 납기 대응 구조 수립 필요
 - 신규 프로젝트 발생 시 즉시 DSR 소개 채널 유지 — CAMEX 측 합의 이행 확인
-- 직거래 선호 성향 감안, ORISTAR와의 역할 사전 조율 필요
+- KIS / 일본계 제품의 경우 DAICHI를 통해 공급될 가능성이 높음 — 공급 채널 확인 필요
 
 ---
 
